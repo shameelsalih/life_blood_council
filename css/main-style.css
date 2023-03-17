@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Century Gothic Bold";
+    src: url("/fonts/Century-Gothic-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("/fonts/Montserrat-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url("/fonts/Montserrat-Medium.otf") format("opentype");
+}
+
+:root {
+    --custom-primary-color: #FF0000;
+    --custom-primary-bg-color: #F4F3FF;
+    --custom-secondary-color: #0A3E72;
+    --custom-tertiary-color: #ffffff;
+    --custom-nav-font-weight: 600;
+    --custom-hover-opacity: 0.9;
+}
+
+html,
+body {
+    background: var(--custom-primary-bg-color);
+    font-family: 'Montserrat Medium';
+}
+
+.btn {
+    font-family: 'Century Gothic Bold';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat Bold';
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.main-header {
+    padding: 10px 30px;
+}
+
+.navbar {
+    background-color: var(--custom-primary-color);
+    font-weight: var(--custom-nav-font-weight);
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: var(--custom-tertiary-color);
+    padding: 0;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid var(--custom-tertiary-color);
+}
+
+.dropdown-menu.show {
+    background-color: var(--custom-primary-bg-color);
+    border: none;
+    top: calc(100% + 10px);
+    border-radius: 0;
+    width: 100%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item {
+    font-weight: 600;
+    color: var(--custom-primary-color);
+}
+
+.dropdown-item:hover {
+    color: var(--custom-tertiary-color);
+    background-color: var(--custom-primary-color);
+}
+
+.divider {
+    height: 100%;
+    width: 3px;
+    background: var(--custom-primary-color);
+}
+
+.bg-custom-primary {
+    background-color: var(--custom-primary-color);
+}
+
+.bg-custom-secondary {
+    background-color: var(--custom-secondary-color);
+}
+
+.btn-custom-primary {
+    background-color: var(--custom-primary-color);
+    color: var(--custom-tertiary-color);
+}
+
+.btn-custom-primary:hover {
+    background-color: var(--custom-primary-color);
+    color: var(--custom-tertiary-color);
+    opacity: var(--custom-hover-opacity);
+}
+
+.btn-custom-secondary {
+    background-color: var(--custom-secondary-color);
+    color: var(--custom-tertiary-color);
+}
+
+.btn-custom-secondary:hover {
+    background-color: var(--custom-secondary-color);
+    color: var(--custom-tertiary-color);
+    opacity: var(--custom-hover-opacity);
+}
+
+.primary-color {
+    color: var(--custom-primary-color);
+}
+
+.secondary-color {
+    color: var(--custom-secondary-color);
+}
