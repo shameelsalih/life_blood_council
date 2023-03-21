@@ -157,7 +157,7 @@ h1 {
 }
 
 .header-right-links svg *{
-    fill: currentColor;
+    fill: var(--custom-secondary-color);
 }
 
 .header-right-links {
@@ -217,8 +217,8 @@ h1 {
 }
 
 .icon-floated-card .icon svg * {
-    color: currentColor;
-    fill: currentColor;
+    color: var(--custom-primary-bg-color);
+    fill: var(--custom-primary-bg-color);
 }
 
 .icon-floated-card .content {
