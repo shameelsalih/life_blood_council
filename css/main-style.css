@@ -160,10 +160,6 @@ h1 {
     fill: var(--custom-secondary-color);
 }
 
-.header-right-links {
-    width: 20px;
-}
-
 #main-banner {
     position: relative;
     background-image: url(../images/banner_image.png);
@@ -204,7 +200,6 @@ h1 {
     height: 70px;
     border-radius: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
     position: absolute;
     top: -35px;
@@ -212,13 +207,14 @@ h1 {
 }
 
 .icon-floated-card .icon svg {
-    color: var(--custom-primary-bg-color);
-    fill: var(--custom-primary-bg-color);
+    color: var(--custom-tertiary-color);
+    fill: var(--custom-tertiary-color);
 }
 
 .icon-floated-card .icon svg * {
-    color: var(--custom-primary-bg-color);
-    fill: var(--custom-primary-bg-color);
+    align-self: auto;
+    color: var(--custom-tertiary-color);
+    fill: var(--custom-tertiary-color);
 }
 
 .icon-floated-card .content {
