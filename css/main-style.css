@@ -18,6 +18,7 @@
     --custom-primary-bg-color: #F4F3FF;
     --custom-secondary-color: #0A3E72;
     --custom-tertiary-color: #ffffff;
+    --custom-quaternary-color: #000000;
     --custom-nav-font-weight: 600;
     --custom-hover-opacity: 0.9;
 }
@@ -26,6 +27,7 @@ html,
 body {
     background: var(--custom-primary-bg-color);
     font-family: 'Montserrat Medium';
+    color: var(--custom-quaternary-color);
 }
 
 .btn {
@@ -46,7 +48,7 @@ h1 {
 }
 
 .main-header {
-    padding: 10px 30px;
+    padding: 0 30px;
 }
 
 .navbar {
@@ -93,6 +95,7 @@ h1 {
     height: 100%;
     width: 3px;
     background: var(--custom-primary-color);
+    height: 35px;
 }
 
 .bg-custom-primary {
@@ -131,4 +134,211 @@ h1 {
 
 .secondary-color {
     color: var(--custom-secondary-color);
+}
+
+.nav-brand img {
+    max-width: 200px;
+}
+
+.header-right-links {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: content;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--custom-quaternary-color);
+}
+
+.header-right-links svg {
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+    color: var(--custom-secondary-color);
+}
+
+.header-right-links svg *{
+    fill: currentColor;
+}
+
+.header-right-links {
+    width: 20px;
+}
+
+#main-banner {
+    position: relative;
+    background-image: url(../images/banner_image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    min-height: 450px;
+}
+
+#main-banner h1 {
+    font-size: 50px;
+}
+
+#main-banner .banner-image{
+    width: 50%;
+    position: absolute;
+    min-width: 350px;
+    top: 0;
+    right: 0;
+    background-image: url(../images/banner_image.png);
+}
+
+#main-banner::after {
+    content: '';
+    clear: both;
+}
+
+.icon-floated-card {
+    position: relative;
+    margin: 50px 10px 20px;
+}
+
+.icon-floated-card .icon {
+    background-color: var(--custom-secondary-color);
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -35px;
+    left: 20px;
+}
+
+.icon-floated-card .icon svg {
+    color: var(--custom-primary-bg-color);
+    fill: var(--custom-primary-bg-color);
+}
+
+.icon-floated-card .icon svg * {
+    color: currentColor;
+    fill: currentColor;
+}
+
+.icon-floated-card .content {
+    box-shadow: 4px 4px 10px #a3a3a3;
+    border-radius: 10px;
+    text-align: left;
+    padding: 60px 20px 10px;
+    min-height: 180px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#blood-adequency .description{
+    font-size: 18px;
+}
+
+#blood-adequency .floated-card-container{
+    margin: 0 100px;
+}
+
+#blood-adequency .floated-card-container button{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 425px) {
+    .main-header {
+        padding: 0 10px;
+    }
+
+    .nav-brand img {
+        margin: 10px auto;
+        display: block;
+    }
+
+    .header-right-links {
+        font-size: 13px;
+    }
+
+    .right-content {
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+
+    .header-right-links svg {
+        width: 18px;
+        height: 18px;
+        margin-right: 3px;
+    }
+
+    #main-banner {
+        min-height: 150px;
+    }
+
+    #main-banner h1 {
+        font-size: 18px;
+    }
+
+    #main-banner button {
+        font-size: 15px;
+    }
+
+    #blood-adequency .floated-card-container {
+        margin: 0 30px;
+    }
+
+    .nav-link {
+        width: fit-content;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    #main-banner {
+        min-height: 250px;
+    }
+
+    #main-banner h1 {
+        font-size: 25px;
+    }
+
+    #main-banner button {
+        font-size: 20px;
+    }
+
+    #blood-adequency .floated-card-container {
+        margin: 0;
+    }
+
+    #blood-adequency .floated-card-container {
+        margin: 0 30px;
+    }
+
+    .nav-link {
+        width: fit-content;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-link {
+        width: fit-content;
+        padding: 0 10px;
+    }
+
+    #blood-adequency .floated-card-container {
+        margin: 0;
+    }
+
+    .icon-floated-card .content {
+        padding: 50px 10px 10px;
+    }
+
+    #main-banner {
+        min-height: 350px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #blood-adequency .floated-card-container {
+        margin: 0;
+    }
 }
