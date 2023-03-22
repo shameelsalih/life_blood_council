@@ -508,6 +508,42 @@ footer ul {
     #what-is-thalassemia {
         padding: 10px 20px;
     }
+    
+    #what-is-thalassemia > .card {
+        padding: 30px 0;
+    }
+    
+    #what-is-thalassemia > .card img{
+        margin-top: 20px;
+    }
+
+    #what-we-do {
+        padding: 50px 0;
+    }
+    
+    #our-programs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    footer {
+        padding: 20px 20px 0;
+    }
+
+    .footer-col-1 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .footer-col-1 .heading {
+        font-size: 20px;
+    }
+
+    .footer-col-1 .content {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -539,6 +575,23 @@ footer ul {
     #what-is-thalassemia {
         padding: 15px 30px;
     }
+    
+    #what-is-thalassemia > .card {
+        padding: 40px 0;
+    }
+
+    #what-we-do {
+        padding: 60px 0;
+    }
+    
+    #our-programs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .footer-col-1 {
+        padding-right: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -561,6 +614,37 @@ footer ul {
 
     #what-is-thalassemia {
         padding: 25px 40px;
+    }
+    
+    #what-is-thalassemia > .card {
+        padding: 50px 15px;
+    }
+
+    #what-we-do {
+        padding: 70px 0;
+    }
+    
+    #our-programs {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #solutions {
+        padding: 50px 0;
+    }
+
+    .icon-card {
+        padding: 20px 5px;
+    }
+
+    .icon-card .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-card .content {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
