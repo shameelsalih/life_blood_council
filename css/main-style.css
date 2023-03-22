@@ -239,6 +239,24 @@ h1 {
     font-size: 20px;
     margin-top: 30px;
 }
+#our-campaigns {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#our-campaigns p {
+    font-size: 13px;
+}
+
+#what-is-thalassemia {
+    padding: 30px 50px;
+}
+
+#what-is-thalassemia > .card {
+    border: none;
+    box-shadow: 3px 3px 10px #ccc;
+    padding: 80px 0;
+}
 
 @media only screen and (max-width: 425px) {
     .main-header {
@@ -285,6 +303,10 @@ h1 {
         width: fit-content;
         padding: 0 10px;
     }
+
+    #what-is-thalassemia {
+        padding: 10px 20px;
+    }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -312,6 +334,10 @@ h1 {
         width: fit-content;
         padding: 0 10px;
     }
+
+    #what-is-thalassemia {
+        padding: 15px 30px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -330,6 +356,10 @@ h1 {
 
     #main-banner {
         min-height: 350px;
+    }
+
+    #what-is-thalassemia {
+        padding: 25px 40px;
     }
 }
 
