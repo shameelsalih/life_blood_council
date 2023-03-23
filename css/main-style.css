@@ -138,6 +138,10 @@ h1 {
     color: var(--custom-secondary-color);
 }
 
+.footer-color {
+    color: var(--custom-footer-bg);
+}
+
 .nav-brand img {
     max-width: 200px;
 }
@@ -508,6 +512,50 @@ footer ul {
 
 #fulfillment .icon-floated-card .content{
     min-height: 200px;
+}
+
+#bt-prevention-effort .icon-floated-card .content{
+    min-height: 160px;
+}
+
+.my-ol {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.my-ol .content {
+    color: inherit;
+}
+
+.my-ol .number {
+    background: var(--custom-primary-color);
+    height: 2em;
+    padding: 25px;
+    margin-right: 20px;
+    width: 2em;
+    border-radius: 50%;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--custom-tertiary-color);
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.my-ol .line {
+    width: 3px;
+    height: calc(100% + 30px);
+    background-color: var(--custom-primary-color);
+    position: absolute;
+    z-index: 0;
+    left: 24px;
+}
+
+.my-ol:last-child .line {
+    height: 100%;
 }
 
 @media only screen and (max-width: 426px) {

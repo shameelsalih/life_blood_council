@@ -26,16 +26,16 @@
 
     <section id="wwd-blood-adequecy" class="py-5">
       <div class="py-5"></div>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-md-8 ps-5">
+          <div class="col-md-8">
             <h3 class="primary-color">BLOOD Adequecy</h3>
             <p class="pt-3">
               Providing adequate and safe blood is an integral part of every country's National Healthcare Policy.<br />
               A hospital cannot function without the assurance of availability of blood and its components.<br />
               Almost 40000 persons need to donate blood every single day to meet the requirement of patients with various medical conditions in India. At LifeBlood Council we believe that the search for blood donors should not begin after the need has arisen.
             </p>
-            <p class="primary-color pt-3">
+            <p class="footer-color pt-3">
               LifeBlood Council works to ensure that there is a positive balance of blood units in blood centres across the country at all times. Towards this objective, we strive to:
             </p>
           </div>
@@ -85,14 +85,14 @@
       </div>
     </section>
 
-    <section id="patients">
-      <div class="container-fluid p-lg-5 mt-5 text-center">
+    <section id="patients" class="py-5">
+      <div class="container mt-5 text-center">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 align-items-center d-flex">
             <img class="w-100" src="images/what-we-do/pateints.png" alt="Patients">
           </div>
           <div class="col-lg-9">
-            <p class="mt-3"><span class="primary-color">We also respond to requirements from patients and their families and friends</span> and direct them to the appropriate blood centre. In the event of the required blood unit not being available we identify blood donors from our registry. and request them to donate blood.</p>
+            <p class="mt-3"><span class="footer-color">We also respond to requirements from patients and their families and friends</span> and direct them to the appropriate blood centre. In the event of the required blood unit not being available we identify blood donors from our registry. and request them to donate blood.</p>
             <div class="floated-card-container">
               <div class="row">
                 <div class="col-md-4">
@@ -236,10 +236,10 @@
       </div>
     </section>
 
-    <section id="bt-major-care">
-      <div class="container-fluid">
+    <section id="bt-major-care" class="py-5 mt-5">
+      <div class="container">
         <div class="row">
-          <div class="content col-lg-9 ps-5">
+          <div class="content col-md-8">
             <h4 class="primary-color">BETA THALASSEMIA MAJOR - CARE</h4>
             <p>
               Beta-Thalassemia Major is a genetic blood disorder. It is also called "Cooley's Anemia" or "Mediterranean Anemia" or simply "Thalassemia".<br>
@@ -258,7 +258,7 @@
               The third line in the management of the disorder is periodic laboratory and radiological investigations to detect complications at an early stage so that remedial action can be taken before they assume life-threatening proportions.
             </p>
           </div>
-          <div class="col-lg-3">
+          <div class="col-md-4">
             <img class="w-100" src="images/what-we-do/beta-thalassemia.png" alt="Beta Thalassemia">
           </div>
         </div>
@@ -359,6 +359,178 @@
 
         </div>
       </div>
+    </section>
+
+    <section id="thalassemia-prevention" class="py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="content col-md-8">
+            <h4 class="primary-color">BETA THALASSEMIA MAJOR - PREVENTION</h4>
+            <p>
+              A child is born with Beta Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Beta-Thalassemia Major.
+            </p>
+            <p>
+              An estimated 50 million Indians are Thalassemia Minor, and most of them do not know of it. It is important for every youngster to undergo a test for Thalassemia Minor. This test needs to be done just once in one's lifetime.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img class="w-100" src="images/what-we-do/beta-thalassemia-prevention.png" alt="Beta Thalassemia Prevention">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bt-prevention-effort" class="py-5">
+      <div class="py-3"></div>
+      <div class="container text-center">
+        <p>
+          <span class="footer-color fw-bolder">In our effort to prevent Beta Thalassemia Major</span><br>
+          we hope to conduct the following activities
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.95 58.22">
+                  <path class="cls-1" d="M10.18,58.22c-.43-.13-.87-.24-1.28-.41a5.34,5.34,0,0,1-3.34-5.07A20,20,0,0,1,18.3,34.3l.54-.22a10.4,10.4,0,0,1-4.07-9.44A10.76,10.76,0,0,1,33.5,18.29a10.87,10.87,0,0,1-1.3,15.77l.4.2c7.39,3.1,11.66,8.61,12.71,16.56a9.54,9.54,0,0,1,0,3.2,5.08,5.08,0,0,1-4.19,4.1,2.77,2.77,0,0,0-.26.1Zm15.33-3.4h14.4A1.94,1.94,0,0,0,42,52.64a21.93,21.93,0,0,0-.29-2.81A16.52,16.52,0,0,0,9,52.48a2,2,0,0,0,2.24,2.34ZM18.1,25.56a7.4,7.4,0,0,0,7.33,7.38,7.4,7.4,0,1,0,0-14.8A7.39,7.39,0,0,0,18.1,25.56Z" />
+                  <path class="cls-1" d="M25.54.15C37.76,0,47.35,8.73,50.11,19.5A24,24,0,0,1,47.5,38.24a1.71,1.71,0,1,1-3-1.69,20,20,0,0,0,2.51-6.4,21.81,21.81,0,0,0-4.94-18.88A20.65,20.65,0,0,0,28.23,3.69,21.76,21.76,0,0,0,5.2,17.3,21,21,0,0,0,6.44,36.52,1.74,1.74,0,0,1,5.92,39a1.72,1.72,0,0,1-2.43-.83c-5.05-9.07-4.52-18,1-26.64A24,24,0,0,1,20.14.69C21.91.32,23.73.22,25.52,0Z" />
+                  <path class="cls-1" d="M7.39,25.69a18.2,18.2,0,0,1,15.28-18A18,18,0,0,1,42.28,18.88a17.3,17.3,0,0,1-.12,13.77,1.81,1.81,0,0,1-1.92,1.26,1.75,1.75,0,0,1-1.3-2.42,25.44,25.44,0,0,0,1.12-3.84c1.29-7.6-4.54-15.48-12.15-16.64a14.82,14.82,0,0,0-17,12.78A13.83,13.83,0,0,0,11.82,31c.09.21.19.41.27.62a1.72,1.72,0,0,1-.93,2.22A1.68,1.68,0,0,1,9,32.87a17.33,17.33,0,0,1-1.5-6C7.42,26.46,7.4,26,7.39,25.69Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Create awareness about Thalassemia Minor through the media</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.49 50.61">
+                  <path class="cls-1" d="M0,19.06A19.07,19.07,0,0,1,19.11,0C29.44,0,37.88,8.67,37.86,19.28A19,19,0,0,1,19.15,37.92C7.45,37.86-.4,28,0,19.06Zm19,14.28a14.46,14.46,0,0,0,14.27-14.1c0-7.94-6.49-14.71-14.18-14.71A14.72,14.72,0,0,0,4.51,19.15C4.5,26.84,11.14,33.32,19.06,33.34Z" />
+                  <path class="cls-1" d="M50.48,45.51a4.79,4.79,0,0,1-3,4.69c-1.85.9-3.57.23-5-1.12-2.58-2.5-5.09-5.07-7.64-7.61-1.18-1.18-2.35-2.38-3.55-3.54-.41-.39-.45-.59.08-.93a19,19,0,0,0,5.56-5.53c.36-.55.58-.52,1-.08C41.63,35.1,45.34,38.79,49,42.5A4.23,4.23,0,0,1,50.48,45.51Z" />
+                  <path class="cls-1" d="M9.6,19.21c-.32,0-.65,0-1,0s-.58-.16-.58-.64A10.59,10.59,0,0,1,18.13,8.1c.85,0,1.11.18,1.09,1,0,1.82,0,1.82-1.83,2.17a8,8,0,0,0-6.21,6.57C11,19.21,11,19.21,9.6,19.21Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Conduct Thalassaemia Minor Screening camps</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.47 51.8">
+                  <path class="cls-1" d="M44,21.6v1.16a1.15,1.15,0,0,1,0,.14h-1.7V45.13H38.8v-18H35.31v18H31.26V36.29c0-3,0-6,0-9,0-.19-.05-.25-.25-.25H27.77v18H23.72v-18H20.23v18H16.18v-18h-3.5v18H9.24V22.91H7.54V21.6Z" />
+                  <path class="cls-1" d="M38.79,20.54H12.69a13.06,13.06,0,0,1,26.1,0Z" />
+                  <path class="cls-1" d="M0,51.8V48.69H51.47V51.8Z" />
+                  <path class="cls-1" d="M49.08,46.19v1.29H2.4V46.19Z" />
+                  <path class="cls-1" d="M25.47,6.87V0h1V.88h2.77V2.12h3.27L32,2.87c-.19.25-.36.5-.56.74a.21.21,0,0,0,0,.29c.32.42.63.85.95,1.28l.13.19H29.27V4.18H26.48V6.87Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Work with the government and the obstetrician community to include a test for Thalassaemia Minor in the protocol for Ante-Natal care</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.7 53.92">
+                  <path class="cls-1" d="M27.6,0l4.56,2.68,1.77,1-.79,1.4-1.68-1c-.12.17-.24.34-.34.51Q29.88,6.84,28.62,9a.51.51,0,0,0,0,.65,3.82,3.82,0,0,1,.59,1.06,1.85,1.85,0,0,0,1.05,1.09,17.53,17.53,0,0,1,8.05,8.88,16.71,16.71,0,0,1,1.23,8.13,17.21,17.21,0,0,1-5.39,11.14A17.52,17.52,0,0,1,26,44.36c-.16,0-.39.24-.39.36,0,2.12,0,4.24,0,6.42H39.7v2.78H0V51.16H12.63a.89.89,0,0,0,.6-.22c1.94-2.06,3.85-4.14,5.77-6.22,0,0,.05-.09.07-.12-1.07-.33-2.15-.61-3.2-1a17,17,0,0,1-6.45-4.25,1.11,1.11,0,0,0-.72-.29c-1.8,0-3.6,0-5.41,0H2.52V36.11H22.15V39h-10c2.74,2.74,8.32,4.78,13.94,3.26A15.59,15.59,0,0,0,37.57,29a15.38,15.38,0,0,0-7.88-15.21c-.55,2.31-2.05,4.14-3.16,6.16-1.47,2.66-3,5.27-4.55,7.94L25.6,30l-1.72,3L16.69,28.8l-1.73,3-2.63-1.54,1.69-3-2.6-1.49-1.19,2.09L7.58,26.33l1.18-2.09L6.88,23.1l1.69-3,3.63,2.1c.4-.68.79-1.35,1.17-2q2.76-4.77,5.5-9.55a5.81,5.81,0,0,1,3.43-3,18,18,0,0,1,2.35-.3.75.75,0,0,0,.51-.22c1-1.63,1.91-3.26,2.86-4.92l-1.67-1L27,0Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Sensitize pathology laboratories to red-flag high risk indicators during routine blood tests.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.45 56.44">
+                  <path class="cls-1" d="M28.22,56.44A28.22,28.22,0,1,1,56.45,28.28,28.23,28.23,0,0,1,28.22,56.44Zm-3.3-24a4.47,4.47,0,0,0-1.24,0,1.93,1.93,0,0,1-1.74-.29,10.13,10.13,0,0,0-8.15-1.07,11.79,11.79,0,0,1-6.21.33A7.9,7.9,0,0,0,6,31.22c-2-.08-2.87.83-2.7,2.84a5.82,5.82,0,0,0,.17.83A25.58,25.58,0,1,0,5.72,16a12.24,12.24,0,0,0-1.34,8c.56,3.47,3.21,6.74,7.83,5.83.76-.16,1.52-.29,2.29-.41C18.38,28.84,21.73,30.05,24.92,32.4Z" />
+                  <path class="cls-1" d="M24,37.78c-1.31.68-2.77,1.4-4.17,2.21a5.32,5.32,0,0,0-1.2,1.17c-.29.34-.47.75-.76,1.08a1.26,1.26,0,0,1-1.86.23c-1.2-.85-2.41-1.69-3.55-2.62a8.76,8.76,0,0,1-1.54-1.73,1,1,0,0,1,0-.9c.11-.16.57-.2.82-.13,1.14.32,2.27.71,3.4,1a8.17,8.17,0,0,0,.84.14,2.06,2.06,0,0,0,2.16-.83A29.62,29.62,0,0,1,21,34.52c2.52-2.28,4.32-2.05,6.3.73a24.43,24.43,0,0,1,3.06,6.34,2.5,2.5,0,0,0,.27.63,15.82,15.82,0,0,0-1.7-5.44c3.18-.25,5.52-2,7.79-3.92-.24.16-.46.34-.72.48-1.6.84-3.17,1.74-4.81,2.48A2.44,2.44,0,0,1,28,34.9c-.76-1.07-1.46-2.19-2.2-3.29s-1.51-2.28-2.32-3.38a2.91,2.91,0,0,0-2-1.16,1,1,0,0,1-.51-.16,1,1,0,0,1-.32-.55c0-.08.29-.23.47-.29a1.28,1.28,0,0,0,.55-.2,1.6,1.6,0,0,1-.55-.23,2.93,2.93,0,0,1-.44-.59,3,3,0,0,1,.71-.19,1.46,1.46,0,0,1,.54.19l.13-.17a2.88,2.88,0,0,1-.54-.44,4.22,4.22,0,0,1-.34-.67,2.37,2.37,0,0,1,.8-.14,3.54,3.54,0,0,1,.82.42l.16-.19a1.92,1.92,0,0,1-.34-.48,5.24,5.24,0,0,1-.15-.79c.28,0,.64-.05.83.09A16.84,16.84,0,0,1,24.49,24a5.27,5.27,0,0,0,.45.37,1.84,1.84,0,0,1,.2-.46,6.64,6.64,0,0,1,.51-.55,2.49,2.49,0,0,1,.44.65,1.74,1.74,0,0,1,0,.85A3.08,3.08,0,0,0,27,27.6c1,1.14,1.93,2.29,2.94,3.49,2.75-2.1,5.19-4.63,8.87-4.87a4.11,4.11,0,0,0-2.85.27c-.83.37-1.61.83-2.43,1.23a1.59,1.59,0,0,1-2.32-.38,1,1,0,0,0-.31-.22c-.55-.25-1.32-.35-1.62-.77A6.76,6.76,0,0,0,27.7,24.7c-.14-.1-.07-.66.07-.92a2.25,2.25,0,0,0-.09-2.28,9.73,9.73,0,0,1-1.41-4.31,8.66,8.66,0,0,1,10.1-8.55c3.73.72,6.52,2.62,7.57,6.48a10.56,10.56,0,0,1-.27,6.12,11.81,11.81,0,0,0,.38,8.2,8.06,8.06,0,0,1,.2,5,22,22,0,0,1-9.74,14A11.72,11.72,0,0,1,30.66,50c-2,.43-3.67-.56-5-2.1a13.81,13.81,0,0,1-2.65-6.39,5.23,5.23,0,0,1-.3-2.2C22.91,38.69,23.63,38.21,24,37.78Z" />
+                  <path class="cls-1" d="M22.21,39.36c.33,1.89.75,3.71.93,5.55.16,1.66-.49,2.1-2.16,1.88-.89-.11-1.81-.07-2.7-.19a26.23,26.23,0,0,1-2.93-.6.87.87,0,0,1-.46-.7c0-.2.36-.47.6-.55.89-.28,1.8-.49,2.7-.72,1.72-.44,2.89-1.32,2.79-3.3C20.93,39.92,21.39,39.51,22.21,39.36Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Provide access to foetal tests for high risk mothers</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="icon-floated-card">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.16 52.5">
+                  <path class="cls-1" d="M26.7,0A26.39,26.39,0,0,1,53.16,26.18C53.23,40.61,41.35,52.4,26.64,52.5A26.52,26.52,0,0,1,0,26.12C0,11.7,11.9.08,26.7,0ZM9.2,21.23v10H21.62V43.54h10V31.14H44V21.25H31.58V9h-10V21.23Z" />
+                </svg>
+              </div>
+              <div class="content">
+                <p>Liaise with the government to provide more and affordable foetal medicine centres</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="bt-cure" class="py-5">
+      <div class="container">
+        <h3 class="primary-color text-center">BETA THALASSEMIA MAJOR - CURE</h3>
+        <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Beta-Thalassemia Major.</h5>
+        <p class="text-center fs-5">This is a process involving the replacement of damaged stem cells with healthy ones</p>
+        <div class="my-ol mt-5">
+          <span class="line"></span>
+          <div class="number">
+            1
+          </div>
+          <div class="content">
+            LifeBlood Council will undertake to build a Stem Cell Registry. This will help in ensuring availability of Stem Cell Donors and their information. The first step in this exercise is to locate a matching stem cell donor. For this purpose, the Human Leucocyte Antigens (HLA) are analyzed after taking either a saliva sample or a blood sample of the potential donor and the patient. The best chance of finding a match for a patient is with a sibling. The donor is then referred to as a "sibling donor". If a sibling is not found to be a match, the patient can check with a Registry of Stem Cell donors, whose HLAs have been "typed". There may be an outside-chance of finding a match from a registry. If a match is found from a registry, the donor is called a "Matched Unrelated Donor" also referred to as "MUD". The third option is to find a parent who is a close match. The donor in such an event is called a "haplo donor".
+          </div>
+        </div>
+        <div class="my-ol">
+          <span class="line"></span>
+          <div class="number">
+            2
+          </div>
+          <div class="content">
+            The second step in the transplant process is to manage the patient well before transplant, so that the transplant process is as low-risk as possible.
+          </div>
+        </div>
+        <div class="my-ol">
+          <span class="line"></span>
+          <div class="number">
+            3
+          </div>
+          <div class="content">
+            The third step is to find the most-appropriate hospital, which is equipped with the right facilities, trained transplant physicians and nursing staff.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <img class="w-100" src="images/what-we-do/activities.png" alt="Activities">
+          </div>
+          <div class="col-md-6">
+            <h4 class="primary-color mb-4">Lifeblood Council will undertake the following activities</h4>
+            <p class="fs-5">1. Conducting HLA Typing Camps for patients, siblings and parents.</p>
+            <p class="fs-5">2. Organizing Stem Cell Donor Registry Camps.</p>
+            <p class="fs-5">3. Assisting eligible transplant patients in raising funds</p>
+            <p class="fs-5">4. Supporting Transplant Centres in raising resources for machinery and infrastructure</p>
+          </div>
+        </div>
+      </div>
+      <div class="py-5"></div>
     </section>
 
   </main>
