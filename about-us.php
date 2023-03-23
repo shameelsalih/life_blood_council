@@ -44,7 +44,7 @@
             </div>
             <div class="content">
               <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvment of government authorities,non-governmental organizations,different sections of society; and to build structures,establish systems and conceive and execute programs to achieve our vision</p>
+              <p>To create a comprehensive ecosystem with the involvement of government authorities,non-governmental organizations,different sections of society; and to build structures,establish systems and conceive and execute programs to achieve our vision</p>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Innovation</h4>
-                <p>We are committed to finding new and effective ways to improve the lives of our beneficiaries through aresearch and technology.</p>
+                <p>We are committed to finding new and effective ways to improve the lives of our beneficiaries through a research and technology.</p>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@
           <div class="col-md-7">
             <h3 class="primary-color"><span class="secondary-color">Our</span> Core Objectives:</h3>
             <ul>
-              <li>To ensure availability of blood and its componets in all blood centres at all times. We hope to achieve this primarily by organizing blood donation drives round the year.</li>
+              <li>To ensure availability of blood and its components in all blood centres at all times. We hope to achieve this primarily by organizing blood donation drives round the year.</li>
               <li>To develop registries of donors of rare blood groups and blood components</li>
               <li>To develop infrastructure and resources for care of persons living with Beta Thalassaemia. The main effort here would be to build new Day Care Centres and strengthen existing ones for providing comprehensive management of Thalassaemia.</li>
               <li>To create programmes and implement them for prevention of Beta Thalassaemia.</li>

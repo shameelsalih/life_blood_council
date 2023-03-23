@@ -186,7 +186,8 @@ h1 {
     margin: 50px 10px 20px;
 }
 
-.icon-floated-card .icon {
+.icon-floated-card .icon,
+.floated-icon {
     background-color: var(--custom-secondary-color);
     padding: 15px;
     width: 70px;
@@ -199,15 +200,22 @@ h1 {
     left: 20px;
 }
 
-.icon-floated-card .icon svg {
+.icon-floated-card .icon svg,
+.floated-icon svg {
     color: var(--custom-tertiary-color);
     fill: var(--custom-tertiary-color);
 }
 
-.icon-floated-card .icon svg * {
+.icon-floated-card .icon svg *,
+.floated-icon svg * {
     align-self: auto;
     color: var(--custom-tertiary-color);
     fill: var(--custom-tertiary-color);
+}
+
+.floated-icon {
+    position: static;
+    margin: auto;
 }
 
 .icon-floated-card .content {
@@ -498,6 +506,9 @@ footer ul {
     left: -1.2em;
 }
 
+#fulfillment .icon-floated-card .content{
+    min-height: 200px;
+}
 
 @media only screen and (max-width: 426px) {
     .main-header {

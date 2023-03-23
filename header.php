@@ -49,7 +49,7 @@
               <a class="nav-link<?= ($_SERVER["REQUEST_URI"] ?? "") == "/about-us.php" ? " active" : "" ?>" href="about-us.php">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">What we do</a>
+              <a class="nav-link<?= ($_SERVER["REQUEST_URI"] ?? "") == "/what-we-do.php" ? " active" : "" ?>" href="what-we-do.php">What we do</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
