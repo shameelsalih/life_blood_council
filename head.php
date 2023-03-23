@@ -6,8 +6,8 @@
   <title>LBC - Life Blood Council</title>
   <meta name="og:title" content="Life Blood Council" />
   <meta name="og:type" content="Official Website" />
-  <meta name="og:url" content="http://lbc.omsaifoodservice.com" />
-  <meta property="og:image" content="http://lbc.omsaifoodservice.com/images/logo.png" />
+  <meta name="og:url" content="http://lbc.omsaifoodservices.com/" />
+  <meta property="og:image" content="http://lbc.omsaifoodservices.com/images/logo.png" />
   <meta name="og:site_name" content="Life Blood Council" />
   <meta name="og:description" content="Blood Donation" />
   <link rel="icon" href="images/favicon.png">
