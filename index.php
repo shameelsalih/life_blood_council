@@ -1,97 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/main-style.css?v=1.0000000000002">
-</head>
+<?php require_once "head.php" ?>
 
 <body>
-
-  <header class="container-fluid p-0">
-    <!-- Main Header -->
-    <div class="main-header">
-      <div class="row">
-        <div class="col-sm-4">
-          <a href="index.html" class="nav-brand">
-            <img src="images/logo.png" alt="Logo">
-          </a>
-        </div>
-        <div class="col-sm-8 d-flex align-items-center">
-          <div class="right-content d-flex justify-content-end gap-sm-3 gap-1 gap-sm-2 align-items-center w-100">
-            <a href="tel:+918286244502" class="header-right-links">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.73 18.64">
-                <path class="cls-1"
-                  d="M4.35,0l.12,0a.52.52,0,0,1,.46.28C5.61,1.48,6.3,2.64,7,3.81l.13.2a1.14,1.14,0,0,1,0,1.44,7.53,7.53,0,0,1-.87.82c-.18.16-.4.28-.58.44a2.73,2.73,0,0,0-.43.47.5.5,0,0,0,0,.55A13.6,13.6,0,0,0,11,13.52a.51.51,0,0,0,.64-.06,6,6,0,0,0,.55-.58c.26-.3.5-.62.76-.91a2.41,2.41,0,0,1,.46-.37,1.19,1.19,0,0,1,1.28,0L18,13.49a1.58,1.58,0,0,1,.72,1.66A3.65,3.65,0,0,1,16,18.25a7.36,7.36,0,0,1-5.51-.32,19.57,19.57,0,0,1-9-8.12A11.06,11.06,0,0,1,.09,6L0,5.27v-1l0-.17a10.91,10.91,0,0,1,.31-1.4A3.63,3.63,0,0,1,3,.13c.24-.06.5-.09.75-.13Z">
-                </path>
-              </svg>
-              +91 82862 44502
-            </a>
-            <span class="divider"></span>
-            <a href="javascript:void()" class="header-right-links">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.21 19.83">
-                <path class="cls-1"
-                  d="M7.19,0H8L8.7.08A7.74,7.74,0,0,1,12,1.24a6.81,6.81,0,0,1,2.87,3.48A5.33,5.33,0,0,1,15,8.2a16.73,16.73,0,0,1-1.43,3.21,62.53,62.53,0,0,1-5.75,8.28c-.16.19-.25.19-.41,0a62.08,62.08,0,0,1-5.75-8.3A15,15,0,0,1,.24,8.19C.12,7.8.08,7.4,0,7V6.74C.05,6.36.08,6,.15,5.61A6.58,6.58,0,0,1,2.26,2,7.42,7.42,0,0,1,5.74.23C6.22.13,6.71.07,7.19,0Zm.43,9.34a2.6,2.6,0,0,0,2.72-2.46A2.62,2.62,0,0,0,7.61,4.42,2.61,2.61,0,0,0,4.89,6.88,2.6,2.6,0,0,0,7.62,9.34Z">
-                </path>
-              </svg>
-              Vashi, Navi Mumbai
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ./Main Header -->
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0 py-0 py-lg-1">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What we do</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Knowledge Hub
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Thalassemia</a></li>
-                <li><a class="dropdown-item" href="#">Events</a></li>
-                <li><a class="dropdown-item" href="#">FAQ's</a></li>
-                <li><a class="dropdown-item" href="#">List of Centres</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contribute</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- ./Navbar -->
-  </header>
+  
+  <?php require_once "header.php" ?>
 
   <main id="main-body">
     <section id="main-banner">
@@ -108,7 +22,6 @@
         <button class="btn btn-custom-primary mt-3 mt-lg-5">Support Us</button>
       </div>
     </section>
-    <div class="clearfix"></div>
     <section id="blood-adequency">
       <div class="container p-lg-5 mt-5 text-center">
         <h3 class="primary-color">Blood Adequency</h3>
@@ -293,7 +206,7 @@
 
         <div class="row">
           <div class="col-lg-3 col-md-4 d-md-flex align-items-center">
-            <img src="images/our_campaigns.png" class="w-100 mt-5 mt-md-0" alt="Our Campaigns" />
+            <img src="images/home/our_campaigns.png" class="w-100 mt-5 mt-md-0" alt="Our Campaigns" />
           </div>
           <div class="col-lg-9 col-md-8 ps-lg-5">
             <div class="px-3 px-md-0">
@@ -341,7 +254,7 @@
               <button class="btn btn-custom-secondary mt-4">Know More</button>
             </div>
             <div class="offset-xl-1 col-xl-6 col-md-6 d-flex align-items-center">
-              <img src="images/thalassemia.png" alt="What is Thalassemia" class="w-100" />
+              <img src="images/home/thalassemia.png" alt="What is Thalassemia" class="w-100" />
             </div>
           </div>
         </div>
@@ -512,7 +425,7 @@
     <section class="container-fluid" id="solutions">
       <div class="row mx-0">
         <div class="col-md-4 px-0 d-flex justify-content-start align-items-center">
-          <img src="images/solutions.png" alt="Solutions on Blood Disorders" class="w-100" />
+          <img src="images/home/solutions.png" alt="Solutions on Blood Disorders" class="w-100" />
         </div>
         <div class="col-md-8">
           <div class="main-content px-1 px-lg-5 me-lg-5 pt-md-5 me-md-2">
@@ -625,150 +538,7 @@
 
   </main>
 
-  <footer>
-    <div class="footer-content container">
-      <div class="row">
-
-        <div class="col-md-5 footer-col-1">
-          <span class="heading">Let's Connect</span>
-          <p class="content">Share your mail Id Our Executives will reach you as soon as possible</p>
-          <form action="#">
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address"
-                aria-describedby="email-submit">
-              <button class="input-group-text" id="email-submit" type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
-
-        <div class="col-md-7">
-          <div class="row">
-            <div class="col-md-6 footer-col-2">
-              <div class="row">
-                <div class="col-sm-6 ps-0 ps-2">
-                  <ul>
-                    <li>
-                      <a href="javascript:void()">
-                        Get involved
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        Volunteer
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        Support Us
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        Careers
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-sm-6 ps-2 px-sm-0">
-                  <ul>
-                    <li>
-                      <a href="javascript:void()">
-                        About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        About Thalassemia
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        What we do
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void()">
-                        Our Work
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-md-6 footer-col-3">
-              <ul>
-                <li>
-                  <span class="small-icon">
-    
-                  </span>
-                  <a href="#">
-                    Get involved
-                  </a>
-                </li>
-                <li>
-                  <span class="small-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.73 18.64">
-                      <path class="cls-1"
-                        d="M4.35,0l.12,0a.52.52,0,0,1,.46.28C5.61,1.48,6.3,2.64,7,3.81l.13.2a1.14,1.14,0,0,1,0,1.44,7.53,7.53,0,0,1-.87.82c-.18.16-.4.28-.58.44a2.73,2.73,0,0,0-.43.47.5.5,0,0,0,0,.55A13.6,13.6,0,0,0,11,13.52a.51.51,0,0,0,.64-.06,6,6,0,0,0,.55-.58c.26-.3.5-.62.76-.91a2.41,2.41,0,0,1,.46-.37,1.19,1.19,0,0,1,1.28,0L18,13.49a1.58,1.58,0,0,1,.72,1.66A3.65,3.65,0,0,1,16,18.25a7.36,7.36,0,0,1-5.51-.32,19.57,19.57,0,0,1-9-8.12A11.06,11.06,0,0,1,.09,6L0,5.27v-1l0-.17a10.91,10.91,0,0,1,.31-1.4A3.63,3.63,0,0,1,3,.13c.24-.06.5-.09.75-.13Z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="tel:+919820146448">
-                    +91 9820146448
-                  </a>
-                </li>
-                <li>
-                  <span class="small-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.64 13.51">
-                      <path class="cls-1"
-                        d="M9.2,9.05,18.63.82A1.26,1.26,0,0,0,17.36,0C12,0,6.65,0,1.29,0A2,2,0,0,0,.21.46c-.27.2-.3.5,0,.79C3.22,3.82,6.18,6.41,9.2,9.05ZM0,12.74a1.32,1.32,0,0,0,1.37.77H17.27a1.93,1.93,0,0,0,.86-.19c.54-.29.56-.59.09-1l-4.81-4.2-.67-.57L9.91,10c-.59.51-.83.51-1.43,0L5.82,7.67ZM18.64,11.1V2.38l-5,4.36ZM4.92,6.88,0,2.6v8.57Z" />
-                      <path class="cls-1"
-                        d="M9.2,9.05c-3-2.64-6-5.23-8.95-7.8C-.09,1-.06.66.21.46A2,2,0,0,1,1.29,0C6.65,0,12,0,17.36,0a1.26,1.26,0,0,1,1.27.82Z" />
-                      <path class="cls-1"
-                        d="M0,12.74,5.82,7.67,8.48,10c.6.51.84.51,1.43,0l2.83-2.46.67.57,4.81,4.2c.47.41.45.71-.09,1a1.93,1.93,0,0,1-.86.19H1.38A1.32,1.32,0,0,1,0,12.74Z" />
-                      <path class="cls-1" d="M18.64,11.1l-5-4.36,5-4.36Z" />
-                      <path class="cls-1" d="M4.92,6.88,0,11.17V2.6Z" />
-                    </svg>
-                  </span>
-                  <a href="mailto:support@lifebloodcouncil.org">
-                    support@lifebloodcouncil.org
-                  </a>
-                </li>
-                <li>
-                  <span class="small-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.21 19.83">
-                      <path class="cls-1"
-                        d="M7.19,0H8L8.7.08A7.74,7.74,0,0,1,12,1.24a6.81,6.81,0,0,1,2.87,3.48A5.33,5.33,0,0,1,15,8.2a16.73,16.73,0,0,1-1.43,3.21,62.53,62.53,0,0,1-5.75,8.28c-.16.19-.25.19-.41,0a62.08,62.08,0,0,1-5.75-8.3A15,15,0,0,1,.24,8.19C.12,7.8.08,7.4,0,7V6.74C.05,6.36.08,6,.15,5.61A6.58,6.58,0,0,1,2.26,2,7.42,7.42,0,0,1,5.74.23C6.22.13,6.71.07,7.19,0Zm.43,9.34a2.6,2.6,0,0,0,2.72-2.46A2.62,2.62,0,0,0,7.61,4.42,2.61,2.61,0,0,0,4.89,6.88,2.6,2.6,0,0,0,7.62,9.34Z">
-                      </path>
-                    </svg>
-                  </span>
-                  <a href="#">
-                    Santacruz - East, Mumbai 98
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="copy-right-content">
-            Copyright &copy; 2022. All RIghts Reserved.
-            <a href="javascript:void()">
-              Terms of Service
-            </a>
-            |
-            <a href="javascript:void()">
-              Privacy Policy
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php require_once "footer.php" ?>
 </body>
 
 </html>

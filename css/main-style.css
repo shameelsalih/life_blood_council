@@ -459,7 +459,56 @@ footer ul {
     text-align: center;
 }
 
-@media only screen and (max-width: 425px) {
+/* About Us Starts Here */
+
+#about-us-banner {
+    position: relative;
+    background-image: url(../images/about_us_banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    min-height: 450px;
+}
+
+.simple-image-card img {
+    padding: 40px;
+}
+
+.simple-image-card h4 {
+    color: var(--custom-secondary-color);
+    text-align: center;
+}
+
+#our-core-values .icon-floated-card .content{
+    min-height: 220px;
+}
+
+#core-objectives ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#core-objectives ul li {
+    padding: 15px 0;
+    position: relative;
+}
+
+#core-objectives ul li::before {
+    content: '';
+    height: 0.7em;
+    width: 0.7em;
+    display: block;
+    position: absolute;
+    background: var(--custom-primary-color);
+    top: 1.3em;
+    border-radius: 50%;
+    left: -1.2em;
+}
+
+
+@media only screen and (max-width: 426px) {
     .main-header {
         padding: 0 10px;
     }
@@ -484,15 +533,18 @@ footer ul {
         margin-right: 3px;
     }
 
-    #main-banner {
+    #main-banner,
+    #about-us-banner {
         min-height: 150px;
     }
 
-    #main-banner h1 {
+    #main-banner h1,
+    #about-us-banner h1 {
         font-size: 18px;
     }
-
-    #main-banner button {
+    
+    #main-banner button ,
+    #about-us-banner button {
         font-size: 15px;
     }
 
@@ -544,18 +596,30 @@ footer ul {
         margin-bottom: 10px;
         font-size: 12px;
     }
+
+    .copy-right-content {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .footer-col-3 {
+        justify-content: start;
+    }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 767px) {
-    #main-banner {
+@media only screen and (min-width: 427px) and (max-width: 767px) {
+    #main-banner,
+    #about-us-banner {
         min-height: 250px;
     }
 
-    #main-banner h1 {
+    #main-banner h1,
+    #about-us-banner h1 {
         font-size: 25px;
     }
 
-    #main-banner button {
+    #main-banner button,
+    #about-us-banner button {
         font-size: 20px;
     }
 
@@ -592,6 +656,10 @@ footer ul {
     .footer-col-1 {
         padding-right: 0;
     }
+
+    .footer-col-3 {
+        justify-content: start;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -608,7 +676,8 @@ footer ul {
         padding: 50px 10px 10px;
     }
 
-    #main-banner {
+    #main-banner,
+    #about-us-banner {
         min-height: 350px;
     }
 
@@ -645,6 +714,10 @@ footer ul {
     .icon-card .content {
         font-size: 14px;
         line-height: 18px;
+    }
+
+    .footer-col-3 {
+        justify-content: start;
     }
 }
 
