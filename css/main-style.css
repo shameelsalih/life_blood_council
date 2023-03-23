@@ -164,7 +164,7 @@ h1 {
 
 #main-banner {
     position: relative;
-    background-image: url(../images/banner_image.png);
+    background-image: url(../images/home/banner_image.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -174,15 +174,6 @@ h1 {
 
 #main-banner h1 {
     font-size: 50px;
-}
-
-#main-banner .banner-image{
-    width: 50%;
-    position: absolute;
-    min-width: 350px;
-    top: 0;
-    right: 0;
-    background-image: url(../images/banner_image.png);
 }
 
 #main-banner::after {
@@ -463,7 +454,7 @@ footer ul {
 
 #about-us-banner {
     position: relative;
-    background-image: url(../images/about_us_banner.png);
+    background-image: url(../images/about/about_us_banner.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
