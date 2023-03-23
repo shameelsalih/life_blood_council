@@ -25,7 +25,7 @@
     </section>
 
     <section id="wwd-blood-adequecy" class="py-5">
-      <div class="py-5"></div>
+      <div class="py-md-5"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -44,9 +44,9 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-8 ps-5">
+          <div class="col-md-8 ps-md-5">
             <div class="row">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <div class="floated-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.52 51.62">
                     <path class="cls-1" d="M23.49,0c.66,4.33,3.06,7.66,5.3,11.07a47.64,47.64,0,0,1,4.37,7.5,14.26,14.26,0,0,1,1,8.92,10.7,10.7,0,0,1-11.87,8.35,10.35,10.35,0,0,1-8.13-5,12,12,0,0,1-1.54-6.92,17.61,17.61,0,0,1,2.81-8.31c1.48-2.43,3.09-4.77,4.63-7.17a21.67,21.67,0,0,0,3.16-6.89C23.32,1.07,23.38.61,23.49,0Zm-1.7,23.16h-.67c-.91,0-1.82,0-2.74,0-.37,0-.5.11-.49.49,0,.81,0,1.62,0,2.42,0,.42.1.57.53.56.91,0,1.83,0,2.74,0,.51,0,.65.15.63.63,0,.92,0,1.83,0,2.74,0,.41.11.58.54.57.81,0,1.62,0,2.42,0a4.35,4.35,0,0,0,.55-.07V26.61h3.43c.34,0,.47-.1.45-.46,0-.82,0-1.65,0-2.47,0-.44-.16-.54-.57-.53-1.09,0-2.18,0-3.31,0,0-.25,0-.44,0-.64,0-.87,0-1.75,0-2.63,0-.47-.1-.67-.62-.64a21.3,21.3,0,0,1-2.26,0c-.47,0-.63.12-.61.6C21.81,20.92,21.79,22,21.79,23.16Z" />
@@ -55,13 +55,13 @@
                   </svg>
                 </div>
               </div>
-              <div class="col-10">
+              <div class="col-sm-10 pt-3 pt-sm-0">
                 <h5 class="primary-color">1. Blood Donation Camps</h5>
                 <p>We Organize blood donation camps in various commercial establishments, educational institutions, religious institutions, community centres, residential areas and public places. By proper scheduling of such blood donation camps we aim to ensure a continuous flow of blood into blood centres.</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <div class="floated-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.77 38.9">
                     <path class="cls-1" d="M16,38.9a3.14,3.14,0,0,1-2-1.49c-1.49-2.15-3-4.26-4.53-6.39l-.22-.31,1.28-.41c1.85-.58,3.7-1.16,5.54-1.76a.4.4,0,0,1,.54.18c1,1.46,2,2.91,3,4.37a4.88,4.88,0,0,0,2.25,1.84,1.23,1.23,0,0,1-.09,2.34L17,38.77l-.47.13Z" />
@@ -72,7 +72,7 @@
                   </svg>
                 </div>
               </div>
-              <div class="col-10">
+              <div class="col-sm-10 pt-3 pt-sm-0">
                 <h5 class="primary-color">2. Awareness</h5>
                 <p>Create awareness for Blood Donation and motivate citizens to donate blood by going to the nearest blood centre on a regular basis.</p>
               </div>
@@ -86,7 +86,7 @@
     </section>
 
     <section id="patients" class="py-5">
-      <div class="container mt-5 text-center">
+      <div class="container mt-lg-5 text-center">
         <div class="row">
           <div class="col-lg-3 align-items-center d-flex">
             <img class="w-100" src="images/what-we-do/pateints.png" alt="Patients">
@@ -236,7 +236,7 @@
       </div>
     </section>
 
-    <section id="bt-major-care" class="py-5 mt-5">
+    <section id="bt-major-care" class="py-5 mt-lg-5">
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
@@ -266,7 +266,7 @@
     </section>
 
     <section id="fulfillment" class="py-5">
-      <div class="py-3"></div>
+      <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
           <span class="primary-color fw-bolder">We will strive to bring fulfilment and happiness</span><br>
@@ -361,7 +361,7 @@
       </div>
     </section>
 
-    <section id="thalassemia-prevention" class="py-5 mt-5">
+    <section id="thalassemia-prevention" class="py-5 mt-md-5">
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
@@ -381,7 +381,7 @@
     </section>
 
     <section id="bt-prevention-effort" class="py-5">
-      <div class="py-3"></div>
+      <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
           <span class="footer-color fw-bolder">In our effort to prevent Beta Thalassemia Major</span><br>
@@ -504,7 +504,6 @@
           </div>
         </div>
         <div class="my-ol">
-          <span class="line"></span>
           <div class="number">
             3
           </div>
@@ -522,7 +521,7 @@
             <img class="w-100" src="images/what-we-do/activities.png" alt="Activities">
           </div>
           <div class="col-md-6">
-            <h4 class="primary-color mb-4">Lifeblood Council will undertake the following activities</h4>
+            <h4 class="primary-color mb-4 mt-5 mt-md-0">Lifeblood Council will undertake the following activities</h4>
             <p class="fs-5">1. Conducting HLA Typing Camps for patients, siblings and parents.</p>
             <p class="fs-5">2. Organizing Stem Cell Donor Registry Camps.</p>
             <p class="fs-5">3. Assisting eligible transplant patients in raising funds</p>
@@ -530,7 +529,7 @@
           </div>
         </div>
       </div>
-      <div class="py-5"></div>
+      <div class="py-md-5"></div>
     </section>
 
   </main>
