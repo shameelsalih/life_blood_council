@@ -14,7 +14,7 @@
 }
 
 :root {
-    --custom-primary-color: #FF0000;
+    --custom-primary-color: #c6202d;
     --custom-primary-bg-color: #F4F3FF;
     --custom-secondary-color: #0A3E72;
     --custom-tertiary-color: #ffffff;
@@ -22,7 +22,7 @@
     --custom-nav-font-weight: 600;
     --custom-hover-opacity: 0.9;
     --custom-card-background: radial-gradient(#3d3f69, #333450);
-    --custom-footer-bg: #ba0001;
+    --custom-footer-bg: #c6202d;
 }
 
 html,
@@ -101,11 +101,23 @@ h1 {
 }
 
 .bg-custom-primary {
-    background-color: var(--custom-primary-color);
+    background-color: var(--custom-primary-color) !important;
+    background: var(--custom-primary-color) !important;
 }
 
 .bg-custom-secondary {
-    background-color: var(--custom-secondary-color);
+    background-color: var(--custom-secondary-color) !important;
+    background: var(--custom-secondary-color) !important;
+}
+
+.bg-custom-tertiary {
+    background-color: var(--custom-tertiary-color) !important;
+    background: var(--custom-tertiary-color) !important;
+}
+
+.bg-custom-quaternary {
+    background-color: var(--custom-quaternary-color) !important;
+    background: var(--custom-quaternary-color) !important;
 }
 
 .btn-custom-primary {
@@ -136,6 +148,14 @@ h1 {
 
 .secondary-color {
     color: var(--custom-secondary-color);
+}
+
+.tertiary-color {
+    color: var(--custom-tertiary-color);
+}
+
+.quaternary-color {
+    color: var(--custom-quaternary-color);
 }
 
 .footer-color {
@@ -552,6 +572,16 @@ footer ul {
     position: absolute;
     z-index: 0;
     left: 24px;
+}
+
+#thalassemia-banner {
+    background: url(../images/thalassemia/thalassemia-banner.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    min-height: 450px;
 }
 
 @media only screen and (max-width: 426px) {
