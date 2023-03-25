@@ -45,12 +45,12 @@
           </div>
           <div class="tab-pane fade<?= $current_tab == "faqs" ? " show active" : ""; ?>" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
             <div class="content">
-              Here will come FAQ
+              <?php require_once "faqs-content.php" ?>
             </div>
           </div>
           <div class="tab-pane fade<?= $current_tab == "centres" ? " show active" : ""; ?>" id="pills-centres" role="tabpanel" aria-labelledby="pills-centres-tab">
             <div class="content">
-              Here will come Centres
+              <?php require_once "centres-content.php" ?>
             </div>
           </div>
         </div>
