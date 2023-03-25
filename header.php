@@ -57,7 +57,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="thalassemia.php">Thalassemia</a></li>
-                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="knowledge-hub.php">Events</a></li>
                 <li><a class="dropdown-item" href="#">FAQ's</a></li>
                 <li><a class="dropdown-item" href="#">List of Centres</a></li>
               </ul>

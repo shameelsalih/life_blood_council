@@ -222,14 +222,17 @@ h1 {
     fill: var(--custom-secondary-color);
 }
 
-#main-banner {
-    position: relative;
-    background-image: url(../images/home/banner_image.png);
+section[id$="-banner"] {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
+    position: relative;
     min-height: 450px;
+}
+
+#main-banner {
+    background-image: url(../images/home/banner_image.png);
 }
 
 #main-banner h1 {
@@ -521,13 +524,7 @@ footer ul {
 /* About Us Starts Here */
 
 #about-us-banner {
-    position: relative;
     background-image: url(../images/about/about_us_banner.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: top;
-    min-height: 450px;
 }
 
 .simple-image-card img {
@@ -611,16 +608,94 @@ footer ul {
 }
 
 #thalassemia-banner {
-    background: url(../images/thalassemia/thalassemia-banner.png);
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: top;
-    min-height: 450px;
+    background-image: url(../images/thalassemia/thalassemia-banner.png);
 }
 
-@media only screen and (max-width: 426px) {
+#knowledge-hub-banner {
+    background-image: url(../images/knowledge-hub/knowledge-hub-banner.png);
+}
+
+.nav-pills .nav-link {
+    color: var(--custom-secondary-color);
+}
+
+.nav-pills .nav-link.active {
+    color: var(--custom-tertiary-color);
+    background-color: var(--custom-primary-color);
+}
+
+.custom-nav-pills {
+    padding: 0 15vw;
+}
+
+.custom-nav-pills .nav-item {
+    padding: 0px 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.custom-nav-pills .nav-item .nav-link {
+    padding: .3em 1.2em;
+    width: fit-content;
+}
+
+.custom-nav-pills .nav-item .nav-link:hover:not(.active) {
+    background-color: var(--custom-secondary-color);
+    color: var(--custom-tertiary-color);
+}
+
+.event-container,
+.event-data {
+    color: var(--custom-tertiary-color);
+    position: relative;
+    font-size: 16px;
+}
+
+.event-container .event-data .overlay .btn {
+    width: fit-content;
+    padding: .2em .4em;
+    font-size: 1.2em;
+}
+
+.event-container .event-data .overlay {
+    position: absolute;
+    top: 0;
+    padding: 1.5em;
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.event-container .partners {
+    display: flex;
+    align-items: center;
+    color: var(--custom-quaternary-color);
+    margin-top: 10px;
+}
+
+.event-container .event-data img.background {
+    width: 100%;
+}
+
+.event-container .partner-logo {
+    max-width: 100px;
+    max-height: 30px;
+    margin-left: 10px;
+}
+
+.event-content .title {
+    height: 2.5em;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    min-height: 1.875rem;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 375px) {
     .main-header {
         padding: 0 10px;
     }
@@ -646,17 +721,132 @@ footer ul {
     }
 
     #main-banner,
-    #about-us-banner {
+    #about-us-banner,
+    #knowledge-hub-banner,
+    #thalassemia-banner {
         min-height: 150px;
     }
 
     #main-banner h1,
-    #about-us-banner h1 {
+    #about-us-banner h1,
+    #knowledge-hub-banner h1,
+    #thalassemia-banner h1 {
+        font-size: 18px;
+    }
+    
+    #main-banner button,
+    #about-us-banner button,
+    #knowledge-hub-banner button,
+    #thalassemia-banner button {
+        font-size: 15px;
+    }
+
+    #blood-adequency .floated-card-container {
+        margin: 0 30px;
+    }
+
+    .nav-link {
+        width: fit-content;
+        padding: 0 10px;
+    }
+
+    #what-is-thalassemia {
+        padding: 10px 20px;
+    }
+    
+    #what-is-thalassemia > .card {
+        padding: 30px 0;
+    }
+    
+    #what-is-thalassemia > .card img{
+        margin-top: 20px;
+    }
+
+    #what-we-do {
+        padding: 50px 0;
+    }
+    
+    #our-programs {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    footer {
+        padding: 20px 20px 0;
+    }
+
+    .footer-col-1 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .footer-col-1 .heading {
+        font-size: 20px;
+    }
+
+    .footer-col-1 .content {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .copy-right-content {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .footer-col-3 {
+        justify-content: start;
+    }
+
+    .event-data {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+    .main-header {
+        padding: 0 10px;
+    }
+
+    .nav-brand img {
+        margin: 10px auto;
+        display: block;
+    }
+
+    .header-right-links {
+        font-size: 13px;
+    }
+
+    .right-content {
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+
+    .header-right-links svg {
+        width: 18px;
+        height: 18px;
+        margin-right: 3px;
+    }
+
+    #main-banner,
+    #about-us-banner,
+    #knowledge-hub-banner,
+    #thalassemia-banner {
+        min-height: 150px;
+    }
+
+    #main-banner h1,
+    #about-us-banner h1,
+    #knowledge-hub-banner h1,
+    #thalassemia-banner h1 {
         font-size: 18px;
     }
     
     #main-banner button ,
-    #about-us-banner button {
+    #about-us-banner button,
+    #knowledge-hub-banner button,
+    #thalassemia-banner button {
         font-size: 15px;
     }
 
@@ -721,17 +911,23 @@ footer ul {
 
 @media only screen and (min-width: 427px) and (max-width: 767px) {
     #main-banner,
-    #about-us-banner {
+    #about-us-banner,
+    #knowledge-hub-banner,
+    #thalassemia-banner {
         min-height: 250px;
     }
 
     #main-banner h1,
-    #about-us-banner h1 {
+    #about-us-banner h1,
+    #knowledge-hub-banner h1,
+    #thalassemia-banner h1 {
         font-size: 25px;
     }
 
     #main-banner button,
-    #about-us-banner button {
+    #about-us-banner button,
+    #knowledge-hub-banner button,
+    #thalassemia-banner button {
         font-size: 20px;
     }
 
@@ -789,7 +985,9 @@ footer ul {
     }
 
     #main-banner,
-    #about-us-banner {
+    #about-us-banner,
+    #knowledge-hub-banner,
+    #thalassemia-banner {
         min-height: 350px;
     }
 
@@ -836,5 +1034,9 @@ footer ul {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     #blood-adequency .floated-card-container {
         margin: 0;
+    }
+    
+    .event-data {
+        font-size: 12px;
     }
 }
