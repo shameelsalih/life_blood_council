@@ -1,3 +1,4 @@
+<?php $current_tab = $_GET["tab"] ?? "";?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,25 +30,25 @@
       <div class="container">
         <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="true">Events</button>
+            <button class="nav-link<?= $current_tab == "events" || $current_tab == "" ? " active" : ""; ?>" id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="true">Events</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-faqs-tab" data-bs-toggle="pill" data-bs-target="#pills-faqs" type="button" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQ's</button>
+            <button class="nav-link<?= $current_tab == "faqs" ? " active" : ""; ?>" id="pills-faqs-tab" data-bs-toggle="pill" data-bs-target="#pills-faqs" type="button" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQ's</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-centres-tab" data-bs-toggle="pill" data-bs-target="#pills-centres" type="button" role="tab" aria-controls="pills-centres" aria-selected="false">List of Centres</button>
+            <button class="nav-link<?= $current_tab == "centres" ? " active" : ""; ?>" id="pills-centres-tab" data-bs-toggle="pill" data-bs-target="#pills-centres" type="button" role="tab" aria-controls="pills-centres" aria-selected="false">List of Centres</button>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
+          <div class="tab-pane fade<?= $current_tab == "events" || $current_tab == "" ? " show active" : ""; ?>" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
             <?php require_once "event-content.php" ?>
           </div>
-          <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
+          <div class="tab-pane fade<?= $current_tab == "faqs" ? " show active" : ""; ?>" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
             <div class="content">
               Here will come FAQ
             </div>
           </div>
-          <div class="tab-pane fade" id="pills-centres" role="tabpanel" aria-labelledby="pills-centres-tab">
+          <div class="tab-pane fade<?= $current_tab == "centres" ? " show active" : ""; ?>" id="pills-centres" role="tabpanel" aria-labelledby="pills-centres-tab">
             <div class="content">
               Here will come Centres
             </div>

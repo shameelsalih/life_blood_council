@@ -43,23 +43,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0 py-0 py-lg-1">
             <li class="nav-item">
-              <a class="nav-link<?= $request_uri == "/" ? " active" : "" ?>" aria-current="page" href="/">Home</a>
+              <a class="nav-link<?= preg_match("/^(\/$)|(\/\?.*)/", $request_uri) ? " active" : "" ?>" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link<?= $request_uri == "/about-us.php" ? " active" : "" ?>" href="about-us.php">About Us</a>
+              <a class="nav-link<?= preg_match("/^\/about-us.*/", $request_uri) ? " active" : "" ?>" href="about-us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link<?= $request_uri == "/what-we-do.php" ? " active" : "" ?>" href="what-we-do.php">What we do</a>
+              <a class="nav-link<?= preg_match("/^\/what-we-do.*/", $request_uri) ? " active" : "" ?>" href="what-we-do">What we do</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle<?= $request_uri == "/thalassemia.php" || preg_match("/knwoledge-hub\.php.*/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle<?= preg_match("/^\/(thalassemia)|(knowledge-hub.*)/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Knowledge Hub
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="thalassemia.php">Thalassemia</a></li>
-                <li><a class="dropdown-item" href="knowledge-hub.php">Events</a></li>
-                <li><a class="dropdown-item" href="#">FAQ's</a></li>
-                <li><a class="dropdown-item" href="#">List of Centres</a></li>
+                <li><a class="dropdown-item" href="thalassemia">Thalassemia</a></li>
+                <li><a class="dropdown-item" href="knowledge-hub?tab=events">Events</a></li>
+                <li><a class="dropdown-item" href="knowledge-hub?tab=faqs">FAQ's</a></li>
+                <li><a class="dropdown-item" href="knowledge-hub?tab=centres">List of Centres</a></li>
               </ul>
             </li>
             <li class="nav-item">
