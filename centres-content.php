@@ -360,27 +360,6 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-4 p-sm-0">
-                    <div class="requirement-table-content">
-                      <div class="heading">
-                        Physical Infrastructure
-                      </div>
-                      <div class="content">
-                        <ol class="list">
-                          <li>8 (2 spare) Recliners/Beds - Recliners are preferred by older patients.</li>
-                          <li>8 (2 spare) IV stands</li>
-                          <li>Emergency trolley with medicines</li>
-                          <li>Doctor's table/room</li>
-                          <li>Nurses table</li>
-                          <li>Procedure area - for fixing IV lines and collection of blood samples.</li>
-                          <li>Cell Counter</li>
-                          <li>Emergency stretcher and wheel-chair</li>
-                          <li>Weighing Scale</li>
-                          <li>Height measuring Scale</li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
