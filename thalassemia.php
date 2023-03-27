@@ -81,7 +81,7 @@
 
     <section id="thalassemia-treatment" class="py-5">
       <div class="container">
-        <h3 class="text-center secondary-color"><span class="primary-color">Treatment</span> for Thalassemia</h3>
+        <h3 class="text-center secondary-color"><span class="primary-color">Management (Care)</span> for Thalassemia</h3>
 
         <div class="row pt-sm-5 pt-3 justify-content-center">
           <div class="col-sm-7">

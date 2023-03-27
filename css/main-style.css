@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Century Gothic Bold";
-    src: url("/fonts/Century-Gothic-Bold.otf") format("opentype");
+    src: url("../fonts/Century-Gothic-Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Montserrat Bold";
-    src: url("/fonts/Montserrat-Bold.otf") format("opentype");
+    src: url("../fonts/Montserrat-Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Montserrat Medium";
-    src: url("/fonts/Montserrat-Medium.otf") format("opentype");
+    src: url("../fonts/Montserrat-Medium.otf") format("opentype");
 }
 
 :root {
@@ -263,13 +263,15 @@ section[id$="-banner"] {
     left: 20px;
 }
 
-.icon-floated-card .icon svg,
+.icon-floated-card .icon,
 .floated-icon svg {
     color: var(--custom-tertiary-color);
     fill: var(--custom-tertiary-color);
+    font-size: 2em;
+    font-weight: 900;
 }
 
-.icon-floated-card .icon svg *,
+.icon-floated-card .icon *,
 .floated-icon svg * {
     align-self: auto;
     color: var(--custom-tertiary-color);
@@ -579,6 +581,7 @@ footer ul {
 
 .my-ol .content {
     color: inherit;
+    margin-top: 5px;
 }
 
 .my-ol .number {
@@ -693,6 +696,35 @@ footer ul {
     display: -webkit-box;
     min-height: 1.875rem;
     overflow: hidden;
+}
+
+.requirement-table {
+    box-shadow: 3px 3px 10px #a3a3a3;
+}
+
+.requirement-table-content {
+    height: 100%;
+}
+
+.requirement-table-content .heading {
+    background-color: var(--custom-primary-color);
+    color: var(--custom-tertiary-color);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.requirement-table-content .content {
+    padding: 20px 10px;
+    height: calc(100% - 45px);
+    background: var(--custom-tertiary-color);
+    font-weight: 600;
+}
+
+.requirement-table-content .content .list {
+    list-style-type: decimal;
+    padding-left: 35px;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 375px) {

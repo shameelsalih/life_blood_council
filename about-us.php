@@ -51,37 +51,6 @@
       </div>
     </section>
 
-    <section id="about-our-team" class="py-5">
-      <div class="container pt-5">
-        <div class="my-5"></div>
-        <h2 class="primary-color text-center">Our Team</h2>
-        <div class="row">
-
-          <div class="col-md-4">
-            <div class="simple-image-card">
-              <img src="images/about/Dinkar-Suri.png" alt="Director: Dinkar Suri" class="w-100" />
-              <h4>Director: Dinkar Suri</h4>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="simple-image-card">
-              <img src="images/about/Vinay-Shetty.png" alt="Founder: Vinay Shetty" class="w-100" />
-              <h4>Founder: Vinay Shetty</h4>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="simple-image-card">
-              <img src="images/about/Sashi-Shankar.png" alt="Director: Shashi Shankar" class="w-100" />
-              <h4>Director: Shashi Shankar</h4>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <section id="our-core-values" class="py-5">
       <div class="py-3"></div>
       <div class="container text-center">
@@ -185,7 +154,7 @@
       </div>
     </section>
 
-    <section id="core-objectives" class="py-5">
+    <section id="core-objectives" class="pt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -205,6 +174,37 @@
         </div>
       </div>
 
+    </section>
+
+    <section id="about-our-team" class="pb-5 mb-5">
+      <div class="container pt-5">
+        <div class="my-5"></div>
+        <h2 class="primary-color text-center">Our Team</h2>
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="simple-image-card">
+              <img src="images/about/Dinkar-Suri.png" alt="Director: Dinkar Suri" class="w-100" />
+              <h4>Director: Dinkar Suri</h4>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="simple-image-card">
+              <img src="images/about/Vinay-Shetty.png" alt="Founder: Vinay Shetty" class="w-100" />
+              <h4>Founder: Vinay Shetty</h4>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="simple-image-card">
+              <img src="images/about/Sashi-Shankar.png" alt="Director: Shashi Shankar" class="w-100" />
+              <h4>Director: Shashi Shankar</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
 
   </main>
