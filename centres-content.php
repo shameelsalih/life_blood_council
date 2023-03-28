@@ -1,4 +1,4 @@
-
+<?php $current_process = $_GET["process"] ?? "";?>
         <div class="content py-5">
 
           <section id="list-of-centres" class="d-flex justify-content-center align-items-center py-5">
@@ -296,6 +296,195 @@
               </div>
             </div>
             
+            <div class="requirement-table mt-5">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4 ps-sm-0">
+                    <div class="requirement-table-content">
+                      <div class="heading">
+                        Medical Supplies
+                      </div>
+                      <div class="content">
+                        <ol class="list">
+                          <li>
+                            Blood Transfusion sets and accessories
+                          </li>
+                          <li>
+                            Leukocyte Filters
+                          </li>
+                          <li>
+                            Emergency medicines
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 ps-sm-0">
+                    <div class="requirement-table-content">
+                      <div class="heading">
+                        Stationary
+                      </div>
+                      <div class="content">
+                        <ol class="list">
+                          <li>
+                            Registration Form
+                          </li>
+                          <li>
+                            Calendar for appointments/scheduling of transfusions
+                          </li>
+                          <li>
+                            Intimation to Blood Centre of weekly schedule
+                          </li>
+                          <li>
+                            Requisition to Blood Centre of daily requirement
+                          </li>
+                          <li>
+                            Adverse transfusion reaction card.
+                          </li>
+                          <li>
+                            File for each patient to contain Reports that are generated.
+                          </li>
+                          <li>
+                            Patient Management Book for each patient
+                          </li>
+                          <li>
+                            S.O.PS for transfusion therapy/chelation
+                          </li>
+                          <li>
+                            therapy/managing adverse reactions
+                          </li>
+                          <li>
+                            Monthly Report Formats
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 p-sm-0">
+                    <div class="requirement-table-content">
+                      <div class="heading">
+                        Training
+                      </div>
+                      <div class="content">
+                        <ol class="list">
+                          <li>
+                            Visit to identified Referral Day Care Centre
+                          </li>
+                          <li>
+                            Workshop to be organized for the staff
+                          </li>
+                          <li>
+                            manning the new Day Care Centre.
+                          </li>
+                          <li>
+                            Protocol CD/Manual to be prepared and made available at the Centre
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="processes-activities" class="py-5 my-md-5">
+            <div class="container">
+              <?php
+                $data = [
+                  "registration"  =>  [
+                    "title" => "Registration",
+                    "contents"  => [
+                      "Filling of Form and Undertaking for Registration of individual patients with Day Care Centre.",
+                      "Confirmation of Thalassemia Major status.",
+                      "Preparation of Patient Management Booklet and Patient Files.",
+                      "Initiate process of obtaining Thalassemia Card from State Blood Transfusion Council.",
+                      "Initiate process of registration for state schemes if applicable.",
+                      "Assist in obtaining Disability Certificate.",
+                      "Obtain status of vaccination for Hep A and Hep B, and initiate process if not done earlier."
+                    ]
+                  ],
+                  "transfusion"   =>  [
+                    "title" => "Transfusion",
+                    "contents"  => [
+                      "Transfusion Line 1",
+                      "Transfusion Line 2",
+                      "Transfusion Line 3",
+                      "Transfusion Line 4",
+                      "Transfusion Line 5",
+                      "Transfusion Line 6",
+                      "Transfusion Line 7"
+                    ]
+                  ],
+                  "chelation-therapy" =>  [
+                    "title" => "Chelation Therapy",
+                    "contents"  => [
+                      "Chelation Therapy Line 1",
+                      "Chelation Therapy Line 2",
+                      "Chelation Therapy Line 3",
+                      "Chelation Therapy Line 4",
+                      "Chelation Therapy Line 5",
+                      "Chelation Therapy Line 6",
+                      "Chelation Therapy Line 7"
+                    ]
+                  ],
+                  "lab-investigation" =>  [
+                    "title" => "Lab Investigations",
+                    "contents"  => [
+                      "Lab Investigations Line 1",
+                      "Lab Investigations Line 2",
+                      "Lab Investigations Line 3",
+                      "Lab Investigations Line 4",
+                      "Lab Investigations Line 5",
+                      "Lab Investigations Line 6",
+                      "Lab Investigations Line 7"
+                    ]
+                  ],
+                  "other-activities" => [
+                    "title" => "Other Activities",
+                    "contents"  => [
+                      "Other Activities Line 1",
+                      "Other Activities Line 2",
+                      "Other Activities Line 3",
+                      "Other Activities Line 4",
+                      "Other Activities Line 5",
+                      "Other Activities Line 6",
+                      "Other Activities Line 7"
+                    ]
+                  ]
+                ];
+                $pills_html = $content_html = "";
+                $first = TRUE;
+                foreach($data as $key => $row) {
+                  $pills_html .= '
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link' . (($first ? ($current_process == $key || $current_process == "") : $current_process == $key) ? " active" : "") . '" id="process-' . $key . '-tab" data-bs-toggle="pill" data-bs-target="#process-' . $key . '" type="button" role="tab" aria-controls="process-' . $key . '" aria-selected="true">' . $row["title"] . '</button>
+                </li>
+                  ';
+                  $content_html .= '
+                <div class="tab-pane fade' . (($first ? ($current_process == $key || $current_process == "") : $current_process == $key) ? " active show" : "") . '" id="process-' . $key . '" role="tabpanel" aria-labelledby="process-' . $key . '-tab">
+                  <ul class="dotted-ul">
+                  ';
+                  foreach($row["contents"] as $content) {
+                    $content_html .= '
+                    <li>' . $content . '</li>
+                    ';
+                  }
+                // .dotted-ul ul
+                $content_html .= '
+                  </ul>
+                </div>
+                  ';
+                  $first = FALSE;
+                }
+              ?>
+              <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills" id="process-tab" role="tablist">
+                <?= $pills_html; ?>
+              </ul>
+              <div class="tab-content" id="process-tabContent">
+                <?= $content_html; ?>
+              </div>
+            </div>
           </section>
 
           <section id="steps-for-day-care-initiative" class="pt-5">
@@ -383,6 +572,7 @@
                       Assist in identifying sponsors for resources that are not available at the Centre.
                     </div>
                   </div>
+                  <button class="btn btn-custom-secondary">Connect With Us</button>
                 </div>
                 <div class="col-sm-5 d-flex align-items-center">
                   <img class="w-100" src="images/knowledge-hub/centres/steps-for-initiating-thalassemia-day-care-center.png" alt="Thalassemia Supporting Facilities">

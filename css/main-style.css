@@ -542,18 +542,21 @@ footer ul {
     min-height: 220px;
 }
 
-#core-objectives ul {
+#core-objectives ul,
+.dotted-ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-#core-objectives ul li {
+#core-objectives ul li,
+.dotted-ul li {
     padding: 15px 0;
     position: relative;
 }
 
-#core-objectives ul li::before {
+#core-objectives ul li::before,
+.dotted-ul li::before {
     content: '';
     height: 0.7em;
     width: 0.7em;
@@ -627,8 +630,14 @@ footer ul {
     background-color: var(--custom-primary-color);
 }
 
-.custom-nav-pills {
-    padding: 0 15vw;
+.px-15vw {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.px-10vw {
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
 
 .custom-nav-pills .nav-item {
@@ -725,6 +734,38 @@ footer ul {
     list-style-type: decimal;
     padding-left: 35px;
     margin-bottom: 0;
+}
+
+.media-image {
+    width: 100%;
+    max-height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+.form-group.custom {
+    margin-bottom: 3em;
+    font-size: 20px;
+}
+
+.form-group.custom .form-label {
+    color: var(--custom-secondary-color);
+}
+
+.form-group.custom .form-control,
+.form-group.custom .form-select {
+    border: none;
+    font-size: 1em;
+    box-shadow: 3px 3px 5px rgb(158 158 158 / 30%);
+    padding: 15px;
+}
+
+form.custom-half .half:nth-child(odd) {
+    padding-right: 3em;
+}
+
+form.custom-half .half:nth-child(even) {
+    padding-left: 3em;
 }
 
 @media only screen and (max-width: 375px) {

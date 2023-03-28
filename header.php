@@ -63,13 +63,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Media</a>
+              <a class="nav-link" href="media">Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contribute</a>
+              <a class="nav-link" href="contribute">Contribute</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="contact-us">Contact Us</a>
             </li>
           </ul>
         </div>
