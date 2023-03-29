@@ -33,6 +33,9 @@
             <button class="nav-link<?= $current_tab == "events" || $current_tab == "" ? " active" : ""; ?>" id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="true">Events</button>
           </li>
           <li class="nav-item" role="presentation">
+            <button class="nav-link<?= $current_tab == "campaigns" ? " active" : ""; ?>" id="pills-campaigns-tab" data-bs-toggle="pill" data-bs-target="#pills-campaigns" type="button" role="tab" aria-controls="pills-campaigns" aria-selected="false">Campaigns</button>
+          </li>
+          <li class="nav-item" role="presentation">
             <button class="nav-link<?= $current_tab == "faqs" ? " active" : ""; ?>" id="pills-faqs-tab" data-bs-toggle="pill" data-bs-target="#pills-faqs" type="button" role="tab" aria-controls="pills-faqs" aria-selected="false">FAQ's</button>
           </li>
           <li class="nav-item" role="presentation">
@@ -42,6 +45,11 @@
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade<?= $current_tab == "events" || $current_tab == "" ? " show active" : ""; ?>" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
             <?php require_once "event-content.php" ?>
+          </div>
+          <div class="tab-pane fade<?= $current_tab == "campaigns" ? " show active" : ""; ?>" id="pills-campaigns" role="tabpanel" aria-labelledby="pills-campaigns-tab">
+            <div class="content">
+              <?php require_once "campaigns-content.php" ?>
+            </div>
           </div>
           <div class="tab-pane fade<?= $current_tab == "faqs" ? " show active" : ""; ?>" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
             <div class="content">

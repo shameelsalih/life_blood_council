@@ -58,18 +58,19 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="thalassemia">Thalassemia</a></li>
                 <li><a class="dropdown-item" href="knowledge-hub?tab=events">Events</a></li>
+                <li><a class="dropdown-item" href="knowledge-hub?tab=campaigns">Campaigns</a></li>
                 <li><a class="dropdown-item" href="knowledge-hub?tab=faqs">FAQ's</a></li>
                 <li><a class="dropdown-item" href="knowledge-hub?tab=centres">List of Centres</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="media">Media</a>
+              <a class="nav-link<?= preg_match("/^\/media.*/", $request_uri) ? " active" : "" ?>" href="media">Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contribute">Contribute</a>
+              <a class="nav-link<?= preg_match("/^\/contribute.*/", $request_uri) ? " active" : "" ?>" href="contribute">Contribute</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact-us">Contact Us</a>
+              <a class="nav-link<?= preg_match("/^\/contact-us.*/", $request_uri) ? " active" : "" ?>" href="contact-us">Contact Us</a>
             </li>
           </ul>
         </div>

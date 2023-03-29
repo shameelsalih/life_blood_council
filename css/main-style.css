@@ -707,6 +707,11 @@ footer ul {
     overflow: hidden;
 }
 
+.campaign .event-content .title {
+    height: 3.75em;
+    -webkit-line-clamp: 3;
+}
+
 .requirement-table {
     box-shadow: 3px 3px 10px #a3a3a3;
 }

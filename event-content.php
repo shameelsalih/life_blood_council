@@ -1,7 +1,7 @@
 <?php
   $events_data = [
     [
-      "title"         =>  "Thalassemia Awareness gyufew uibiferio fioerf iob er",
+      "title"         =>  "Thalassemia Awareness",
       "date"          =>  "2023-02-11",
       "place"         =>  "Mumbai",
       "partner_logos" =>  ["images/knowledge-hub/events/logo/tata.png", "images/knowledge-hub/events/logo/tata.png"],
