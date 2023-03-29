@@ -2,7 +2,9 @@
         <div class="content py-5">
 
           <section id="list-of-centres" class="d-flex justify-content-center align-items-center py-5">
-            <h2>List of centres will come here</h2>
+            <div class="container">
+              <iframe src="https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F" width="100%" height="480"></iframe>
+            </div>
           </section>
 
           <section id="thalassemia-day-care-centre" class="py-5">
