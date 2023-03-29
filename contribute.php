@@ -48,14 +48,14 @@
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="Phone">Phone</label>
-                  <input type="text" class="form-control" placeholder="Enter your Phone" name="Phone" id="Phone">
+                  <input type="tel" class="form-control" placeholder="Enter your Phone" name="Phone" id="Phone">
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="Email">Email</label>
-                  <input type="text" class="form-control" placeholder="Enter your Email" name="Email" id="Email">
+                  <input type="email" class="form-control" placeholder="Enter your Email" name="Email" id="Email">
                 </div>
               </div>
     

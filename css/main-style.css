@@ -768,6 +768,10 @@ form.custom-half .half:nth-child(even) {
     padding-left: 3em;
 }
 
+.fs-6em {
+    font-size: 6em;;
+}
+
 @media only screen and (max-width: 375px) {
     .main-header {
         padding: 0 10px;
