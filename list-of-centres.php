@@ -116,6 +116,14 @@
               </div>
             </div>
             <div class="container">
-              <iframe src="https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F" width="100%" height="480"></iframe>
+              <iframe id="mapIframe" src="https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F" width="100%" height="480"></iframe>
             </div>
           </section>
+          <script>
+            var __districts = <?= json_encode($districts); ?>;
+            var __types = <?= json_encode($types); ?>;
+            var __cities = <?= json_encode($cities); ?>;
+            var __listOfCentres = <?= json_encode($list_of_centres); ?>;
+            var __mapURLs = <?= json_encode($map_urls); ?>;
+          </script>
+          <script src="js/list-of-centres.js" defer></script>
