@@ -774,7 +774,39 @@ form.custom-half .half:nth-child(even) {
 }
 
 .fs-6em {
-    font-size: 6em;;
+    font-size: 6em;
+}
+
+.box-shadow-card {
+    box-shadow: 4px 4px 10px #a3a3a3;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+.box-shadow-card .icon {
+    background-color: var(--custom-tertiary-color);
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.box-shadow-card .content {
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.box-shadow-card:not(:first-child) {
+    margin-top: 20px;
+}
+
+.box-shadow-card .content a,
+.box-shadow-card .content a:hover,
+.box-shadow-card .content a:visited, 
+.box-shadow-card .content a:active {
+    color: var(--custom-quaternary-color);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 375px) {
