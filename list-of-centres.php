@@ -97,7 +97,7 @@
   ];
 ?>
 
-          <section id="list-of-centres" class="py-5">
+          <section id="list-of-centres" class="py-5 animate">
             <div class="container">
               <div class="row">
 

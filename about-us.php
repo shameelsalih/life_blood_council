@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
 
@@ -9,7 +11,7 @@
 
   <main id="main-body">
 
-    <section id="about-us-banner">
+    <section id="about-us-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <div class="pt-5"></div>
         <h6>Our Mission is to raise awareness about</h6>
@@ -25,7 +27,7 @@
       </div>
     </section>
 
-    <section id="about-mission-vision">
+    <section id="about-mission-vision" class="animate">
       <div class="container pt-5">
         <div class="row">
           <div class="col-md-5">
@@ -51,7 +53,7 @@
       </div>
     </section>
 
-    <section id="our-core-values" class="py-5">
+    <section id="our-core-values" class="py-5 animate">
       <div class="py-3"></div>
       <div class="container text-center">
         <h2 class="primary-color"><span class="secondary-color">Our</span> Core Value</h2>
@@ -154,7 +156,7 @@
       </div>
     </section>
 
-    <section id="core-objectives" class="pt-5">
+    <section id="core-objectives" class="pt-5 animate">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -176,7 +178,7 @@
 
     </section>
 
-    <section id="about-our-team" class="pb-5 mb-5">
+    <section id="about-our-team" class="pb-5 mb-5 animate">
       <div class="container pt-5">
         <div class="my-5"></div>
         <h2 class="primary-color text-center">Our Team</h2>

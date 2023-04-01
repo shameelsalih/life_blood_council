@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
   
   <?php require_once "header.php" ?>
 
   <main id="main-body">
-    <section id="main-banner">
+    <section id="main-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <h1>
           Building<br>
@@ -23,7 +25,7 @@
       </div>
     </section>
 
-    <section id="contact-us-form" class="py-5 mb-5">
+    <section id="contact-us-form" class="py-5 mb-5 animate">
       <form class="custom-half">
         <div class="container">
           <div class="row">

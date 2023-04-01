@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
 
@@ -10,7 +12,7 @@
 
   <main id="main-body">
 
-    <section id="knowledge-hub-banner">
+    <section id="knowledge-hub-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <div class="pt-5"></div>
         <h6>Our Mission is to raise awareness about</h6>
@@ -42,7 +44,7 @@
             <button class="nav-link<?= $current_tab == "centres" ? " active" : ""; ?>" id="pills-centres-tab" data-bs-toggle="pill" data-bs-target="#pills-centres" type="button" role="tab" aria-controls="pills-centres" aria-selected="false">List of Centres</button>
           </li>
         </ul>
-        <div class="tab-content" id="pills-tabContent">
+        <div class="tab-content animate" id="pills-tabContent">
           <div class="tab-pane fade<?= $current_tab == "events" || $current_tab == "" ? " show active" : ""; ?>" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
             <?php require_once "event-content.php" ?>
           </div>

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
 
@@ -9,7 +11,7 @@
 
   <main id="main-body">
 
-    <section id="main-banner">
+    <section id="main-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <h1>
           Building<br>
@@ -24,7 +26,7 @@
       </div>
     </section>
 
-    <section id="wwd-blood-adequecy" class="py-5">
+    <section id="wwd-blood-adequecy" class="py-5 animate">
       <div class="py-md-5"></div>
       <div class="container">
         <div class="row">
@@ -85,7 +87,7 @@
       </div>
     </section>
 
-    <section id="patients" class="py-5">
+    <section id="patients" class="py-5 animate">
       <div class="container mt-lg-5 text-center">
         <div class="row">
           <div class="col-lg-3 align-items-center d-flex">
@@ -236,7 +238,7 @@
       </div>
     </section>
 
-    <section id="thalassemia-prevention" class="py-5 mt-md-5">
+    <section id="thalassemia-prevention" class="py-5 mt-md-5 animate">
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
@@ -255,7 +257,7 @@
       </div>
     </section>
 
-    <section id="bt-prevention-effort" class="py-5">
+    <section id="bt-prevention-effort" class="py-5 animate">
       <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
@@ -355,7 +357,7 @@
       </div>
     </section>
 
-    <section id="bt-major-care" class="py-5 mt-lg-5">
+    <section id="bt-major-care" class="py-5 mt-lg-5 animate">
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
@@ -384,7 +386,7 @@
       </div>
     </section>
 
-    <section id="fulfillment" class="py-5">
+    <section id="fulfillment" class="py-5 animate">
       <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
@@ -480,7 +482,7 @@
       </div>
     </section>
 
-    <section id="bt-cure" class="py-5">
+    <section id="bt-cure" class="py-5 animate">
       <div class="container">
         <h3 class="primary-color text-center">BETA THALASSEMIA MAJOR - CURE</h3>
         <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Beta-Thalassemia Major.</h5>
@@ -514,7 +516,7 @@
       </div>
     </section>
 
-    <section id="activities" class="py-5">
+    <section id="activities" class="py-5 animate">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-5">

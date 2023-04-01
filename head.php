@@ -1,5 +1,4 @@
-<?php $assets_version = "?v=1.009"; ?>
-<head>
+  <?php $assets_version = "?v=1.010"; ?>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,4 +13,4 @@
   <meta name="description" content="Blood Donation">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main-style.css<?= $assets_version ?>">
-</head>
+  <link rel="stylesheet" href="css/animation.css<?= $assets_version ?>">

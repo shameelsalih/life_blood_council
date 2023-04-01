@@ -3,7 +3,7 @@
 
           <?php require_once "list-of-centres.php"  ?>
 
-          <section id="thalassemia-day-care-centre" class="py-5">
+          <section id="thalassemia-day-care-centre" class="py-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-4 d-flex align-items-center">
@@ -19,7 +19,7 @@
             </div>
           </section>
 
-          <section id="benefits-of-day-care-centre" class="py-5">
+          <section id="benefits-of-day-care-centre" class="py-5 animate">
             <h3 class="secondary-color text-center"><span class="primary-color">BENEFITS OF A</span> DAY CARE CENTRE</h3>
             <div class="container-fluid pt-5">
               <div class="row">
@@ -126,7 +126,7 @@
             </div>
           </section>
 
-          <section id="ground-realities" class="py-5">
+          <section id="ground-realities" class="py-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-8">
@@ -145,7 +145,7 @@
             </div>
           </section>
 
-          <section id="thalassemia-day-care-requirements" class="py-5 col-lg-10 mx-auto">
+          <section id="thalassemia-day-care-requirements" class="py-5 col-lg-10 mx-auto animate">
             <h3 class="secondary-color text-center"><span class="primary-color">Requirements of A</span> Thalassemia Day Care Centre</h3>
             <div class="requirement-table mt-5">
               <div class="container-fluid">
@@ -205,7 +205,7 @@
             </div>
           </section>
 
-          <section id="thalassemia-supporting-facilities" class="py-5">
+          <section id="thalassemia-supporting-facilities" class="py-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-5 d-flex align-items-center">
@@ -245,7 +245,7 @@
             </div>
           </section>
 
-          <section id="personnel" class="py-5">
+          <section id="personnel" class="py-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-7">
@@ -386,7 +386,7 @@
             </div>
           </section>
 
-          <section id="processes-activities" class="py-5 my-md-5">
+          <section id="processes-activities" class="py-5 my-md-5 animate">
             <div class="container">
               <?php
                 $data = [
@@ -485,7 +485,7 @@
             </div>
           </section>
 
-          <section id="steps-for-day-care-initiative" class="pt-5">
+          <section id="steps-for-day-care-initiative" class="pt-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-7">

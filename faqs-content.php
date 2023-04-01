@@ -38,7 +38,7 @@ $accordionData = [
   ]
 ];
 ?>
-        <div class="content d-flex justify-content-center">
+        <div class="content d-flex justify-content-center animate">
           <div class="col-lg-10 col-xl-9 col-sm-11 accordion pt-sm-5 pt-3 custom-accordion" id="knowledge-hub-faq">
           <?php
             $innerHTML = '';

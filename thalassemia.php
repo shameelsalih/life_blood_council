@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
 
@@ -9,7 +11,7 @@
 
   <main id="main-body">
 
-    <section id="thalassemia-banner">
+    <section id="thalassemia-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <div class="pt-5"></div>
         <h1>
@@ -25,7 +27,7 @@
       </div>
     </section>
 
-    <section id="what-is-thalassemia">
+    <section id="what-is-thalassemia" class="animate">
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-md-6">
@@ -43,7 +45,7 @@
       </div>
     </section>
 
-    <section id="thalassemia-classification" class="py-5 mt-md-5">
+    <section id="thalassemia-classification" class="py-5 mt-md-5 animate">
       <div class="container">
         <h3 class="secondary-color text-center">Thalassemia is classified into two main types</h3>
         <img src="images/thalassemia/dividers.png" alt="Divider" class="w-50 mx-auto d-sm-block d-none">
@@ -79,7 +81,7 @@
       </div>
     </section>
 
-    <section id="thalassemia-treatment" class="py-5">
+    <section id="thalassemia-treatment" class="py-5 animate">
       <div class="container">
         <h3 class="text-center secondary-color"><span class="primary-color">Management (Care)</span> for Thalassemia</h3>
 

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
   
@@ -23,7 +25,7 @@
       </div>
     </section>
 
-    <section id="media" class="py-5 mb-5">
+    <section id="media" class="py-5 mb-5 animate">
       <div class="container">
         <h3 class="primary-color text-center">Media</h3>
         <div class="row">

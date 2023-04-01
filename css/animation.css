@@ -1,0 +1,123 @@
+:root {
+    /* always give in ms because it is calculating from js */
+    --custom-animation-delay: 0ms;
+    --custom-animation-duration: 1500ms;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.animate {
+    position: relative;
+    animation-delay: var(--custom-animation-delay);
+    animation-duration: var(--custom-animation-duration);
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    visibility: hidden;
+}
+
+.animate.animating {
+    visibility: visible;
+}
+
+.slideFromRight {
+    animation-name: slideFromRight;
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slideFromLeft {
+    animation-name: slideFromLeft;
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slideFromTop {
+    animation-name: slideFromTop;
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slideFromBottom {
+    animation-name: slideFromBottom;
+}
+
+@keyframes slideFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-10px);
+    }
+
+    40% {
+        transform: translateY(10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(5px);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
+}

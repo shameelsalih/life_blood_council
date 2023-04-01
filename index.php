@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once "head.php" ?>
+<head>
+  <?php require_once "head.php" ?>
+</head>
 
 <body>
   
   <?php require_once "header.php" ?>
 
   <main id="main-body">
-    <section id="main-banner">
+    <section id="main-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <h1>
           Building<br>
@@ -23,7 +25,7 @@
       </div>
     </section>
     
-    <section id="blood-adequency">
+    <section id="blood-adequency" class="animate">
       <div class="container p-lg-5 mt-5 text-center">
         <h3 class="primary-color">Blood Adequacy</h3>
         <p class="mt-3 description">
@@ -201,7 +203,7 @@
       </div>
     </section>
 
-    <section class="container-fluid" id="solutions">
+    <section class="container-fluid animate" id="solutions">
       <div class="row mx-0">
         <div class="col-md-4 px-0 d-flex justify-content-start align-items-center">
           <img src="images/home/solutions.png" alt="Solutions on Blood Disorders" class="w-100" />
@@ -353,7 +355,7 @@
       </div>
     </section> -->
 
-    <section id="what-is-thalassemia">
+    <section id="what-is-thalassemia" class="animate">
       <div class="card">
         <div class="container">
           <div class="row">
@@ -375,7 +377,7 @@
       </div>
     </section>
 
-    <section id="what-we-do">
+    <section id="what-we-do" class="animate">
       <div class="container">
         <div class="main-content">
           <div class="row">
