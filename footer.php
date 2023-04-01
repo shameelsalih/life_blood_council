@@ -1,5 +1,5 @@
 
-  <footer>
+  <footer class="animate" data-animation-name="fadeIn">
     <div class="footer-content container">
       <div class="row">
 
@@ -160,4 +160,4 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/animation.js"></script>
+  <script src="js/main.js"></script>

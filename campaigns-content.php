@@ -36,7 +36,7 @@
             <div class="container-fluid">
               <div class="row">
                 <?php foreach($campaign_data as $campaign) :?>
-                <div class="col-md-6 col-lg-4 event-container pt-5 animate">
+                <div class="col-md-6 col-lg-4 event-container pt-5 animate" data-animation-name="bounce">
                   <div class="event-data campaign">
                     <img class="background" src="<?= $campaign["background"]; ?>" alt="<?= $campaign["title"] ?>"/>
                     <div class="overlay">

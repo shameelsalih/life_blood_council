@@ -1,5 +1,5 @@
 <?php $request_uri = $_SERVER["REQUEST_URI"] ?? "" ?>
-  <header class="container-fluid p-0">
+  <header class="container-fluid p-0 animate"  data-animation-name="fadeIn">
     <!-- Main Header -->
     <div class="main-header">
       <div class="row">

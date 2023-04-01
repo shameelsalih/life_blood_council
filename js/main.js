@@ -7,7 +7,7 @@ const animationNames = [
   "fadeIn"
 ];
 const animationOffset = 100; // px 
-function checkElementVisibility() {
+const checkElementVisibility = () => {
   const totalTime = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--custom-animation-duration")) + parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--custom-animation-delay"));
   const elements = document.querySelectorAll(".animate:not(.in-view)");
   elements.forEach(element => {
@@ -15,8 +15,7 @@ function checkElementVisibility() {
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
     const isElementInViewport = (elementPosition.top + animationOffset < windowHeight) && (elementPosition.top + elementPosition.height - animationOffset > 0);
     if (isElementInViewport) {
-      console.log("inside view port", element);
-      element.classList.add("in-view", "animating", animationNames[Math.floor(Math.random() * animationNames.length)]);
+      element.classList.add("in-view", "animating", element.dataset.animationName ? element.dataset.animationName : animationNames[Math.floor(Math.random() * animationNames.length)]);
       setTimeout(() => {
         element.classList.remove("animate", "animating");
       }, totalTime);
@@ -24,10 +23,18 @@ function checkElementVisibility() {
   })
 }
 
+const changeCurrentURL = (e) => {
+  const tabTarget = e.target.dataset.bsTarget.substr(1).split("-");
+  const params = new URLSearchParams(window.location.search);
+  params.set(tabTarget[0], tabTarget.slice(1).join('-'));
+  history.pushState(null, null, window.location.pathname + '?' + params.toString());
+}
+
 window.addEventListener('scroll', checkElementVisibility);
 document.addEventListener('DOMContentLoaded', () => {
   checkElementVisibility();
   document.querySelectorAll(`[data-bs-toggle="pill"]`).forEach(element => {
     element.addEventListener('click', checkElementVisibility);
+    element.addEventListener('click', changeCurrentURL);
   });
 });
