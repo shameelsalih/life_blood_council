@@ -28,7 +28,7 @@
     <section id="donation-form" class="py-5 mb-5 animate">
       <form class="custom-half">
         <div class="container">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-9 mx-auto">
             <h3 class="primary-color text-center">Donation Form</h3>
             <h5 class="secondary-color text-center my-5">Donor Details</h5>
             <div class="row">

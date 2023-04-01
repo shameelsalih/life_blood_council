@@ -749,7 +749,7 @@ footer ul {
 }
 
 .form-group.custom {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     font-size: 20px;
 }
 
@@ -762,7 +762,7 @@ footer ul {
     border: none;
     font-size: 1em;
     box-shadow: 3px 3px 5px rgb(158 158 158 / 30%);
-    padding: 15px;
+    padding: 5px 15px;
 }
 
 form.custom-half .half:nth-child(odd) {

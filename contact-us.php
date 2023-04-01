@@ -48,7 +48,7 @@
               <p class="fw-bold">Blood donation is a very significant act of giving a fighting chance of survival to one of your fellow citizens. A dedicated blood donor, when eligible to donate, has the option of going to the nearest blood centre to donate blood. Please pick the blood centre which is most convenient to you from the list of blood centres. We would request you to use this option of not waiting for our call, but going to the nearest blood centres. However, you may register with us by providing the following information</p>
             </div>
           </div>
-          <div class="py-5">
+          <div class="py-5 col-lg-9 mx-auto">
             <div class="row">
     
               <div class="half col-sm-6">
@@ -101,7 +101,7 @@
               </div>
 
               <div class="col-12 d-flex justify-content-center">
-                <button class="btn btn-custom-primary px-10vw">
+                <button class="btn btn-custom-primary px-10vw py-2">
                   Let's Connect
                 </button>
               </div>

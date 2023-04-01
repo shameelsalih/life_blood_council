@@ -28,7 +28,7 @@
       </div>
     </section>
 
-    <section id="knowledge-hub-tabs" class="py-5 my-md-5">
+    <section id="knowledge-hub-tabs" class="py-5 my-md-5 animate">
       <div class="container">
         <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills px-15vw" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
