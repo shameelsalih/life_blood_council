@@ -97,7 +97,7 @@
   ];
 ?>
 
-          <section id="list-of-centres" class="py-5 animate">
+          <section id="list-of-centres" class="animate">
             <div class="container">
               <div class="row">
 
@@ -126,9 +126,9 @@
 
               </div>
             </div>
-            <div class="container">
+            <div class="container pt-lg-5">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 pb-3 pb-lg-0">
                   <iframe id="mapIframe" src="javascript:void(0);" width="100%" height="480"></iframe>
                 </div>
                 <div class="col-lg-6">

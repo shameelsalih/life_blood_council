@@ -630,9 +630,9 @@ footer ul {
     background-color: var(--custom-primary-color);
 }
 
-.px-15vw {
-    padding-left: 15vw;
-    padding-right: 15vw;
+.px-5vw {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .px-10vw {
@@ -788,6 +788,8 @@ form.custom-half .half:nth-child(even) {
     background-color: var(--custom-tertiary-color);
     min-width: 100px;
     min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .box-shadow-card .content {
@@ -916,6 +918,18 @@ form.custom-half .half:nth-child(even) {
     .event-data {
         font-size: 10px;
     }
+
+    #mapIframe {
+        max-height: 300px;
+    }
+    
+    .box-shadow-card .icon {
+        display: none
+    }
+
+    .box-shadow-card .content {
+        padding-left: 0;
+    }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 426px) {
@@ -1021,6 +1035,10 @@ form.custom-half .half:nth-child(even) {
     .footer-col-3 {
         justify-content: start;
     }
+
+    #mapIframe {
+        max-height: 350px;
+    }
 }
 
 @media only screen and (min-width: 427px) and (max-width: 767px) {
@@ -1082,6 +1100,10 @@ form.custom-half .half:nth-child(even) {
     .footer-col-3 {
         justify-content: start;
     }
+
+    #mapIframe {
+        max-height: 400px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1142,6 +1164,10 @@ form.custom-half .half:nth-child(even) {
 
     .footer-col-3 {
         justify-content: start;
+    }
+
+    #mapIframe {
+        max-height: 400px;
     }
 }
 

@@ -30,7 +30,7 @@
 
     <section id="knowledge-hub-tabs" class="py-5 my-md-5 animate">
       <div class="container">
-        <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills px-15vw" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills px-5vw" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link<?= $current_tab == "events" || $current_tab == "" ? " active" : ""; ?>" id="tab-events-tab" data-bs-toggle="pill" data-bs-target="#tab-events" type="button" role="tab" aria-controls="tab-events" aria-selected="true">Events</button>
           </li>

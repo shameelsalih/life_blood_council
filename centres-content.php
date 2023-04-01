@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-sm-8">
                   <h3 class="secondary-color"><span class="primary-color">THLASSEMIA</span> DAY CARE CENTRE</h3>
-                  <p class="pt-5">
+                  <p class="pt-sm-5">
                     The concept of Day Care Centres is relevant for all medical conditions, and should be increasingly used wherever possible, as it reduces the strain on scarce medical beds and manpower, apart from saving time (and therefore money) for the patient and accompanying persons. Day Care Centres are particularly relevant in the case of Thalassemia, where the management of the disorder is life-long, with routine transfusion of red blood cells, regular daily medicines, and periodic laboratory investigations. Most families of persons with TDT are not able to cope with the disorder, and find it difficult to comply with the advice of the doctors due to financial, social and psychological reasons. It is necessary that patients are hand-held continuously for each aspect of the treatment. Day Care Centres are the best way to facilitate this hand-holding, leading to comprehensive management of the disorder, particularly for financially-disadvantaged families.
                   </p>
                 </div>
