@@ -30,7 +30,7 @@
         <div class="container">
           <div class="col-lg-9 mx-auto">
             <h3 class="primary-color text-center">Donation Form</h3>
-            <h5 class="secondary-color text-center my-5">Donor Details</h5>
+            <h5 class="secondary-color text-center my-sm-5">Donor Details</h5>
             <div class="row">
     
               <div class="half col-sm-6">

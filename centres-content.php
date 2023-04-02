@@ -3,13 +3,13 @@
 
           <?php require_once "list-of-centres.php"  ?>
 
-          <section id="thalassemia-day-care-centre" class="py-5 animate">
+          <section id="thalassemia-day-care-centre" class="py-sm-5 pt-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-4 d-flex align-items-center">
                   <img class="w-100" src="images/knowledge-hub/centres/thalassemia-day-care.png" alt="Thalassemia Day Care Centre" />
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8 pt-sm-0 pt-3">
                   <h3 class="secondary-color"><span class="primary-color">THLASSEMIA</span> DAY CARE CENTRE</h3>
                   <p class="pt-sm-5">
                     The concept of Day Care Centres is relevant for all medical conditions, and should be increasingly used wherever possible, as it reduces the strain on scarce medical beds and manpower, apart from saving time (and therefore money) for the patient and accompanying persons. Day Care Centres are particularly relevant in the case of Thalassemia, where the management of the disorder is life-long, with routine transfusion of red blood cells, regular daily medicines, and periodic laboratory investigations. Most families of persons with TDT are not able to cope with the disorder, and find it difficult to comply with the advice of the doctors due to financial, social and psychological reasons. It is necessary that patients are hand-held continuously for each aspect of the treatment. Day Care Centres are the best way to facilitate this hand-holding, leading to comprehensive management of the disorder, particularly for financially-disadvantaged families.
@@ -126,7 +126,7 @@
             </div>
           </section>
 
-          <section id="ground-realities" class="py-5 animate">
+          <section id="ground-realities" class="py-sm-5 animate">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-8">
@@ -212,7 +212,7 @@
                   <img class="w-100" src="images/knowledge-hub/centres/thalassemia-supporting-facilities.png" alt="Thalassemia Supporting Facilities">
                 </div>
                 <div class="col-sm-7">
-                  <h3 class="secondary-color"><span class="primary-color">Supporting</span> Facilities</h3>
+                  <h3 class="secondary-color pt-sm-0 pt-5"><span class="primary-color">Supporting</span> Facilities</h3>
                   <div class="my-ol mt-5">
                     <span class="line"></span>
                     <div class="number">
@@ -572,7 +572,7 @@
                   </div>
                   <button class="btn btn-custom-secondary">Connect With Us</button>
                 </div>
-                <div class="col-sm-5 d-flex align-items-center">
+                <div class="col-sm-5 d-flex align-items-center pt-5 pt-sm-0">
                   <img class="w-100" src="images/knowledge-hub/centres/steps-for-initiating-thalassemia-day-care-center.png" alt="Thalassemia Supporting Facilities">
                 </div>
               </div>

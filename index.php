@@ -25,7 +25,7 @@
       </div>
     </section>
     
-    <section id="blood-adequency" class="animate">
+    <section id="blood-adequacy" class="animate">
       <div class="container p-lg-5 mt-5 text-center">
         <h3 class="primary-color">Blood Adequacy</h3>
         <p class="mt-3 description">

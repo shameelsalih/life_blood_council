@@ -293,15 +293,15 @@ section[id$="-banner"] {
     line-height: 18px;
 }
 
-#blood-adequency .description{
+#blood-adequacy .description{
     font-size: 18px;
 }
 
-#blood-adequency .floated-card-container{
+#blood-adequacy .floated-card-container{
     margin: 0 100px;
 }
 
-#blood-adequency .floated-card-container button{
+#blood-adequacy .floated-card-container button{
     font-size: 20px;
     margin-top: 30px;
 }
@@ -765,14 +765,6 @@ footer ul {
     padding: 5px 15px;
 }
 
-form.custom-half .half:nth-child(odd) {
-    padding-right: 3em;
-}
-
-form.custom-half .half:nth-child(even) {
-    padding-left: 3em;
-}
-
 .fs-6em {
     font-size: 6em;
 }
@@ -857,7 +849,7 @@ form.custom-half .half:nth-child(even) {
         font-size: 15px;
     }
 
-    #blood-adequency .floated-card-container {
+    #blood-adequacy .floated-card-container {
         margin: 0 30px;
     }
 
@@ -930,9 +922,13 @@ form.custom-half .half:nth-child(even) {
     .box-shadow-card .content {
         padding-left: 0;
     }
+
+    #google-events {
+        height: 300px;
+    }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 426px) {
+@media only screen and (min-width: 375px) and (max-width: 427px) {
     .main-header {
         padding: 0 10px;
     }
@@ -978,7 +974,7 @@ form.custom-half .half:nth-child(even) {
         font-size: 15px;
     }
 
-    #blood-adequency .floated-card-container {
+    #blood-adequacy .floated-card-container {
         margin: 0 30px;
     }
 
@@ -1039,9 +1035,13 @@ form.custom-half .half:nth-child(even) {
     #mapIframe {
         max-height: 350px;
     }
+
+    #google-events {
+        height: 350px;
+    }
 }
 
-@media only screen and (min-width: 427px) and (max-width: 767px) {
+@media only screen and (min-width: 427px) and (max-width: 768px) {
     #main-banner,
     #about-us-banner,
     #knowledge-hub-banner,
@@ -1063,11 +1063,11 @@ form.custom-half .half:nth-child(even) {
         font-size: 20px;
     }
 
-    #blood-adequency .floated-card-container {
+    #blood-adequacy .floated-card-container {
         margin: 0;
     }
 
-    #blood-adequency .floated-card-container {
+    #blood-adequacy .floated-card-container {
         margin: 0 30px;
     }
 
@@ -1106,13 +1106,13 @@ form.custom-half .half:nth-child(even) {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .nav-link {
         width: fit-content;
         padding: 0 10px;
     }
 
-    #blood-adequency .floated-card-container {
+    #blood-adequacy .floated-card-container {
         margin: 0;
     }
 
@@ -1171,12 +1171,22 @@ form.custom-half .half:nth-child(even) {
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    #blood-adequency .floated-card-container {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #blood-adequacy .floated-card-container {
         margin: 0;
     }
     
     .event-data {
         font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    form.custom-half .half:nth-child(odd) {
+        padding-right: 3em;
+    }
+    
+    form.custom-half .half:nth-child(even) {
+        padding-left: 3em;
     }
 }
