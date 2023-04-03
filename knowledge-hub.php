@@ -31,11 +31,13 @@
     <section id="knowledge-hub-tabs" class="py-5 my-md-5 animate">
       <div class="container">
         <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills px-5vw" id="pills-tab" role="tablist">
+          <?php /* ?>
           <li class="nav-item" role="presentation">
             <button class="nav-link<?= $current_tab == "events" || $current_tab == "" ? " active" : ""; ?>" id="tab-events-tab" data-bs-toggle="pill" data-bs-target="#tab-events" type="button" role="tab" aria-controls="tab-events" aria-selected="true">Events</button>
           </li>
+          <?php */ ?>
           <li class="nav-item" role="presentation">
-            <button class="nav-link<?= $current_tab == "campaigns" ? " active" : ""; ?>" id="tab-campaigns-tab" data-bs-toggle="pill" data-bs-target="#tab-campaigns" type="button" role="tab" aria-controls="tab-campaigns" aria-selected="false">Campaigns</button>
+            <button class="nav-link<?= $current_tab == "campaigns" || $current_tab == "" ? " active" : ""; ?>" id="tab-campaigns-tab" data-bs-toggle="pill" data-bs-target="#tab-campaigns" type="button" role="tab" aria-controls="tab-campaigns" aria-selected="false">Campaigns</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link<?= $current_tab == "faqs" ? " active" : ""; ?>" id="tab-faqs-tab" data-bs-toggle="pill" data-bs-target="#tab-faqs" type="button" role="tab" aria-controls="tab-faqs" aria-selected="false">FAQ's</button>
@@ -45,10 +47,12 @@
           </li>
         </ul>
         <div class="tab-content animate" id="pills-tabContent">
+          <?php /* ?>
           <div class="tab-pane fade<?= $current_tab == "events" || $current_tab == "" ? " show active" : ""; ?>" id="tab-events" role="tabpanel" aria-labelledby="tab-events-tab">
             <?php require_once "event-content.php" ?>
           </div>
-          <div class="tab-pane fade<?= $current_tab == "campaigns" ? " show active" : ""; ?>" id="tab-campaigns" role="tabpanel" aria-labelledby="tab-campaigns-tab">
+          <?php */ ?>
+          <div class="tab-pane fade<?= $current_tab == "campaigns" || $current_tab == "" ? " show active" : ""; ?>" id="tab-campaigns" role="tabpanel" aria-labelledby="tab-campaigns-tab">
             <div class="content">
               <?php require_once "campaigns-content.php" ?>
             </div>
