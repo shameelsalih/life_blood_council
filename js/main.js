@@ -3,7 +3,7 @@ const animationNames = [
   "slideFromLeft",
   "slideFromTop",
   "slideFromBottom",
-  "bounce",
+  // "bounce",
   "fadeIn"
 ];
 const animationOffset = 100; // px 
