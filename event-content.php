@@ -1,4 +1,5 @@
 <?php
+/*
   $events_data = [
     [
       "title"         =>  "Thalassemia Awareness",
@@ -29,8 +30,10 @@
       "background"    =>  "images/knowledge-hub/events/e4.png"
     ]
   ];
+*/
 ?>
           <div class="content">
+            <?php /* ?>
             <div class="container-fluid">
               <div class="row">
                 <?php foreach($events_data as $event) :?>
@@ -55,6 +58,7 @@
                 <?php endforeach;?>
               </div>
             </div>
+            <?php */ ?>
             <div class="container pt-5 animate">
               <iframe id="google-events" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&src=bGlmZWJsb29kY291bmNpbC5ldmVudHNAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
             </div>
