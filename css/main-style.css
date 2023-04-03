@@ -531,6 +531,9 @@ footer ul {
 
 .simple-image-card img {
     padding: 40px;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
 }
 
 .simple-image-card h4 {

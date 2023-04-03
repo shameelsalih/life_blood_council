@@ -56,7 +56,7 @@ body {
 
 @keyframes slideFromTop {
     from {
-        transform: translateY(-100%);
+        transform: translateY(-25%);
     }
     
     to {
