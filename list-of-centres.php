@@ -3,103 +3,177 @@
     "MH" => [
       "Name"  => "Maharashtra",
       "Code"  =>  "MH"
-    ],
-    "DL" => [
-      "Name"  => "Delhi",
-      "Code"  =>  "DL"
     ]
   ];
 
   $cities = [
     "MH"  =>  [
       [
-        "Name"      =>  "Navi Mumbai",
-        "Code"      =>  "NM",
+        "Name"      =>  "Ahmed Nagar",
+        "Code"      =>  "AN"
+      ],
+      [
+        "Name"      =>  "Akola",
+        "Code"      =>  "AL"
+      ],
+      [
+        "Name"      =>  "Amravati",
+        "Code"      =>  "AM"
+      ],
+      [
+        "Name"      =>  "Aurangabad Nagar",
+        "Code"      =>  "AR"
+      ],
+      [
+        "Name"      =>  "Beed",
+        "Code"      =>  "BD"
+      ],
+      [
+        "Name"      =>  "Bhandara",
+        "Code"      =>  "BR",
+      ],
+      [
+        "Name"      =>  "Buldhana",
+        "Code"      =>  "BL",
+      ],
+      [
+        "Name"      =>  "Chandrapur",
+        "Code"      =>  "CH",
+      ],
+      [
+        "Name"      =>  "Dhule",
+        "Code"      =>  "DH",
+      ],
+      [
+        "Name"      =>  "Gadchiroli",
+        "Code"      =>  "GC",
+      ],
+      [
+        "Name"      =>  "Gondia",
+        "Code"      =>  "GD",
+      ],
+      [
+        "Name"      =>  "Hingoli",
+        "Code"      =>  "HG",
+      ],
+      [
+        "Name"      =>  "Jalgaon",
+        "Code"      =>  "JG",
+      ],
+      [
+        "Name"      =>  "Jalna",
+        "Code"      =>  "JN",
+      ],
+      [
+        "Name"      =>  "Kohlapur",
+        "Code"      =>  "KP",
+      ],
+      [
+        "Name"      =>  "Latur",
+        "Code"      =>  "LT",
       ],
       [
         "Name"      =>  "Mumbai",
         "Code"      =>  "MM",
-      ]
-    ],
-    "DL"  =>  [
+      ],
       [
-        "Name"      =>  "Agra",
-        "Code"      =>  "AG",
-
-      ]
+        "Name"      =>  "Nagpur",
+        "Code"      =>  "NG",
+      ],
+      [
+        "Name"      =>  "Nanded",
+        "Code"      =>  "ND",
+      ],
+      [
+        "Name"      =>  "Nandurbar",
+        "Code"      =>  "NB",
+      ],
+      [
+        "Name"      =>  "Nashik",
+        "Code"      =>  "NS",
+      ],
+      [
+        "Name"      =>  "Osmanabad",
+        "Code"      =>  "OB",
+      ],
+      [
+        "Name"      =>  "Palghar",
+        "Code"      =>  "PG",
+      ],
+      [
+        "Name"      =>  "Parbhanai",
+        "Code"      =>  "PB",
+      ],
+      [
+        "Name"      =>  "Pune",
+        "Code"      =>  "PN",
+      ],
+      [
+        "Name"      =>  "Raigad",
+        "Code"      =>  "RG",
+      ],
+      [
+        "Name"      =>  "Ratnagiri",
+        "Code"      =>  "RN",
+      ],
+      [
+        "Name"      =>  "Sangli",
+        "Code"      =>  "SL",
+      ],
+      [
+        "Name"      =>  "Satara",
+        "Code"      =>  "ST",
+      ],
+      [
+        "Name"      =>  "Sindhudurg",
+        "Code"      =>  "SD",
+      ],
+      [
+        "Name"      =>  "Solapur",
+        "Code"      =>  "SP",
+      ],
+      [
+        "Name"      =>  "Wardha",
+        "Code"      =>  "WR",
+      ],
+      [
+        "Name"      =>  "Washim",
+        "Code"      =>  "WS",
+      ],
+      [
+        "Name"      =>  "Yavatmal",
+        "Code"      =>  "YM",
+      ],
     ]
   ];
 
   $types = [
-    "DC" => [
-      "Name"  =>  "Care Centres",
-      "Code"  =>  "DC"
+    "BC" => [
+      "Name"  =>  "Blood Centres",
+      "Code"  =>  "BC"
     ],
-    "BD" => [
-      "Name"  =>  "Blood Donation Camps",
-      "Code"  =>  "BD"
+    "BA" => [
+      "Name"  =>  "Blood Centres with Apheresis",
+      "Code"  =>  "BA"
+    ],
+    "TA" => [
+      "Name"  =>  "Thalassemia Assns",
+      "Code"  =>  "TA"
     ]
-  ];
-
-
-  $list_of_centres = [
-    [
-      "Name"    =>  "Life Blood Foundation (Ghansoli)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Ghansoli",
-      "Key"     =>  "NM_BD"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation (Vashi)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Vashi",
-      "Key"     =>  "NM_BD"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation (Panvel)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Panvel",
-      "Key"     =>  "NM_DC"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation (Santacruz)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Santacruz",
-      "Key"     =>  "MM_BD"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation (Andheri)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Andheri",
-      "Key"     =>  "MM_DC"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation (Agra)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Agra",
-      "Key"     =>  "AG_DC"
-    ],
-    [
-      "Name"    =>  "Life Blood Foundation Donation Camp (Agra)",
-      "Contact" =>  "+91 9876543210",
-      "Address" =>  "Here comes the address of Agra",
-      "Key"     =>  "AG_BD"
-    ]
-  ];
-
-  $map_urls = [
-    "NM_DC" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
-    "NM_BD" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
-    "MM_DC" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
-    "MM_BD" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
-    "AG_DC" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
-    "AG_BD" =>  "https://www.google.com/maps/d/embed?mid=18PwLoD-_5w3qOa1jzTu3DYBWxJI_rlg&ehbc=2E312F",
   ];
 ?>
 
           <section id="list-of-centres" class="animate">
             <div class="container">
               <div class="row">
+                  
+                <div class="col-sm-4">
+                  <div class="form-group custom">
+                    <select class="form-select secondary-color" name="ListOfCentresType" id="ListOfCentresType">
+                      <?php foreach($types as $row) echo "<option value=\"$row[Code]\">$row[Name]</option>"; ?>
+                    </select>
+                  </div>
+                </div>
 
                 <div class="col-sm-4">
                   <div class="form-group custom">
@@ -115,23 +189,15 @@
                     </select>
                   </div>
                 </div>
-                  
-                <div class="col-sm-4">
-                  <div class="form-group custom">
-                    <select class="form-select secondary-color" name="ListOfCentresType" id="ListOfCentresType">
-                      <?php foreach($types as $row) echo "<option value=\"$row[Code]\">$row[Name]</option>"; ?>
-                    </select>
-                  </div>
-                </div>
 
               </div>
             </div>
             <div class="container pt-lg-5">
               <div class="row">
-                <div class="col-lg-6 pb-3 pb-lg-0">
+                <div class="col-lg-12 pb-3">
                   <iframe id="mapIframe" src="javascript:void(0);" width="100%" height="480"></iframe>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                   <div class="row" id="listOfCentres">
                   </div>
                 </div>
@@ -142,7 +208,5 @@
             var __districts = <?= json_encode($districts); ?>;
             var __types = <?= json_encode($types); ?>;
             var __cities = <?= json_encode($cities); ?>;
-            var __listOfCentres = <?= json_encode($list_of_centres); ?>;
-            var __mapURLs = <?= json_encode($map_urls); ?>;
           </script>
           <script src="js/list-of-centres.js<?= $assets_version ?>" defer></script>
