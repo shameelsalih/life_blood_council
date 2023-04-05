@@ -32,9 +32,9 @@ const changeCurrentURL = (e) => {
 
 window.addEventListener('scroll', checkElementVisibility);
 document.addEventListener('DOMContentLoaded', () => {
-  checkElementVisibility();
   document.querySelectorAll(`[data-bs-toggle="pill"]`).forEach(element => {
     element.addEventListener('click', checkElementVisibility);
     element.addEventListener('click', changeCurrentURL);
   });
+  checkElementVisibility();
 });

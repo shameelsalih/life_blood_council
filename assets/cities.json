@@ -1,0 +1,378 @@
+{
+    "AP": [
+        {
+            "Name": "Vijayawada",
+            "Code": "VW"
+        }
+    ],
+    "AM": [
+        {
+            "Name": "Dibrugarh",
+            "Code": "DG"
+        }
+    ],
+    "BH": [
+        {
+            "Name": "Patna",
+            "Code": "PT"
+        },
+        {
+            "Name": "Muzzafarpur",
+            "Code": "MZ"
+        }
+    ],
+    "CG": [
+        {
+            "Name": "Chandigarh",
+            "Code": "CG"
+        }
+    ],
+    "CH": [
+        {
+            "Name": "Durgapur",
+            "Code": "DP"
+        },
+        {
+            "Name": "Raipur",
+            "Code": "RP"
+        }
+    ],
+    "DL": [
+        {
+            "Name": "New Delhi",
+            "Code": "DL"
+        }
+    ],
+    "GJ": [
+        {
+            "Name": "Ahmedabad",
+            "Code": "AD"
+        },
+        {
+            "Name": "Surat",
+            "Code": "SR"
+        },
+        {
+            "Name": "Rajkot",
+            "Code": "RK"
+        },
+        {
+            "Name": "Vadodara",
+            "Code": "VD"
+        },
+        {
+            "Name": "Jamnagar",
+            "Code": "JM"
+        }
+    ],
+    "GA": [
+        {
+            "Name": "Goa",
+            "Code": "GA"
+        }
+    ],
+    "HR": [
+        {
+            "Name": "Rohtak",
+            "Code": "RT"
+        },
+        {
+            "Name": "Hisar",
+            "Code": "HS"
+        },
+        {
+            "Name": "Faridabad",
+            "Code": "FB"
+        },
+        {
+            "Name": "Gurugram",
+            "Code": "GG"
+        }
+    ],
+    "JK": [
+        {
+            "Name": "Jammu",
+            "Code": "JU"
+        }
+    ],
+    "JD": [
+        {
+            "Name": "Dhanbad",
+            "Code": "DB"
+        },
+        {
+            "Name": "Ranchi",
+            "Code": "RC"
+        }
+    ],
+    "KA": [
+        {
+            "Name": "Bengaluru",
+            "Code": "BG"
+        }
+    ],
+    "KL": [
+        {
+            "Name": "Kozhikode",
+            "Code": "KZ"
+        }
+    ],
+    "MP": [
+        {
+            "Name": "Indore",
+            "Code": "IN"
+        },
+        {
+            "Name": "Bhopal",
+            "Code": "BP"
+        },
+        {
+            "Name": "Jabalpur",
+            "Code": "JB"
+        },
+        {
+            "Name": "Gwalior",
+            "Code": "GW"
+        }
+    ],
+    "MH": [
+        {
+            "Name": "Ahmed Nagar",
+            "Code": "AN"
+        },
+        {
+            "Name": "Akola",
+            "Code": "AL"
+        },
+        {
+            "Name": "Amravati",
+            "Code": "AM"
+        },
+        {
+            "Name": "Aurangabad",
+            "Code": "AR"
+        },
+        {
+            "Name": "Beed",
+            "Code": "BD"
+        },
+        {
+            "Name": "Bhandara",
+            "Code": "BR"
+        },
+        {
+            "Name": "Buldhana",
+            "Code": "BL"
+        },
+        {
+            "Name": "Chandrapur",
+            "Code": "CH"
+        },
+        {
+            "Name": "Dhule",
+            "Code": "DH"
+        },
+        {
+            "Name": "Gadchiroli",
+            "Code": "GC"
+        },
+        {
+            "Name": "Gondia",
+            "Code": "GD"
+        },
+        {
+            "Name": "Hingoli",
+            "Code": "HG"
+        },
+        {
+            "Name": "Jalgaon",
+            "Code": "JG"
+        },
+        {
+            "Name": "Jalna",
+            "Code": "JN"
+        },
+        {
+            "Name": "Kohlapur",
+            "Code": "KP"
+        },
+        {
+            "Name": "Latur",
+            "Code": "LT"
+        },
+        {
+            "Name": "Mumbai",
+            "Code": "MM"
+        },
+        {
+            "Name": "Nagpur",
+            "Code": "NG"
+        },
+        {
+            "Name": "Navi Mumbai",
+            "Code": "NM"
+        },
+        {
+            "Name": "Nanded",
+            "Code": "ND"
+        },
+        {
+            "Name": "Nandurbar",
+            "Code": "NB"
+        },
+        {
+            "Name": "Nashik",
+            "Code": "NS"
+        },
+        {
+            "Name": "Osmanabad",
+            "Code": "OB"
+        },
+        {
+            "Name": "Palghar",
+            "Code": "PG"
+        },
+        {
+            "Name": "Parbhanai",
+            "Code": "PB"
+        },
+        {
+            "Name": "Pune",
+            "Code": "PN"
+        },
+        {
+            "Name": "Raigad",
+            "Code": "RG"
+        },
+        {
+            "Name": "Ratnagiri",
+            "Code": "RN"
+        },
+        {
+            "Name": "Sangli",
+            "Code": "SL"
+        },
+        {
+            "Name": "Satara",
+            "Code": "ST"
+        },
+        {
+            "Name": "Sindhudurg",
+            "Code": "SD"
+        },
+        {
+            "Name": "Solapur",
+            "Code": "SP"
+        },
+        {
+            "Name": "Thane",
+            "Code": "TN"
+        },
+        {
+            "Name": "Wardha",
+            "Code": "WR"
+        },
+        {
+            "Name": "Washim",
+            "Code": "WS"
+        },
+        {
+            "Name": "Yavatmal",
+            "Code": "YM"
+        }
+    ],
+    "OR": [
+        {
+            "Name": "Bhubaneshwar",
+            "Code": "BS"
+        }
+    ],
+    "PB": [
+        {
+            "Name": "Patiala",
+            "Code": "PL"
+        },
+        {
+            "Name": "Jalandhar",
+            "Code": "JL"
+        },
+        {
+            "Name": "Ludhiana",
+            "Code": "LD"
+        }
+    ],
+    "RJ": [
+        {
+            "Name": "Ajmer",
+            "Code": "AJ"
+        },
+        {
+            "Name": "Jaipur",
+            "Code": "JP"
+        },
+        {
+            "Name": "Jodhpur",
+            "Code": "JD"
+        },
+        {
+            "Name": "Kota",
+            "Code": "KT"
+        }
+    ],
+    "TN": [
+        {
+            "Name": "Chennai",
+            "Code": "CN"
+        },
+        {
+            "Name": "Madurai",
+            "Code": "MD"
+        }
+    ],
+    "TL": [
+        {
+            "Name": "Hyderabad",
+            "Code": "HB"
+        }
+    ],
+    "TR": [
+        {
+            "Name": "Unakutti",
+            "Code": "UT"
+        }
+    ],
+    "UK": [
+        {
+            "Name": "Dehradun",
+            "Code": "DR"
+        }
+    ],
+    "UP": [
+        {
+            "Name": "Lucknow",
+            "Code": "LK"
+        },
+        {
+            "Name": "Bareilly",
+            "Code": "BY"
+        },
+        {
+            "Name": "Allahabad",
+            "Code": "AH"
+        },
+        {
+            "Name": "Varanasi",
+            "Code": "VR"
+        }
+    ],
+    "WB": [
+        {
+            "Name": "Kolkata",
+            "Code": "KK"
+        },
+        {
+            "Name": "Burdwan",
+            "Code": "BW"
+        }
+    ]
+}
