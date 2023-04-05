@@ -32,51 +32,51 @@
       </div>
     </div>
     <!-- ./Main Header -->
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0 py-0 py-lg-1">
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^(\/$)|(\/\?.*)/", $request_uri) ? " active" : "" ?>" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^\/about-us.*/", $request_uri) ? " active" : "" ?>" href="about-us">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^\/what-we-do.*/", $request_uri) ? " active" : "" ?>" href="what-we-do">What we do</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle<?= preg_match("/^\/(thalassemia)|(knowledge-hub.*)/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Knowledge Hub
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="thalassemia">Thalassemia</a></li>
-                <?php /* ?>
-                <li><a class="dropdown-item" href="knowledge-hub?tab=events">Events</a></li>
-                <?php */ ?>
-                <li><a class="dropdown-item" href="knowledge-hub?tab=campaigns">Campaigns</a></li>
-                <li><a class="dropdown-item" href="knowledge-hub?tab=faqs">FAQ's</a></li>
-                <li><a class="dropdown-item" href="knowledge-hub?tab=centres">List of Centres</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^\/media.*/", $request_uri) ? " active" : "" ?>" href="media">Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^\/contribute.*/", $request_uri) ? " active" : "" ?>" href="contribute">Contribute</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link<?= preg_match("/^\/contact-us.*/", $request_uri) ? " active" : "" ?>" href="contact-us">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- ./Navbar -->
   </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 py-0 py-lg-1">
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^(\/$)|(\/\?.*)/", $request_uri) ? " active" : "" ?>" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^\/about-us.*/", $request_uri) ? " active" : "" ?>" href="about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^\/what-we-do.*/", $request_uri) ? " active" : "" ?>" href="what-we-do">What we do</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle<?= preg_match("/^\/(thalassemia)|(knowledge-hub.*)/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Knowledge Hub
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="thalassemia">Thalassemia</a></li>
+              <?php /* ?>
+              <li><a class="dropdown-item" href="knowledge-hub?tab=events">Events</a></li>
+              <?php */ ?>
+              <li><a class="dropdown-item" href="knowledge-hub?tab=campaigns">Campaigns</a></li>
+              <li><a class="dropdown-item" href="knowledge-hub?tab=faqs">FAQ's</a></li>
+              <li><a class="dropdown-item" href="knowledge-hub?tab=centres">List of Centres</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^\/media.*/", $request_uri) ? " active" : "" ?>" href="media">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^\/contribute.*/", $request_uri) ? " active" : "" ?>" href="contribute">Contribute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link<?= preg_match("/^\/contact-us.*/", $request_uri) ? " active" : "" ?>" href="contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ./Navbar -->
+  

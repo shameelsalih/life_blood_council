@@ -94,6 +94,28 @@ h1 {
     font-weight: var(--custom-nav-font-weight);
 }
 
+.navbar.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.navbar.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
 .nav-item {
     padding: 0 20px;
 }
