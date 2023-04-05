@@ -59,7 +59,12 @@ const setListOfCentres = () => {
     currentKey == centre.Key && (innerHTML += `
       <div class="col-sm-6">
         <div class="box-shadow-card">
-          <div class="icon"></div>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.21 19.83">
+              <path class="cls-1" d="M7.19,0H8L8.7.08A7.74,7.74,0,0,1,12,1.24a6.81,6.81,0,0,1,2.87,3.48A5.33,5.33,0,0,1,15,8.2a16.73,16.73,0,0,1-1.43,3.21,62.53,62.53,0,0,1-5.75,8.28c-.16.19-.25.19-.41,0a62.08,62.08,0,0,1-5.75-8.3A15,15,0,0,1,.24,8.19C.12,7.8.08,7.4,0,7V6.74C.05,6.36.08,6,.15,5.61A6.58,6.58,0,0,1,2.26,2,7.42,7.42,0,0,1,5.74.23C6.22.13,6.71.07,7.19,0Zm.43,9.34a2.6,2.6,0,0,0,2.72-2.46A2.62,2.62,0,0,0,7.61,4.42,2.61,2.61,0,0,0,4.89,6.88,2.6,2.6,0,0,0,7.62,9.34Z">
+              </path>
+            </svg>
+          </div>
           <div class="content">
             <h6 class="secondary-color">${centre.Name}</h6>
             <!-- <p class="mb-0">Contact: <a href="tel:${centre.Contact}">${centre.Contact}</a></p> -->
