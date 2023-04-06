@@ -10,7 +10,7 @@
   <?php require_once "header.php" ?>
 
   <main id="main-body">
-    <section id="main-banner">
+    <section id="main-banner" class="animate" data-animation-name="fadeIn">
       <div class="container pt-3 pt-lg-5">
         <h1>
           Building<br>

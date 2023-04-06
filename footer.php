@@ -1,4 +1,8 @@
 
+  <div class="footer-top animate text-center" data-animation-name="fadeIn">
+    For Any queries please <a href="contact-us">connect with us</a>
+  </div>
+
   <footer class="animate" data-animation-name="fadeIn">
     <div class="footer-content container">
       <div class="row">
@@ -158,6 +162,10 @@
       </div>
     </div>
   </footer>
+  
+  <div class="floating-message">
+    All "Thalassemia" mentioned here is <b>"Beta Thalassemia"</b>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>

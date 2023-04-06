@@ -4,9 +4,8 @@
     --custom-animation-duration: 1500ms;
 }
 
-html,
-body {
-    /* overflow-x: hidden; */
+main {
+    overflow-x: hidden;
 }
 
 .animate {
@@ -70,7 +69,7 @@ body {
 
 @keyframes slideFromBottom {
     from {
-        transform: translateY(-25%);
+        transform: translateY(25%);
     }
     
     to {

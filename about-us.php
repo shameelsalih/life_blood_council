@@ -178,30 +178,78 @@
 
     </section>
 
-    <section id="about-our-team" class="pb-5 mb-5 animate">
+    <section id="about-our-team" class="pb-5 mb-5">
       <div class="container pt-5">
         <div class="my-5"></div>
-        <h2 class="primary-color text-center">Our Team</h2>
+        <h2 class="primary-color text-center animate" data-animation-name="fadeIn">Our Team</h2>
         <div class="row">
 
-          <div class="col-md-4">
-            <div class="simple-image-card">
-              <img src="images/about/Dinkar-Suri.png" alt="Director: Dinkar Suri" class="w-100" />
-              <h4>Director: Dinkar Suri</h4>
-            </div>
-          </div>
-
-          <div class="col-md-4">
+          <div class="col-md-4 animate" data-animation-name="slideFromLeft">
             <div class="simple-image-card">
               <img src="images/about/Vinay-Shetty.png" alt="Founder: Vinay Shetty" class="w-100" />
               <h4>Founder: Vinay Shetty</h4>
+              <p class="content">
+                <b>Vinay Shetty</b> has been involved with the causes of voluntary blood donation and Thalassemia for the past three decades. He has been a pioneer in planning and executing initiatives to meet the blood requirements of Mumbai city as a whole and has been instrumental in setting up structures for prevention, care and cure of Beta-Thalassemia. Vinay Shetty has mentored various organisations working in this area and has been a member of expert working groups at the state and national levels appointed for the purpose of safety and adequacy of blood and its components. He has been liaising with multiple stakeholders in various government agencies for establishing Programmes to provide relief in relation to Thalassemia and continues to champion the Cause of Blood Adequacy tirelessly.
+              </p>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 animate" data-animation-name="slideFromTop">
+            <div class="simple-image-card">
+              <img src="images/about/Dinkar-Suri.png" alt="Director: Dinkar Suri" class="w-100" />
+              <h4>Director: Dinkar Suri</h4>
+              <p class="content">
+                <b>Dinkar Suri</b> is a Sales Mentor, Coach and Sales Development Consultant specialising in building efficient sales oragnisations. He is the Founder of GASP Sales Academy and also a Charter member of TiE Mumbai and Co-Chair of the TiE Academy. With over  four decades of experience in Marketing, Sales, Retail Operations  he brings a dedicated focus on the  efficient execution and delivery of all Programmes envisaged by LifeBlood Council. Dinkar Suri is also the Founder of Surilee Awaaz – a music platform for supporting Charitable Causes that has built awareness and raised funds for NGOs in the past.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 animate" data-animation-name="slideFromRight">
             <div class="simple-image-card">
               <img src="images/about/Sashi-Shankar.png" alt="Director: Shashi Shankar" class="w-100" />
               <h4>Director: Shashi Shankar</h4>
+              <p class="content">
+                <b>Sashi Shankar</b> has extensive experience of over four decades in Senior Leadership positions in several reputed consumer facing organisations. He will be instrumental to the efforts of  LifeBlood Council to scale up and expand its scope in terms of reach and impact. He brings with him a comprehensive understanding of Operations,  Sales & Marketing Principles and building partnerships with key stakeholders to drive LifeBlood Council’s Vision.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 animate" data-animation-name="slideFromLeft">
+            <div class="simple-image-card">
+              <img src="images/about/Dr-Mamta-Manglani.png" alt="Advisor: Dr Mamta Manglani" class="w-100" />
+              <h4>Advisor: Dr Mamta Manglani</h4>
+              <p class="content">
+                <b>Dr Mamta Manglani</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit temporibus est enim sed vel saepe dolor sequi accusamus nam repudiandae asperiores minus tenetur, suscipit laudantium id quae maiores distinctio illo excepturi itaque eligendi. Soluta veritatis explicabo corporis deserunt nemo accusantium consequuntur esse dicta? Eaque eos, nisi exercitationem iure enim quo non voluptates quasi ullam eius numquam praesentium ipsam incidunt consequuntur dolore nihil odit maiores tenetur aperiam architecto! Perspiciatis quam ipsa fugit nulla atque, veritatis, corporis optio placeat assumenda nostrum ipsam. Corporis sint cumque blanditiis odio, ducimus aliquam est, consectetur earum minima exercitationem consequatur esse nobis ut vel tempore suscipit.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 animate" data-animation-name="slideFromBottom">
+            <div class="simple-image-card">
+              <img src="images/about/Josy-Paul.png" alt="Advisor: Josy Paul" class="w-100" />
+              <h4>Advisor: Josy Paul</h4>
+              <p class="content">
+                <b>Josy Paul (Chairman and Chief Creative Officer – BBDO India)</b> started BBDO India from the backseat of his car in 2008.
+                  In 2016, he was named Creative Agency Head of The Year by the IAA (Indian Advertising Association). 
+                  Campaign Magazine awarded him 'Creative Person of the Year for India and South Asia' in 2013, 2015 and 2016. 
+                  He is ranked among the most influential people in Indian advertising - according to The Economic Times. 
+                  Josy and his team won the inaugural Glass Lion Grand Prix at Cannes in 2015 – 
+                  for their internationally acclaimed campaign Whisper ‘Touch The Pickle’. 
+                  Josy also won the Cannes Lion Gold in 2015 and 2016 and 2017 for Ariel ‘Share The Load’.
+                  Ariel #ShareTheLoad has been ranked the world’s most effective campaign two years in a row - 2017 and 2018.
+                  Josy and his partner Ajai Jhala pioneered the idea of brand movements with the belief that India needs more ‘acts not ads’.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 animate" data-animation-name="slideFromRight">
+            <div class="simple-image-card">
+              <img src="images/about/Lovaii-Navlakhi.jpg" alt="Advisor: Lovaii Navlakhi" class="w-100" />
+              <h4>Advisor: Lovaii Navlakhi</h4>
+              <p class="content">
+                <b>Lovaii Navlakhi</b> is Managing Director & Founder CEO of International Money Matters, an award winning SEBI registered investment advisory firm, which was established in 2001, with offices in 5 cities in India, and clients from across the globe. The firm specialises in solving complex money problems for clients, using the solid base of financial planning.
+                Lovaii is an MBA from SP Jain Institute of Management & Research and the first CeFT (Certified Financial Transitionist) from India. After being born and brought up in Mumbai, he is now based in Bangalore.
+              </p>
             </div>
           </div>
 

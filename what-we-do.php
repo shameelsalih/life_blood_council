@@ -11,7 +11,7 @@
 
   <main id="main-body">
 
-    <section id="main-banner" class="animate">
+    <section id="main-banner" class="animate" data-animation-name="fadeIn">
       <div class="container pt-3 pt-lg-5">
         <h1>
           Building<br>
@@ -31,14 +31,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h3 class="primary-color">BLOOD Adequecy</h3>
+            <h3 class="primary-color">BLOOD DONATION</h3>
             <p class="pt-3">
-              Providing adequate and safe blood is an integral part of every country's National Healthcare Policy.<br />
-              A hospital cannot function without the assurance of availability of blood and its components.<br />
-              Almost 40000 persons need to donate blood every single day to meet the requirement of patients with various medical conditions in India. At LifeBlood Council we believe that the search for blood donors should not begin after the need has arisen.
+              Providing adequate and safe blood is an integral part of every country’s National Healthcare Policy. A hospital cannot function without the assurance of availability of blood and its components. Almost 40000 persons need to donate blood every single day to meet the requirement of patients with various medical conditions in India. At LifeBlood Council we believe that the search for blood donors should not begin after the need has arisen.
             </p>
             <p class="footer-color pt-3">
-              LifeBlood Council works to ensure that there is a positive balance of blood units in blood centres across the country at all times. Towards this objective, we strive to:
+              LifeBlood Council works to ensure that there is a positive balance of blood units in blood centres across the country at all times. Towards this objective, we strive to :
             </p>
           </div>
           <div class="col-md-4 me-0">
@@ -94,9 +92,14 @@
             <img class="w-100" src="images/what-we-do/pateints.png" alt="Patients">
           </div>
           <div class="col-lg-9">
-            <p class="mt-3"><span class="footer-color">We also respond to requirements from patients and their families and friends</span> and direct them to the appropriate blood centre. In the event of the required blood unit not being available we identify blood donors from our registry. and request them to donate blood.</p>
+            <p class="mt-3"><span class="footer-color">We also respond to requirements from patients and their families and friends</span> and direct them to the appropriate blood centre. In the event of the required blood unit not being available we identify blood donors from our registry, and request them to donate blood.</p>
+            <p>
+              The following are the activities that we undertake in the process of achieving Blood sufficiency:
+            </p>
             <div class="floated-card-container">
               <div class="row">
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -114,6 +117,8 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -131,11 +136,12 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Conduncting awareness sessions to motivate potential blood donors on 1-2 days to the blood donation
-                        camp</p>
+                      <p>Conducting awareness sessions to motivate potential blood donors on 1-2 days prior to the blood donation camp</p>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -151,10 +157,12 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Conducting training sessions for personnel of blood centers</p>
+                      <p>Designing posters and other motivation material</p>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -175,10 +183,12 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Building a Registry of Blood Donors and it's components</p>
+                      <p>Building a Registry of Blood Donors and it's components**</p>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -199,10 +209,12 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Building a Registry of donorss having the rare "Bombay" blood group</p>
+                      <p>Building a Registry of donors having the rare “Bombay” blood group</p>
                     </div>
                   </div>
                 </div>
+
+
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -231,6 +243,28 @@
                     </div>
                   </div>
                 </div>
+
+
+                <div class="col-md-4">
+                  <div class="icon-floated-card">
+                    <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.4 27.98">
+                        <path class="cls-1" d="M.07,7.32l0,.43A4.07,4.07,0,0,0,.8,8.1c7,2.13,14.07,4.28,21.13,6.35a4.13,4.13,0,0,0,2.22-.16c6.5-2,13-4.11,19.46-6.17.5-.16,1-.37,1.79-.68a11.22,11.22,0,0,0-1.29-.64C37.34,4.56,30.57,2.3,23.78.12a3.94,3.94,0,0,0-2.2.09c-4.34,1.38-8.66,2.84-13,4.27Zm37,6.32c-1.76.52-3.32,1-4.9,1.44-11.33,3.17-7.67,3.24-19.11,0-1.57-.44-3.12-.91-4.85-1.42V24.71c9.63,4.66,19.22,4.08,28.86-.08ZM2.58,21.43V12l-1.47-.49v9.93C-.18,23-.39,24.31.71,24.87a2.69,2.69,0,0,0,2.45-.09C4.5,23.62,3.64,22.44,2.58,21.43Z">
+                        </path>
+                        <path class="cls-1" d="M.07,7.32,8.6,4.48c4.32-1.43,8.64-2.89,13-4.27a3.94,3.94,0,0,1,2.2-.09C30.57,2.3,37.34,4.56,44.11,6.8a11.22,11.22,0,0,1,1.29.64c-.81.31-1.29.52-1.79.68-6.48,2.06-13,4.14-19.46,6.17a4.13,4.13,0,0,1-2.22.16C14.87,12.38,7.84,10.23.8,8.1a4.07,4.07,0,0,1-.69-.35Z">
+                        </path>
+                        <path class="cls-1" d="M37,13.64v11c-9.64,4.16-19.23,4.74-28.86.08V13.65c1.73.51,3.28,1,4.85,1.42,11.44,3.25,7.78,3.18,19.11,0C33.7,14.63,35.26,14.16,37,13.64Z">
+                        </path>
+                        <path class="cls-1" d="M2.58,21.43c1.06,1,1.92,2.19.58,3.35a2.69,2.69,0,0,1-2.45.09c-1.1-.56-.89-1.83.4-3.48V11.46L2.58,12Z">
+                        </path>
+                      </svg>
+                    </div>
+                    <div class="content">
+                      <p>Conducting training sessions for personnel of blood centres</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -247,7 +281,7 @@
               A child is born with Beta Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Beta-Thalassemia Major.
             </p>
             <p>
-              An estimated 50 million Indians are Thalassemia Minor, and most of them do not know of it. It is important for every youngster to undergo a test for Thalassemia Minor. This test needs to be done just once in one's lifetime.
+              An estimated 50 million Indians are Thalassemia  Minor, and most of them do not know of it. It is important for every youngster to undergo a test for Thalassemia Minor. This test needs to be done just once in one’s lifetime.
             </p>
           </div>
           <div class="col-md-4">
@@ -275,7 +309,7 @@
                 </svg>
               </div>
               <div class="content">
-                <p>Create awareness about Thalassemia Minor through the media</p>
+                <p>Create awareness about Thalassaemia Minor through the media</p>
               </div>
             </div>
           </div>
@@ -363,7 +397,7 @@
           <div class="content col-md-8">
             <h4 class="primary-color">BETA THALASSEMIA MAJOR - CARE</h4>
             <p>
-              Beta-Thalassemia Major is a genetic blood disorder. It is also called "Cooley's Anemia" or "Mediterranean Anemia" or simply "Thalassemia".<br>
+              Beta-Thalassemia Major is a genetic blood disorder. It is also called “Cooley’s Anemia” or “Mediterranean Anemia” or simply “Thalassemia”.<br>
               Beta-Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
             </p>
 
@@ -375,8 +409,7 @@
             </p>
 
             <p>
-              Almost every organ of the body is compromised due to the risk of iron overload and transfusion-transmitted-infections.<br />
-              The third line in the management of the disorder is periodic laboratory and radiological investigations to detect complications at an early stage so that remedial action can be taken before they assume life-threatening proportions.
+              Almost every organ of the body is compromised due to the risk of iron overload and transfusion-transmitted-infections. The third line in the management of the disorder is periodic laboratory and radiological investigations   to detect complications at an early stage so that  remedial action can be taken before they assume life-threatening proportions. — This section can be reformatted to appear in the Knowledge section
             </p>
           </div>
           <div class="col-md-4">
@@ -392,7 +425,7 @@
         <p>
           <span class="primary-color fw-bolder">We will strive to bring fulfilment and happiness</span><br>
           in the lives of persons living with Beta Thalassemia Major.<br>
-          Towards this objective we will conduct the following activities
+          Towards this objective we will conduct the following activities:
         </p>
         <div class="row justify-content-center">
           <div class="col-md-4">
@@ -442,7 +475,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Support</h4>
-                <p>Provide support for transfusion- accessories, medicines, chelation accessories, medical investigations, and emergency operations</p>
+                <p>3.	Provide support for transfusion-accessories, medicines, chelation accessories, medical investigations, and emergency operations.</p>
               </div>
             </div>
           </div>
@@ -493,7 +526,7 @@
             1
           </div>
           <div class="content">
-            LifeBlood Council will undertake to build a Stem Cell Registry. This will help in ensuring availability of Stem Cell Donors and their information. The first step in this exercise is to locate a matching stem cell donor. For this purpose, the Human Leucocyte Antigens (HLA) are analyzed after taking either a saliva sample or a blood sample of the potential donor and the patient. The best chance of finding a match for a patient is with a sibling. The donor is then referred to as a "sibling donor". If a sibling is not found to be a match, the patient can check with a Registry of Stem Cell donors, whose HLAs have been "typed". There may be an outside-chance of finding a match from a registry. If a match is found from a registry, the donor is called a "Matched Unrelated Donor" also referred to as "MUD". The third option is to find a parent who is a close match. The donor in such an event is called a "haplo donor".
+            LifeBlood Council will undertake to build a Stem Cell Registry. This will help in ensuring availability of Stem Cell Donors and their information. The first step in this exercise is to locate a matching stem cell donor. For this purpose, the Human Leucocyte Antigens (HLA) are analyzed after taking either a saliva sample or a blood sample of the potential donor and the patient. The best chance of finding a match for a patient is with a sibling. The donor is then referred to as a “sibling donor”. If a sibling is not found to be a match, the patient can check with a Registry of Stem Cell donors, whose HLAs have been “typed”. There may be an outside-chance of finding a match from a registry.  If a match is found from a registry, the donor is called a “Matched Unrelated Donor” also referred to as “MUD”. The third option is to find a parent who is a close match. The donor in such an event is called a “haplo donor”.
           </div>
         </div>
         <div class="my-ol">

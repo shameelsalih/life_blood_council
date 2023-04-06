@@ -92,6 +92,8 @@ h1 {
 .navbar {
     background-color: var(--custom-primary-color);
     font-weight: var(--custom-nav-font-weight);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .navbar.fixed {
@@ -117,7 +119,7 @@ div.sticky {
 }
 
 .nav-item {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -134,7 +136,7 @@ div.sticky {
     border: none;
     top: calc(100% + 10px);
     border-radius: 0;
-    width: 100%;
+    width: fit-content;
 }
 
 .dropdown-toggle::after {
@@ -440,8 +442,8 @@ section[id$="-banner"] {
 
 footer {
     background: var(--custom-footer-bg);
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-top-left-radius: 20px; */
     padding: 50px 50px 0;
 }
 
@@ -556,11 +558,17 @@ footer ul {
     max-width: 250px;
     margin: 0 auto;
     display: block;
+    border-radius: 50px;
 }
 
 .simple-image-card h4 {
     color: var(--custom-secondary-color);
     text-align: center;
+}
+
+.simple-image-card .content {
+    color: var(--custom-quaternary-color);
+    text-align: justify;
 }
 
 #our-core-values .icon-floated-card .content{
@@ -840,6 +848,44 @@ footer ul {
     text-decoration: none;
 }
 
+.floating-message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: .5em;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: var(--custom-tertiary-color);
+    background-color: var(--custom-secondary-color);
+    border-left: 2px solid var(--custom-primary-color);
+    border-top: 2px solid var(--custom-primary-color);
+    border-top-left-radius: 10px;
+}
+
+.footer-top {
+    padding: 10px 20px;
+    background-color: var(--custom-secondary-color);
+    color: var(--custom-tertiary-color);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.footer-top a {
+    color: var(--custom-tertiary-color);
+}
+
+
+
+section[id$="banner"] .container h1,
+section[id$="banner"] .container h2,
+section[id$="banner"] .container h3,
+section[id$="banner"] .container h4,
+section[id$="banner"] .container h5,
+section[id$="banner"] .container h6 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(244 243 255 / 30%)
+}
+
 @media only screen and (max-width: 375px) {
     .main-header {
         padding: 0 10px;
@@ -963,6 +1009,14 @@ footer ul {
     #google-events {
         height: 300px;
     }
+
+    .floating-message {
+        font-size: 8px;
+    }
+
+    .footer-top {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 427px) {
@@ -1076,6 +1130,10 @@ footer ul {
     #google-events {
         height: 350px;
     }
+
+    .floating-message {
+        font-size: 8px;
+    }
 }
 
 @media only screen and (min-width: 427px) and (max-width: 768px) {
@@ -1140,6 +1198,10 @@ footer ul {
 
     #mapIframe {
         max-height: 400px;
+    }
+
+    .floating-message {
+        font-size: 9px;
     }
 }
 
@@ -1206,6 +1268,10 @@ footer ul {
     #mapIframe {
         max-height: 400px;
     }
+
+    .floating-message {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1225,5 +1291,9 @@ footer ul {
     
     form.custom-half .half:nth-child(even) {
         padding-left: 3em;
+    }
+    
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        box-shadow: 0px 1px 10px #ccc;
     }
 }

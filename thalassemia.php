@@ -11,7 +11,7 @@
 
   <main id="main-body">
 
-    <section id="thalassemia-banner" class="animate">
+    <section id="thalassemia-banner" class="animate" data-animation-name="fadeIn">
       <div class="container pt-3 pt-lg-5">
         <div class="pt-5"></div>
         <h1>
