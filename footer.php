@@ -185,4 +185,5 @@
   <script src="js/main.js"></script>
   <script>
     var __customAlertModal = new bootstrap.Modal(document.getElementById('customAlertModal'));
+    var __customAlertContent = document.getElementById('customAlertContent');
   </script>
