@@ -26,7 +26,7 @@
     </section>
 
     <section id="donation-form" class="py-5 mb-5 animate">
-      <form class="custom-half">
+      <form id="donationForm" class="custom-half">
         <div class="container">
           <div class="col-lg-9 mx-auto">
             <h3 class="primary-color text-center">Donation Form</h3>
@@ -36,59 +36,67 @@
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="FirstName">First Name</label>
-                  <input type="text" class="form-control" placeholder="Enter your First Name" name="FirstName" id="FirstName">
+                  <input type="text" class="form-control" placeholder="Enter your First Name" name="FirstName" id="FirstName" required>
+                  <p id="errorFirstName" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="LastName">Last Name</label>
-                  <input type="text" class="form-control" placeholder="Enter your Last Name" name="LastName" id="LastName">
+                  <input type="text" class="form-control" placeholder="Enter your Last Name" name="LastName" id="LastName" required>
+                  <p id="errorLastName" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="Phone">Phone</label>
-                  <input type="tel" class="form-control" placeholder="Enter your Phone" name="Phone" id="Phone">
+                  <input type="tel" class="form-control" placeholder="Enter your Phone" name="Phone" id="Phone" required>
+                  <p id="errorPhone" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="Email">Email</label>
-                  <input type="email" class="form-control" placeholder="Enter your Email" name="Email" id="Email">
+                  <input type="email" class="form-control" placeholder="Enter your Email" name="Email" id="Email" required>
+                  <p id="errorEmail" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="Nationality">Nationality</label>
-                  <input type="text" class="form-control" placeholder="Enter your Nationality" name="Nationality" id="Nationality">
+                  <input type="text" class="form-control" placeholder="Enter your Nationality" name="Nationality" id="Nationality" required>
+                  <p id="errorNationality" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="half col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="PANNo">PAN No</label>
-                  <input type="text" class="form-control" placeholder="Enter your PAN No" name="PANNo" id="PANNo">
+                  <input type="text" class="form-control" placeholder="Enter your PAN No" name="PANNo" id="PANNo" required>
+                  <p id="errorPANNo" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="col-sm-12">
                 <div class="form-group custom">
                   <label class="form-label" for="Address">Address</label>
-                  <input type="text" class="form-control" placeholder="Enter your Address" name="Address" id="Address">
+                  <input type="text" class="form-control" placeholder="Enter your Address" name="Address" id="Address" required>
+                  <p id="errorAddress" class="form-validation-error"></p>
                 </div>
               </div>
     
               <div class="col-sm-6">
                 <div class="form-group custom">
                   <label class="form-label" for="DonationTowards">Donation Towards</label>
-                  <select class="form-select" name="DonationTowards" id="DonationTowards">
+                  <select class="form-select" name="DonationTowards" id="DonationTowards" required>
                     <option value="">- Select - </option>
                     <option value="Blood Donation">Blood Donation</option>
                   </select>
+                  <p id="errorDonationTowards" class="form-validation-error"></p>
                 </div>
               </div>
     
@@ -98,24 +106,31 @@
                   <div class="row">
                     <div class="col-6">
                       <div class="form-group custom">
-                        <input type="radio" name="PaymentMode" id="PaymentModeUPI">
+                        <input type="radio" name="PaymentMode" id="PaymentModeUPI" value="UPI" required>
                         <label class="form-label" for="PaymentModeUPI">UPI</label>
                       </div>
                     </div>
                     <div class="col-6">
                       <div class="form-group custom">
-                        <input type="radio" name="PaymentMode" id="PaymentModeNetBanking">
+                        <input type="radio" name="PaymentMode" id="PaymentModeNetBanking" value="NetBanking" required>
                         <label class="form-label" for="PaymentModeNetBanking">Net Banking</label>
                       </div>
+                    </div>
+                    <div class="col-md-12">
+                      <p id="errorPaymentMode" class="form-validation-error"></p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="col-12 d-flex justify-content-center">
-                <button class="btn btn-custom-primary px-10vw">
-                  Pay Now
-                </button>
+                <div class="content">
+                  <input type="hidden" name="formId" value="donationForm">
+                  <button type="submit" class="btn btn-custom-primary px-10vw d-block">
+                    Pay Now
+                  </button>
+                  <a href="javascript:paymentSubmitModalShow()" class="d-block pt-3">Already Paid? Click here to submit receipt.</a>
+                </div>
               </div>
     
             </div>
@@ -124,9 +139,185 @@
       </form>
     </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="paymentShowModal" tabindex="-1" aria-labelledby="paymentShowModalLabel" aria-hidden="true"  data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog custom-align-center modal-lg">
+        <form id="paymentSubmitForm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="paymentShowModalLabel">Payment Screenshot Submission</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row">
+
+              <div class="col-sm-12">
+                <div class="form-group custom">
+                  <label class="form-label" for="PaymentId">Payment Id</label>
+                  <input type="text" class="form-control" placeholder="Enter your Payment Id generated by our system" name="PaymentId" id="PaymentId" required>
+                  <p class="form-validation-error" id="errorPaymentId"></p>
+                </div>
+              </div>
+    
+              <div class="col-sm-12">
+                <div class="form-group custom">
+                  <label class="form-label" for="BankReferenceNumber">Bank Reference Number</label>
+                  <input type="text" class="form-control" placeholder="Enter your Bank Reference Number" name="BankReferenceNumber" id="BankReferenceNumber" required>
+                  <p class="form-validation-error" id="errorBankReferenceNumber"></p>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group custom">
+                  <label class="form-label" for="Screenshot">Screenshot of Payment</label>
+                  <input type="file" class="form-control" placeholder="Upload your payment screenshot" name="Screenshot" id="Screenshot" accept=".jpg,.jpeg,.png" required>
+                  <p class="form-validation-error" id="errorScreenshot"></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <input type="hidden" name="formId" value="paymentSubmitForm">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="paymentDetailsModal" tabindex="-1" aria-labelledby="paymentDetailsModalLabel" aria-hidden="true"  data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog custom-align-center modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentDetailsModalLabel">BANK DETAILS FOR REMITTANCE</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              LifeBlood Council is a registered Section 8 Company championing Blood Adequacy and Thalassemia Prevention, Cure & Care. All Donations to LifeBlood Council will get tax exemption under Section 80G of Income Tax Act.
+            </p>
+            <p>
+              Bank : <b>HDFC Bank</b><br>
+              Account Name : <b>LifeBlood Council</b><br>
+              Account Type : <b>Savings</b><br>
+              Account No : <b>99900019012023</b><br>
+              Bank Address : <b>Prudential Building, Ground Floor, Hiranandani Business Park, Powai, Mumbai 400 076, Maharashtra</b><br>
+              IFSC Code : <b>HDFC0000239</b>
+            </p>
+            <p class="primary-color">
+              NOTE : All Donations need to be from INDIAN RESIDENT ACCOUNTS and Remittances from any NRE/NRO Account cannot be accepted at present
+            </p>
+            <p>
+              Your Payment Id : <span id="payment-id"></span>
+            </p>
+            <p>
+              Please use this for future references.
+            </p>
+            <p class="text-center">
+              THANK YOU FOR YOUR KIND SUPPORT FOR THIS NOBLE CAUSE
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="paymentSubmitModalShow()" data-bs-dismiss="modal" aria-label="Close">I noted all the details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <?php require_once "footer.php" ?>
+
+  <script>
+    var __paymentModal = new bootstrap.Modal(document.getElementById('paymentShowModal'));
+    const paymentSubmitModalShow = () => {
+      setTimeout(() => {
+        __paymentModal.show();
+      }, 500);
+    }
+
+    const submitDonationForm = (e) => {
+      e.preventDefault();
+      const submitBtn = document.querySelector(`#${e.target.id} [type="submit"]`);
+      submitBtn.setAttribute("disabled", true);
+      document.querySelectorAll(`#${e.target.id} .form-validation-error`).forEach(elem => elem.innerHTML = "");
+      document.getElementById('customAlertContent').innerHTML = "";
+      const form = e.target;
+      fetch("form-submit", {
+        method: 'POST',
+        body: new FormData(form)
+      }).then(res => res.json()).then(res => {
+        submitBtn.removeAttribute("disabled");
+        if(res.status) {
+          document.getElementById("PaymentId").value = res.data.payment_id;
+          document.getElementById("payment-id").innerHTML = res.data.payment_id;
+          new bootstrap.Modal(document.getElementById('paymentDetailsModal')).show();
+          return;
+        }
+        if(res.message == "validation") {
+          let scrolled = false;
+          Object.keys(res.data).forEach(key => {
+            const elem = document.getElementById(`error${key}`);
+            elem && (elem.innerHTML = res.data[key]);
+            if(!scrolled) {
+              elem.parentElement.scrollIntoView({ behavior: 'smooth' });
+              scrolled = true;
+            }
+          })
+          return;
+        }
+        document.getElementById('customAlertContent').innerHTML = res.message;
+        __customAlertModal.show();
+      });
+    }
+    document.getElementById("donationForm").addEventListener("submit", submitDonationForm);
+
+
+    const submitPaymentSubmitForm = (e) => {
+      e.preventDefault();
+      const submitBtn = document.querySelector(`#${e.target.id} [type="submit"]`);
+      submitBtn.setAttribute("disabled", true);
+      document.querySelectorAll(`#${e.target.id} .form-validation-error`).forEach(elem => elem.innerHTML = "");
+      document.getElementById('customAlertContent').innerHTML = "";
+      const form = e.target;
+      fetch("form-submit", {
+        method: 'POST',
+        body: new FormData(form)
+      }).then(res => res.json()).then(res => {
+        submitBtn.removeAttribute("disabled");
+        if(res.status) {
+          __paymentModal.hide();
+          document.getElementById('customAlertContent').innerHTML = res.message;
+          setTimeout(() => {
+            __customAlertModal.show();
+          }, 500);
+          return;
+        }
+        if(res.message == "validation") {
+          let scrolled = false;
+          Object.keys(res.data).forEach(key => {
+            const elem = document.getElementById(`error${key}`);
+            elem && (elem.innerHTML = res.data[key]);
+            if(!scrolled) {
+              elem.parentElement.scrollIntoView({ behavior: 'smooth' });
+              scrolled = true;
+            }
+          })
+          return;
+        }
+        __paymentModal.hide();
+        setTimeout(() => {
+          document.getElementById('customAlertContent').innerHTML = res.message;
+          __customAlertModal.show();
+        }, 500);
+        setTimeout(() => {
+          __paymentModal.show();
+        }, 500);
+      });
+    }
+    document.getElementById("paymentSubmitForm").addEventListener("submit", submitPaymentSubmitForm);
+
+
+  </script>
 </body>
 
 </html>

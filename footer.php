@@ -1,4 +1,18 @@
 
+    <div class="modal fade" id="customAlertModal" tabindex="-1" aria-labelledby="customAlertModalLabel" aria-hidden="true"  data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog custom-align-center">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div id="customAlertContent" class="custom-alert-content">
+
+            </div>
+            <button type="button" class="btn btn-primary d-block mx-auto" class="btn-close" data-bs-dismiss="modal" aria-label="Close">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   <div class="footer-top animate text-center" data-animation-name="fadeIn">
     For Any queries please <a href="contact-us">connect with us</a>
   </div>
@@ -169,3 +183,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    var __customAlertModal = new bootstrap.Modal(document.getElementById('customAlertModal'));
+  </script>

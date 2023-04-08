@@ -27,25 +27,10 @@ const changeCurrentURL = (e) => {
   const tabTarget = e.target.dataset.bsTarget.substr(1).split("-");
   const params = new URLSearchParams(window.location.search);
   params.set(tabTarget[0], tabTarget.slice(1).join('-'));
-  history.pushState(null, null, window.location.pathname + '?' + params.toString());
-}
-
-const fixNavBar = () => {
-  return false;
-  const mainHeaderElement = document.querySelector(".main-header");
-  const mainHeaderHeight = mainHeaderElement.getBoundingClientRect().height;
-  const navBarElement = document.querySelector(".navbar");
-  const navBarHeight = navBarElement.getBoundingClientRect().height;
-  document.querySelector("header").style.paddingBottom = `${navBarHeight + parseInt(document.defaultView.getComputedStyle(navBarElement).paddingTop) + parseInt(document.defaultView.getComputedStyle(navBarElement).paddingBottom) +  parseInt(document.defaultView.getComputedStyle(mainHeaderElement).paddingBottom)}px`;
-  if(window.scrollY > mainHeaderHeight) {
-    navBarElement.classList.add("fixed");
-  } else {
-    // navBarElement.classList.remove("fixed");
-  }
+  history.pushState(null, null, window.location.pathname + '?' + params.toString() + window.location.hash);
 }
 
 window.addEventListener('scroll', checkElementVisibility);
-window.addEventListener('scroll', fixNavBar);
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll(`[data-bs-toggle="pill"]`).forEach(element => {
     element.addEventListener('click', checkElementVisibility);

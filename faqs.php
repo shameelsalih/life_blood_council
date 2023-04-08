@@ -122,7 +122,7 @@
         ]
       ];
     ?>
-    <section id="faqs" class="animate py-5">
+    <section id="faqs" class="py-5">
       
       <div class="content d-flex justify-content-center">
         <div class="col-lg-10 col-xl-9 col-sm-11 accordion custom-accordion" id="knowledge-hub-faq">

@@ -81,123 +81,208 @@
       </div>
     </section>
 
-    <section id="thalassemia-treatment" class="py-5 animate">
-      <div class="container">
-        <h3 class="text-center secondary-color"><span class="primary-color">Management (Care)</span> for Thalassemia</h3>
+    <section id="knowledge-hub-tabs">
+      <?php $current_tab = $_GET["tab"] ?? "" ?>
+      <div class="container py-5 my-md-5 animate">
+        <ul class="nav nav-pills mb-3 nav-justified custom-nav-pills px-5vw" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link<?= $current_tab == "prevention" || $current_tab == "" ? " active" : ""; ?>" id="tab-prevention-tab" data-bs-toggle="pill" data-bs-target="#tab-prevention" type="button" role="tab" aria-controls="tab-prevention" aria-selected="false">Thalassemia Prevention</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link<?= $current_tab == "care" ? " active" : ""; ?>" id="tab-care-tab" data-bs-toggle="pill" data-bs-target="#tab-care" type="button" role="tab" aria-controls="tab-care" aria-selected="false">Thalassemia Care</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link<?= $current_tab == "cure" ? " active" : ""; ?>" id="tab-cure-tab" data-bs-toggle="pill" data-bs-target="#tab-cure" type="button" role="tab" aria-controls="tab-cure" aria-selected="false">Thalassemia Cure</button>
+          </li>
+        </ul>
+        <div class="tab-content animate" id="pills-tabContent">
+          <div class="tab-pane fade<?= $current_tab == "prevention" || $current_tab == "" ? " show active" : ""; ?>" id="tab-prevention" role="tabpanel" aria-labelledby="tab-prevention-tab">
+            <div class="content">
+              Thalassemia Prevention Content Will Come Here
+            </div>
+          </div>
+          <div class="tab-pane fade<?= $current_tab == "care" ? " show active" : ""; ?>" id="tab-care" role="tabpanel" aria-labelledby="tab-care-tab">
+            <div class="content">
+              Thalassemia Care Content Will Come Here
+            </div>
+          </div>
+          <div class="tab-pane fade<?= $current_tab == "cure" ? " show active" : ""; ?>" id="tab-cure" role="tabpanel" aria-labelledby="tab-cure-tab">
+            <div class="content">
+              <section id="thalassemia-treatment" class="py-5 animate">
+                <div class="container">
+                  <h3 class="text-center secondary-color"><span class="primary-color">Management (Care)</span> for Thalassemia</h3>
 
-        <div class="row pt-sm-5 pt-3 justify-content-center">
-          <div class="col-sm-7">
-            <h3 class="primary-color"><span class="secondary-color">Regular</span> Blood Transfusions</h3>
-            <p>
-              Blood transfusions are medical procedures in which blood or blood components are transferred from one person (donor) into the bloodstream of another person (recipient).<br /><br />
-              The goal of blood transfusions is to replace lost blood, correct anemia, or treat certain medical conditions by providing essential components such as red blood cells, platelets, or plasma. The blood must be compatible with the recipient's blood type to avoid adverse reactions.
-            </p>
-          </div>
-          <div class="col-sm-2 d-flex align-items-center">
-            <img class="w-100" src="images/thalassemia/regular-blood-transfusions.png" alt="Regular Blood Transfusions">
-          </div>
-        </div>
-
-        <div class="row pt-5 justify-content-center">
-          <div class="col-sm-3 d-flex align-items-center order-2 order-sm-2">
-            <img class="w-100" src="images/thalassemia/chelation-therapy.png" alt="Regular Blood Transfusions">
-          </div>
-          <div class="col-sm-7 order-1">
-            <h3 class="primary-color"><span class="secondary-color">Chelation</span> Therapy</h3>
-            <p>
-              Chelation therapy is a medical treatment in which a synthetic solution (chelating agent) is administered to a patient intravenously to remove heavy metals, minerals, and other toxic substances from the body.<br /><br />
-              It is commonly used for individuals with high levels of lead or other heavy metals in the bloodstream and for individuals with metal toxicity due to occupational or environmental exposure.
-            </p>
-          </div>
-        </div>
-
-
-        <div class="row pt-5 justify-content-center">
-          <div class="col-sm-7 pt-5">
-            <h3 class="primary-color">Bone Marrow <span class="secondary-color">Transplant</span></h3>
-            <p>
-              Bone Marrow Transplant can help cure the disease and prevent serious complications, such as anemia and organ damage.<br /><br />
-              The success of BMT depends on various factors, such as the patient's age, overall health, and the availability of a suitable donor.
-            </p>
-          </div>
-          <div class="col-sm-4 d-flex align-items-center">
-            <img class="w-100" src="images/thalassemia/bone-arrow-transplant.png" alt="Regular Blood Transfusions">
-          </div>
-        </div>
-
-        <section id="thalassemia-qna" class="py-5 mt-sm-5">
-          <div class="container">
-            <h4 class="primary-color text-center">You ask, We answer</h4>
-            <div class="accordion pt-sm-5 pt-3 custom-accordion" id="thalassemia-accordion">
-            <?php
-              $accordionData = [
-                [
-                  "title"   =>  "Is the subject of Thalassemia important for me?",
-                  "content" =>  "Autem quo minus et quod! Veritatis, eveniet unde. Animi nam reprehenderit fugiat illum ad quibusdam ab quidem sed voluptatem. Et sit molestiae quis modi? Sint maiores aut sed quisquam tenetur, rerum est quam deserunt odio ea veniam maxime quis excepturi quasi dolore quas id hic quaerat. Consectetur accusantium porro illum debitis necessitatibus dolor, at aspernatur voluptates corporis earum sit blanditiis, cum ut provident quidem, animi deserunt veniam iste quae. Ut iusto voluptate ipsa iure, id aliquid officiis explicabo ad in? Totam quaerat officiis voluptas excepturi praesentium esse, animi alias ipsa, beatae voluptates inventore provident amet tempora cupiditate nostrum debitis repellat. Tempora repellendus dolorem perferendis rem odit possimus ex ratione mollitia laboriosam molestiae, assumenda quia? Exercitationem reprehenderit nam veritatis tenetur autem fuga est iure iusto vero odit a repudiandae nostrum soluta suscipit, hic magnam ab ipsum explicabo aliquid. Omnis autem eum voluptatibus quos doloribus repudiandae possimus maxime est, ullam at."
-                ],
-                [
-                  "title"   =>  "Why?",
-                  "content" =>  "Aeprehenderit distinctio, soluta ea modi harum totam earum rerum reiciendis fugiat? Inventore aut aliquam qui sequi asperiores sunt optio illo! Cupiditate repellendus facilis soluta eius, distinctio libero ratione, saepe numquam id voluptate natus ipsa explicabo placeat aliquam culpa consequuntur quas quia inventore dolore suscipit. Maxime, quam? At, accusantium suscipit, veritatis provident expedita odio, sunt corrupti dolor illo reprehenderit ducimus cupiditate molestiae! Laudantium odio ea error iste consequuntur, quos dolor, illo voluptatibus quaerat nemo quibusdam repellat sequi corporis, natus porro praesentium dolorem rerum deserunt fugit? Possimus, assumenda voluptas quisquam repellendus rerum quae alias ipsum illo incidunt odio, exercitationem nisi dolorem ut nesciunt inventore natus magni? Voluptatum iusto quis possimus aliquid modi nisi quia cumque. Hic, magni vero reprehenderit obcaecati alias id. Repellendus totam officia, quae dolor eaque voluptatibus officiis impedit, eligendi ducimus corrupti perferendis eum quia molestias porro cupiditate velit illum. Suscipit natus vitae id quidem nostrum eum sapiente."
-                ],
-                [
-                  "title"   =>  "WHat risk?",
-                  "content" =>  "Aum maxime possimus rem maiores sequi quaerat deleniti distinctio repellat aut consequuntur? Repellat amet reprehenderit dolorem qui, perferendis quisquam, molestias nesciunt esse dolore fuga voluptatum. Dolores quibusdam laborum vel illum aut! Quia assumenda iure sunt ullam maiores perferendis quam quibusdam quae vitae, qui hic incidunt magnam, officia at voluptatum a molestiae eius, quas voluptatem est culpa alias accusantium eveniet? Nisi enim, molestiae distinctio saepe doloremque perferendis voluptates natus aperiam eaque recusandae impedit in a quia culpa illo cum beatae accusantium vitae ad commodi quasi tempora. Odio numquam voluptatum dolorum at et vel consequuntur doloribus ipsam iure perspiciatis quae mollitia illo aut sapiente dolore vitae cum, nostrum, animi quaerat qui? Voluptates ipsam commodi consectetur quas ratione earum velit fuga incidunt aperiam, magnam ipsa repellat nesciunt. Aperiam earum, in consequuntur nobis quae accusantium dolore doloremque. Quos quam voluptatum perspiciatis consectetur quo sequi officia natus ipsa consequatur. Quod, molestias cupiditate!"
-                ],
-                [
-                  "title"   =>  "So What?",
-                  "content" =>  "Aariatur laborum fugit! Quis ad repellendus necessitatibus libero quidem. Repellendus blanditiis vitae quaerat placeat commodi ea voluptatem quasi praesentium magnam ipsam inventore illo dicta porro nesciunt doloribus, obcaecati repudiandae veniam voluptate magni, beatae eligendi ullam tempora! A magnam repellendus ea dicta ratione recusandae excepturi optio commodi corporis. Quae possimus laudantium illum aperiam ut nemo exercitationem quam iusto, magnam ad mollitia, temporibus cumque error consequatur rem nostrum alias totam porro? Rerum sed, nobis ratione voluptatibus voluptatem nisi voluptas esse maiores eum totam maxime nostrum dignissimos, voluptates quas, laudantium blanditiis! Odio illo, natus repudiandae commodi enim officia quo eligendi quos delectus eveniet, reiciendis architecto? Illum nemo, deserunt laboriosam fugiat illo quibusdam id, aliquam iusto distinctio placeat ducimus quasi quidem. Labore corrupti similique inventore ex magni facere amet veritatis veniam fugiat dignissimos modi minima totam, nemo alias mollitia ducimus itaque eos error tempore deleniti ea? Eaque, excepturi?"
-                ],
-                [
-                  "title"   =>  "That is serious!",
-                  "content" =>  "Aeprehenderit distinctio, soluta ea modi harum totam earum rerum reiciendis fugiat? Inventore aut aliquam qui sequi asperiores sunt optio illo! Cupiditate repellendus facilis soluta eius, distinctio libero ratione, saepe numquam id voluptate natus ipsa explicabo placeat aliquam culpa consequuntur quas quia inventore dolore suscipit. Maxime, quam? At, accusantium suscipit, veritatis provident expedita odio, sunt corrupti dolor illo reprehenderit ducimus cupiditate molestiae! Laudantium odio ea error iste consequuntur, quos dolor, illo voluptatibus quaerat nemo quibusdam repellat sequi corporis, natus porro praesentium dolorem rerum deserunt fugit? Possimus, assumenda voluptas quisquam repellendus rerum quae alias ipsum illo incidunt odio, exercitationem nisi dolorem ut nesciunt inventore natus magni? Voluptatum iusto quis possimus aliquid modi nisi quia cumque. Hic, magni vero reprehenderit obcaecati alias id. Repellendus totam officia, quae dolor eaque voluptatibus officiis impedit, eligendi ducimus corrupti perferendis eum quia molestias porro cupiditate velit illum. Suscipit natus vitae id quidem nostrum eum sapiente."
-                ],
-                [
-                  "title"   =>  "This can happen to me only if I am Thalassemia Minor?",
-                  "content" =>  "Aum maxime possimus rem maiores sequi quaerat deleniti distinctio repellat aut consequuntur? Repellat amet reprehenderit dolorem qui, perferendis quisquam, molestias nesciunt esse dolore fuga voluptatum. Dolores quibusdam laborum vel illum aut! Quia assumenda iure sunt ullam maiores perferendis quam quibusdam quae vitae, qui hic incidunt magnam, officia at voluptatum a molestiae eius, quas voluptatem est culpa alias accusantium eveniet? Nisi enim, molestiae distinctio saepe doloremque perferendis voluptates natus aperiam eaque recusandae impedit in a quia culpa illo cum beatae accusantium vitae ad commodi quasi tempora. Odio numquam voluptatum dolorum at et vel consequuntur doloribus ipsam iure perspiciatis quae mollitia illo aut sapiente dolore vitae cum, nostrum, animi quaerat qui? Voluptates ipsam commodi consectetur quas ratione earum velit fuga incidunt aperiam, magnam ipsa repellat nesciunt. Aperiam earum, in consequuntur nobis quae accusantium dolore doloremque. Quos quam voluptatum perspiciatis consectetur quo sequi officia natus ipsa consequatur. Quod, molestias cupiditate!"
-                ],
-                [
-                  "title"   =>  "But I am a normal healthy person. how can I be a Thalassemia Minor?",
-                  "content" =>  "Autem quo minus et quod! Veritatis, eveniet unde. Animi nam reprehenderit fugiat illum ad quibusdam ab quidem sed voluptatem. Et sit molestiae quis modi? Sint maiores aut sed quisquam tenetur, rerum est quam deserunt odio ea veniam maxime quis excepturi quasi dolore quas id hic quaerat. Consectetur accusantium porro illum debitis necessitatibus dolor, at aspernatur voluptates corporis earum sit blanditiis, cum ut provident quidem, animi deserunt veniam iste quae. Ut iusto voluptate ipsa iure, id aliquid officiis explicabo ad in? Totam quaerat officiis voluptas excepturi praesentium esse, animi alias ipsa, beatae voluptates inventore provident amet tempora cupiditate nostrum debitis repellat. Tempora repellendus dolorem perferendis rem odit possimus ex ratione mollitia laboriosam molestiae, assumenda quia? Exercitationem reprehenderit nam veritatis tenetur autem fuga est iure iusto vero odit a repudiandae nostrum soluta suscipit, hic magnam ab ipsum explicabo aliquid. Omnis autem eum voluptatibus quos doloribus repudiandae possimus maxime est, ullam at."
-                ],
-                [
-                  "title"   =>  "So What must I do?",
-                  "content" =>  "Aeprehenderit distinctio, soluta ea modi harum totam earum rerum reiciendis fugiat? Inventore aut aliquam qui sequi asperiores sunt optio illo! Cupiditate repellendus facilis soluta eius, distinctio libero ratione, saepe numquam id voluptate natus ipsa explicabo placeat aliquam culpa consequuntur quas quia inventore dolore suscipit. Maxime, quam? At, accusantium suscipit, veritatis provident expedita odio, sunt corrupti dolor illo reprehenderit ducimus cupiditate molestiae! Laudantium odio ea error iste consequuntur, quos dolor, illo voluptatibus quaerat nemo quibusdam repellat sequi corporis, natus porro praesentium dolorem rerum deserunt fugit? Possimus, assumenda voluptas quisquam repellendus rerum quae alias ipsum illo incidunt odio, exercitationem nisi dolorem ut nesciunt inventore natus magni? Voluptatum iusto quis possimus aliquid modi nisi quia cumque. Hic, magni vero reprehenderit obcaecati alias id. Repellendus totam officia, quae dolor eaque voluptatibus officiis impedit, eligendi ducimus corrupti perferendis eum quia molestias porro cupiditate velit illum. Suscipit natus vitae id quidem nostrum eum sapiente."
-                ],
-                [
-                  "title"   =>  "And, if I am not a Thalassemia Minor?",
-                  "content" =>  "Aum maxime possimus rem maiores sequi quaerat deleniti distinctio repellat aut consequuntur? Repellat amet reprehenderit dolorem qui, perferendis quisquam, molestias nesciunt esse dolore fuga voluptatum. Dolores quibusdam laborum vel illum aut! Quia assumenda iure sunt ullam maiores perferendis quam quibusdam quae vitae, qui hic incidunt magnam, officia at voluptatum a molestiae eius, quas voluptatem est culpa alias accusantium eveniet? Nisi enim, molestiae distinctio saepe doloremque perferendis voluptates natus aperiam eaque recusandae impedit in a quia culpa illo cum beatae accusantium vitae ad commodi quasi tempora. Odio numquam voluptatum dolorum at et vel consequuntur doloribus ipsam iure perspiciatis quae mollitia illo aut sapiente dolore vitae cum, nostrum, animi quaerat qui? Voluptates ipsam commodi consectetur quas ratione earum velit fuga incidunt aperiam, magnam ipsa repellat nesciunt. Aperiam earum, in consequuntur nobis quae accusantium dolore doloremque. Quos quam voluptatum perspiciatis consectetur quo sequi officia natus ipsa consequatur. Quod, molestias cupiditate!"
-                ],
-                [
-                  "title"   =>  "What do I do if I turn out to be  a Thalassemia Minor?",
-                  "content" =>  "Aariatur laborum fugit! Quis ad repellendus necessitatibus libero quidem. Repellendus blanditiis vitae quaerat placeat commodi ea voluptatem quasi praesentium magnam ipsam inventore illo dicta porro nesciunt doloribus, obcaecati repudiandae veniam voluptate magni, beatae eligendi ullam tempora! A magnam repellendus ea dicta ratione recusandae excepturi optio commodi corporis. Quae possimus laudantium illum aperiam ut nemo exercitationem quam iusto, magnam ad mollitia, temporibus cumque error consequatur rem nostrum alias totam porro? Rerum sed, nobis ratione voluptatibus voluptatem nisi voluptas esse maiores eum totam maxime nostrum dignissimos, voluptates quas, laudantium blanditiis! Odio illo, natus repudiandae commodi enim officia quo eligendi quos delectus eveniet, reiciendis architecto? Illum nemo, deserunt laboriosam fugiat illo quibusdam id, aliquam iusto distinctio placeat ducimus quasi quidem. Labore corrupti similique inventore ex magni facere amet veritatis veniam fugiat dignissimos modi minima totam, nemo alias mollitia ducimus itaque eos error tempore deleniti ea? Eaque, excepturi?"
-                ]
-              ];
-              $innerHTML = '';
-              foreach($accordionData as $key => $data) {
-                $innerHTML .= '
-                  
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="custom_accordion_heading_' . $key . '">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#custom_accordion_collapse_' . $key . '" aria-expanded="false" aria-controls="custom_accordion_collapse_' . $key . '">
-                        ' . $data["title"] . '
-                      </button>
-                    </h2>
-                    <div id="custom_accordion_collapse_' . $key . '" class="accordion-collapse collapse" aria-labelledby="custom_accordion_heading_' . $key . '" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        ' . $data["content"] . '
-                      </div>
+                  <div class="row pt-sm-5 pt-3 justify-content-center">
+                    <div class="col-sm-7">
+                      <h3 class="primary-color"><span class="secondary-color">Regular</span> Blood Transfusions</h3>
+                      <p>
+                        Blood transfusions are medical procedures in which blood or blood components are transferred from one person (donor) into the bloodstream of another person (recipient).<br /><br />
+                        The goal of blood transfusions is to replace lost blood, correct anemia, or treat certain medical conditions by providing essential components such as red blood cells, platelets, or plasma. The blood must be compatible with the recipient's blood type to avoid adverse reactions.
+                      </p>
+                    </div>
+                    <div class="col-sm-2 d-flex align-items-center">
+                      <img class="w-100" src="images/thalassemia/regular-blood-transfusions.png" alt="Regular Blood Transfusions">
                     </div>
                   </div>
 
-                ';
-              }
-              echo $innerHTML;
-              ?>
+                  <div class="row pt-5 justify-content-center">
+                    <div class="col-sm-3 d-flex align-items-center order-2 order-sm-2">
+                      <img class="w-100" src="images/thalassemia/chelation-therapy.png" alt="Regular Blood Transfusions">
+                    </div>
+                    <div class="col-sm-7 order-1">
+                      <h3 class="primary-color"><span class="secondary-color">Chelation</span> Therapy</h3>
+                      <p>
+                        Chelation therapy is a medical treatment in which a synthetic solution (chelating agent) is administered to a patient intravenously to remove heavy metals, minerals, and other toxic substances from the body.<br /><br />
+                        It is commonly used for individuals with high levels of lead or other heavy metals in the bloodstream and for individuals with metal toxicity due to occupational or environmental exposure.
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="row pt-5 justify-content-center">
+                    <div class="col-sm-7 pt-5">
+                      <h3 class="primary-color">Bone Marrow <span class="secondary-color">Transplant</span></h3>
+                      <p>
+                        Bone Marrow Transplant can help cure the disease and prevent serious complications, such as anemia and organ damage.<br /><br />
+                        The success of BMT depends on various factors, such as the patient's age, overall health, and the availability of a suitable donor.
+                      </p>
+                    </div>
+                    <div class="col-sm-4 d-flex align-items-center">
+                      <img class="w-100" src="images/thalassemia/bone-arrow-transplant.png" alt="Regular Blood Transfusions">
+                    </div>
+                  </div>
+
+                </div>
+              </section>
             </div>
           </div>
-        </section>
-
+        </div>
       </div>
+    </section>
+
+    <?php
+      $accordionData = [
+        [
+          "title"   =>  "Is the subject of Thalassemia important for me?",
+          "content" =>  "Yes, you should know whether you are a Thalassemia Minor"
+        ],
+        [
+          "title"   =>  "Why?",
+          "content" =>  "Because if you are a Thalassemia Minor, and your partner/future partner in marriage is also a Thalassemia Minor, you pose a huge risk to your future child."
+        ],
+        [
+          "title"   =>  "What risk?",
+          "content" =>  "Your future child can be a Thalassemia Major."
+        ],
+        [
+          "title"   =>  "So what?",
+          "content" =>  "The child will need regular, life-long blood transfusions."
+        ],
+        [
+          "title"   =>  "That is serious!",
+          "content" =>  "Yes, the child will need blood transfusions on an average every 21 days."
+        ],
+        [
+          "title"   =>  "But, I am a normal healthy person. How can I be a Thalassemia Minor?",
+          "content" =>  "Thalassemia Minors are normal healthy people. They therefore do not know of it. There are an estimated 50 million Indians who are Thalassemia Minor. You could easily be one of them."
+        ],
+        [
+          "title"   =>  "So, what must I do?",
+          "content" =>  "You must get a blood test done for Thalassemia Minor."
+        ],
+        [
+          "title"   =>  "And, if I am not a Thalassemia Minor?",
+          "content" =>  "Your future child is safe. The risk is there only if both partners in a marriage are Thalassemia Minor."
+        ],
+        [
+          "title"   =>  "What do I do if I turn out to be a Thalassemia Minor?",
+          "content" =>  "You must get your partner/future partner in marriage also tested for Thalassemia Minor.  "
+        ],
+        [
+          "title"   =>  "If I am a Thalassemia Minor, and my partner is not?",
+          "content" =>  "There is no risk to your future child."
+        ],
+        [
+          "title"   =>  "What if me and my partner are both Thalassemia Minor?",
+          "content" =>  "It is not necessary that every child born to you will be a Thalassemia Major. There is a 25% chance in each pregnancy that your child will be a Thalassemia Major."
+        ],
+        [
+          "title"   =>  "Does that mean that we can’t have children?",
+          "content" =>  "That surely is the safest option. But, you could always adopt a child."
+        ],
+        [
+          "title"   =>  "But what if we want to have our own child?",
+          "content" =>  "You surely can have your own biological child. There is a 75% chance that the child born to you will not be a Thalassemia Major. You can go for a Pre Natal Test very early in the pregnancy (after the 9th week), which will tell you whether the foetus is Thalassemia Major or not. You can then choose to continue with the pregnancy or not."
+        ],
+        [
+          "title"   =>  "This means that this a very important test for anybody who is going to have a child in the future?",
+          "content" =>  "You bet!!!"
+        ],
+        [
+          "title"   =>  "How often should I do the test?",
+          "content" =>  "You need to do the test only once in your lifetime. If you are not a Thalassemia Minor you can never become a Thalassemia Minor. And, if you are a Thalassemia Minor, you will forever be a Thalassemia Minor."
+        ],
+        [
+          "title"   =>  "At what age should I do the test?",
+          "content" =>  "You can do the test at any age. Ideally before you get married you should know whether you a Thalassemia Minor. But definitely before having a child."
+        ],
+        [
+          "title"   =>  "What does the test involve?",
+          "content" =>  "The test involves drawing 2 ml. of blood by using a sterilized, disposable syringe. This will take less than half a minute, after which you are free to leave. "
+        ],
+        [
+          "title"   =>  "What is Beta-Thalassemia Major?",
+          "content" =>  "Beta-thalassemia major is a genetic blood disorder that is also called \"Cooley’s anaemia\",  \"Mediterranean anaemia\" or simply \"Thalassemia\". Beta-thalassemia major is characterised by the inability of the body to produce appropriate haemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child."
+        ],
+        [
+          "title"   =>  "Who is responsible for a thalassemic child?",
+          "content" =>  "A thalassemic child is born only if both parents have thalassemia minor (also called thalassemia trait or carrier of thalassemia). Most thalassemia minors are unaware of this status and go through life normally. But if both partners in a marriage are thalassemia minor, they run the risk (25%) of having a thalassemia major child in each pregnancy. Therefore, two healthy youngsters (the parents), who did not know that they had thalassemia minor, were responsible for a child with beta-thalassemia major.<br>
+          An estimated 50 million Indians have thalassemia minor, and most of them do not know of it. You could be one of them.
+          "
+        ],
+        [
+          "title"   =>  "How does one come to know if one is a Thalassemia Minor?",
+          "content" =>  "One must ask the laboratory for a specific blood test for thalassemia minor. You may also refer to it as a test for abnormal haemoglobinss. The test for Thalassemia Minor is required to be done only once in a person’s lifetime. This one test can save your future child from a lifetime of misery."
+        ],
+        [
+          "title"   =>  "What is a cure for Thalassemia Major?",
+          "content" =>  "A stem cell transplant is the only cure available for beta-thalassemia major.<br>
+          The first step in this exercise is to locate a matching stem cell donor. The best chance of finding a match is with a sibling. The donor is then referred to as a \"sibling donor\". If a sibling is not found to be a match, the patient can check with a Stem Cell Registry. There may be an outside-chance of finding a match from a registry.  If a match is found from a registry, the donor is called a \"Matched Unrelated Donor\" also referred to as \"MUD\". The third option is to find a parent who is a close match. The donor in such an event is called a \"haplo donor\".<br>
+          The second step in the transplant process is to manage the patient well before transplant so that the process is as low-risk as possible.<br>
+          The third step is to find the most appropriate hospital, which is equipped with the right facilities and has trained transplant physicians and nursing staff.
+          "
+        ]
+      ];
+    ?>
+    <section id="faqs" class="py-5">
+      <h4 class="primary-color text-center pb-5">You ask, We answer</h4>
+      <div class="content d-flex justify-content-center">
+        <div class="col-lg-10 col-xl-9 col-sm-11 accordion custom-accordion" id="knowledge-hub-faq">
+        <?php
+          $innerHTML = '';
+          foreach($accordionData as $key => $data) {
+            $innerHTML .= '
+              
+              <div class="accordion-item animate" data-animation-name="' . ($key % 2 == 0 ? "slideFromRight" : "slideFromLeft") . '">
+                <h2 class="accordion-header" id="custom_accordion_heading_' . $key . '">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#custom_accordion_collapse_' . $key . '" aria-expanded="true" aria-controls="custom_accordion_collapse_' . $key . '">
+                    ' . $data["title"] . '
+                  </button>
+                </h2>
+                <div id="custom_accordion_collapse_' . $key . '" class="accordion-collapse collapse show secondary-color" aria-labelledby="custom_accordion_heading_' . $key . '" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    ' . $data["content"] . '
+                  </div>
+                </div>
+              </div>
+
+            ';
+          }
+          echo $innerHTML;
+        ?>
+        </div>
+      </div>
+
     </section>
 
   </main>

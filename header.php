@@ -52,15 +52,15 @@
             <a class="nav-link<?= preg_match("/^\/what-we-do.*/", $request_uri) ? " active" : "" ?>" href="what-we-do">What we do</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle<?= preg_match("/^\/(thalassemia-(.+))|(blood-donation)|(faqs)/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle<?= preg_match("/^\/(thalassemia(.*))|(blood-donation)|(faqs)/", $request_uri) ? " active" : "" ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Knowledge Hub
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="blood-donation">Blood Donation</a></li>
-              <li><a class="dropdown-item" href="thalassemia-prevention">Thalassemia Prevention</a></li>
-              <li><a class="dropdown-item" href="thalassemia-care">Thalassemia Care</a></li>
-              <li><a class="dropdown-item" href="thalassemia-cure">Thalassemia Cure</a></li>
-              <li><a class="dropdown-item" href="faqs">FAQ's</a></li>
+              <li><a class="dropdown-item" href="thalassemia">What is Thalassemia</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=prevention#knowledge-hub-tabs">Thalassemia Prevention</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=care#knowledge-hub-tabs">Thalassemia Care</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=cure#knowledge-hub-tabs">Thalassemia Cure</a></li>
             </ul>
           </li>
           <li class="nav-item">

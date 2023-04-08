@@ -874,7 +874,15 @@ footer ul {
     color: var(--custom-tertiary-color);
 }
 
+.custom-align-center {
+    transform: translateY(-50%)!important;
+    top: 50%!important;
+    margin: 0 auto!important;
+}
 
+.form-validation-error {
+    color: #c6202d;
+}
 
 section[id$="banner"] .container h1,
 section[id$="banner"] .container h2,
@@ -884,6 +892,10 @@ section[id$="banner"] .container h5,
 section[id$="banner"] .container h6 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(244 243 255 / 30%)
+}
+
+.custom-alert-content {
+    padding: 1em;
 }
 
 @media only screen and (max-width: 375px) {
