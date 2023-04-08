@@ -62,7 +62,7 @@ function donationForm () {
         "Address"           =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#-+]{20,}$/",
+            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "DonationTowards"   =>  [
@@ -206,7 +206,7 @@ function bdForm() {
         "bd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#-+]{20,}$/",
+            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "bd-DesiredFrequencyOfBloodDonation"         =>  [
@@ -248,7 +248,7 @@ function pdForm() {
         "pd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#-+]{20,}$/",
+            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "pd-DonatedBloodInThePast"         =>  [
@@ -290,7 +290,7 @@ function gdForm() {
         "gd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#-+]{20,}$/",
+            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "gd-DonatedPlateletsByApheresisInThePast"         =>  [
