@@ -1,4 +1,6 @@
 <?php
+error_reporting(-1);
+ini_set('display_errors', 1);
 $mailTo = "support@lifebloodcouncil.org";
 $mailTo = "lifebloodcouncil.events@gmail.com";
 $mailFrom = "lifebloodcouncil.events@gmail.com";
@@ -373,10 +375,10 @@ function buildMailBody($validationObject) {
 
 function sendMail($to, $subject, $message, $headers, $max_retry = 4) {
     $currentTry = 0;
-    $res = @mail($to, $subject, $message, $headers);
+    $res = mail($to, $subject, $message, $headers);
     ++$currentTry;
     while(!$res) {
-        $res = @mail($to, $subject, $message, $headers);
+        $res = mail($to, $subject, $message, $headers);
         ++$currentTry;
         if($res || $max_retry < $currentTry) break;
     }
