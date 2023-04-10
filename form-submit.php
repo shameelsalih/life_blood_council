@@ -421,8 +421,8 @@ function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment = [], $m
         // Encode the attachment in base64
         $encodedAttachment = chunk_split(base64_encode($attachment));
     
-        $body .= "Content-Type: $file[type]; name='$name'\r\n";
-        $body .= "Content-Disposition: attachment; filename='$name'\r\n";
+        $body .= "Content-Type: $file[type]; name=$name\r\n";
+        $body .= "Content-Disposition: attachment; filename=$name\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
         $body .= "$encodedAttachment\r\n";
         $body .= "--$boundary--\r\n";
