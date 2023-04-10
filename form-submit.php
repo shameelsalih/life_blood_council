@@ -1,6 +1,4 @@
 <?php
-error_reporting(-1);
-ini_set('display_errors', 1);
 $mailTo = "support@lifebloodcouncil.org";
 $mailTo = "lifebloodcouncil.events@gmail.com";
 $mailFrom = "lifebloodcouncil.events@gmail.com";
@@ -64,7 +62,7 @@ function donationForm () {
         "Address"           =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
+            "regex"         =>  "/^.{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "DonationTowards"   =>  [
@@ -86,7 +84,7 @@ function donationForm () {
     $validationObject["PaymentId"] = $payment_id;
     $_POST["PaymentId"] = $payment_id;
     $mail = buildMailBody($validationObject);
-    $response = sendEmail(NULL, "Payment - $payment_id", $mail);
+    $response = sendEmail(NULL, "Contribute - A New Contribution", $mail);
     if(!$response["status"]) exit(json_encode(["status" => FALSE, "message" => "Failed to Generate Payment, Please try again later", "try" => $response["currentTry"]]));
     exit(json_encode(["status" => TRUE, "message" => "Success", "data" => ["payment_id" => $payment_id]]));
 }
@@ -112,8 +110,8 @@ function paymentSubmitForm () {
     }
     if(!empty($error_messages)) exit(json_encode(["status" => FALSE, "message" => "validation", "data" => $error_messages]));
     $mail = buildMailBody($validationObject);
-    $response = sendEmailWithAttachment(NULL, "Payment - " . $_POST["PaymentId"], $mail, [
-        $_FILES["Screenshot"]['tmp_name'] => [
+    $response = sendEmailWithAttachment(NULL, "Contribute - Contribution Update", $mail, [
+        $_FILES["Screenshot"]['name'] => [
             "path" => $_FILES["Screenshot"]['tmp_name'],
             "type"  => $_FILES["Screenshot"]['type']
         ]
@@ -208,7 +206,7 @@ function bdForm() {
         "bd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
+            "regex"         =>  "/^.{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "bd-DesiredFrequencyOfBloodDonation"         =>  [
@@ -250,7 +248,7 @@ function pdForm() {
         "pd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
+            "regex"         =>  "/^.{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "pd-DonatedBloodInThePast"         =>  [
@@ -292,7 +290,7 @@ function gdForm() {
         "gd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^[a-zA-Z ,#\-+0-9]{20,}$/",
+            "regex"         =>  "/^.{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "gd-DonatedPlateletsByApheresisInThePast"         =>  [
@@ -387,27 +385,28 @@ function sendEmail($mail_to, $subject, $mail, $max_retry = 4) {
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'From: ' . $mailFrom . "\r\n";
-    // $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
+    $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
     // $headers .= 'X-Mailer: PHP/' . phpversion();
     return sendMail($to, $subject, $message, $headers, $max_retry);
 }
 
-function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment, $max_retry = 4) {
+function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment = [], $max_retry = 4) {
     global $mailTo, $mailFrom;
     $to = $mail_to ?? $mailTo;
     $message = $mail;
+    $boundary = sha1("boundary123");
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: multipart/mixed; boundary=boundary123' . "\r\n";
+    $headers .= 'Content-type: multipart/mixed; boundary=' . $boundary . "\r\n";
     $headers .= 'From: ' . $mailFrom . "\r\n";
-    // $headers .= 'Reply-To: sender@example.com' . "\r\n";
+    $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
     // $headers .= 'X-Mailer: PHP/' . phpversion();
 
     // Create the message body with the image attachment
-    $body = "--boundary123\r\n";
+    $body = "--$boundary\r\n";
     $body .= "Content-Type: text/html; charset='iso-8859-1'\r\n";
     $body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
     $body .= "$message\r\n";
-    $body .= "--boundary123\r\n";
+    $body .= "--$boundary\r\n";
 
     foreach($attachment as $name => $file) {
         // Read the image file
@@ -420,7 +419,7 @@ function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment, $max_re
         $body .= "Content-Disposition: attachment; filename='$name'\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
         $body .= "$encodedAttachment\r\n";
-        $body .= "--boundary123--\r\n";
+        $body .= "--$boundary--\r\n";
     }
     return sendMail($to, $subject, $body, $headers, $max_retry);
 }

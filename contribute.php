@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-6">
                       <div class="form-group custom">
-                        <input type="radio" name="PaymentMode" id="PaymentModeNetBanking" value="NetBanking" required>
+                        <input type="radio" name="PaymentMode" id="PaymentModeNetBanking" value="Net Banking" required>
                         <label class="form-label" for="PaymentModeNetBanking">Net Banking</label>
                       </div>
                     </div>

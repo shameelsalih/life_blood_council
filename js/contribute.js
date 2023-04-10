@@ -17,6 +17,7 @@ const submitDonationForm = (e) => {
     method: 'POST',
     body: new FormData(form)
   }).then(res => res.json()).then(res => {
+    form.form.reset();
     submitBtn.removeAttribute("disabled");
     if(res.status) {
       document.getElementById("PaymentId").value = res.data.payment_id;
@@ -56,6 +57,7 @@ const submitPaymentSubmitForm = (e) => {
   }).then(res => res.json()).then(res => {
     submitBtn.removeAttribute("disabled");
     if(res.status) {
+      form.form.reset();
       __paymentModal.hide();
       __customAlertContent.innerHTML = res.message;
       setTimeout(() => {
