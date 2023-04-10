@@ -178,7 +178,7 @@
               <div class="col-sm-12">
                 <div class="form-group custom">
                   <label class="form-label" for="AnyMessage">Any Message?</label>
-                  <input type="text" class="form-control" placeholder="Enter your Bank Reference Number" name="AnyMessage" id="AnyMessage">
+                  <input type="text" class="form-control" placeholder="Enter if you have any message" name="AnyMessage" id="AnyMessage">
                   <p class="form-validation-error" id="errorAnyMessage"></p>
                 </div>
               </div>
