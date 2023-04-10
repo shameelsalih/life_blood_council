@@ -119,7 +119,7 @@ function paymentSubmitForm () {
         ]
     ]);
     if(!$response["status"]) exit(json_encode(["status" => FALSE, "message" => "Failed to Submit Payment Details, Please try again later", "try" => $response["currentTry"]]));
-    exit(json_encode(["status" => TRUE, "message" => "Successfully submitted the details, we will connect you soon, Thanks"]));
+    exit(json_encode(["status" => TRUE, "message" => "Successfully submitted the details, we will connect you soon, Thanks", "try" => $response["currentTry"]]));
 }
 
 function contactForm($validationObject, $subject) {
@@ -128,7 +128,7 @@ function contactForm($validationObject, $subject) {
     $mail = buildMailBody($validationObject);
     $response = sendEmail(NULL, $subject, $mail);
     if(!$response["status"]) exit(json_encode(["status" => FALSE, "message" => "Failed to Generate Connection, Please try again later", "try" => $response["currentTry"]]));
-    exit(json_encode(["status" => TRUE, "message" => "Successfully made a connection, we will contact you soon."]));
+    exit(json_encode(["status" => TRUE, "message" => "Successfully made a connection, we will contact you soon.", "try" => $response["currentTry"]]));
 }
 
 function obdcForm() {
@@ -344,12 +344,7 @@ function oscdrForm() {
             "regex_message" =>  "Please enter a valid Number"
         ],
     ];
-    $error_messages = validate($validationObject);
-    if(!empty($error_messages)) exit(json_encode(["status" => FALSE, "message" => "validation", "data" => $error_messages]));
-    $mail = buildMailBody($validationObject);
-    $response = sendEmail(NULL, "Contact - For Organizing a Stem Cell Donor Registry Camp", $mail);
-    if(!$response["status"]) exit(json_encode(["status" => FALSE, "message" => "Failed to Generate Connection, Please try again later", "try" => $response["currentTry"]]));
-    exit(json_encode(["status" => TRUE, "message" => "Successfully made a connection, we will contact you soon."]));
+    return contactForm($validationObject, "Contact - For Organizing a Stem Cell Donor Registry Camp");
 }
 
 function buildMailBody($validationObject) {
@@ -359,10 +354,10 @@ function buildMailBody($validationObject) {
     foreach(array_keys($validationObject) as $key) {
         $mail_body .= "
         <tr>
-            <td>
-                $key
+            <td style=\"text-right: left;\">
+                $key:
             </td>
-            <th>
+            <th style=\"text-align: left;\">
                 $_POST[$key]
             </th>
         </tr>
