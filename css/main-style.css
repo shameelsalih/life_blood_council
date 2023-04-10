@@ -898,6 +898,49 @@ section[id$="banner"] .container h6 {
     padding: 1em;
 }
 
+.media-image {
+    cursor: pointer;
+}
+
+.media-preview {
+    --media-nav-width: 5vw;
+    display: flex;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+    padding: 2vw;
+    background-color: rgb(0, 0, 0, 60%);
+}
+
+.media-preview .content {
+    width: calc(100vw - (2 * var(--media-nav-width)));
+}
+
+.media-preview .media-preview-image {
+    max-width: 100%;
+    max-height: calc(100vh - 4vw);
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    position: relative;
+    border: 5px solid #fff;
+}
+
+.media-preview .media-nav {
+    width: var(--media-nav-width);
+    height: calc(100vh - 4vw);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.media-preview .media-nav svg {
+    max-width: 100%;
+    fill: #ccc;
+    color: #ccc;
+}
+
 @media only screen and (max-width: 375px) {
     .main-header {
         padding: 0 10px;
