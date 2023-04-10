@@ -114,6 +114,9 @@ function paymentSubmitForm () {
     if(empty($_FILES["Screenshot"]['tmp_name'])) {
         $error_messages["Screenshot"] = "Uploaded screenshot file is corrupted";
     }
+    if(!in_array($_FILES["Screenshot"]['type'], ["image/jpeg", "image/png"])) {
+        $error_messages["Screenshot"] = "The file type you are trying to upload is not allowed";
+    }
     if(!empty($error_messages)) exit(json_encode(["status" => FALSE, "message" => "validation", "data" => $error_messages]));
     $mail = buildMailBody($validationObject);
     $response = sendEmailWithAttachment(NULL, "Contribute - Contribution Update", $mail, [
