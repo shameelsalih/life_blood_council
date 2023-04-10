@@ -381,26 +381,25 @@ function sendMail($to, $subject, $message, $headers, $max_retry = 4) {
 }
 
 function sendEmail($mail_to, $subject, $mail, $max_retry = 4) {
-    
     global $mailTo, $mailFrom;
     $to = $mail_to ?? $mailTo;
     $message = $mail;
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'From: ' . $mailFrom . "\r\n";
-    $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
+    // $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
     // $headers .= 'X-Mailer: PHP/' . phpversion();
     return sendMail($to, $subject, $message, $headers, $max_retry);
 }
 
 function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment, $max_retry = 4) {
-    global $mailTo;
+    global $mailTo, $mailFrom;
     $to = $mail_to ?? $mailTo;
     $message = $mail;
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: multipart/mixed; boundary=boundary123' . "\r\n";
-    $headers .= 'From: sender@example.com' . "\r\n";
-    $headers .= 'Reply-To: sender@example.com' . "\r\n";
+    $headers .= 'From: ' . $mailFrom . "\r\n";
+    // $headers .= 'Reply-To: sender@example.com' . "\r\n";
     // $headers .= 'X-Mailer: PHP/' . phpversion();
 
     // Create the message body with the image attachment
@@ -423,5 +422,5 @@ function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment, $max_re
         $body .= "$encodedAttachment\r\n";
         $body .= "--boundary123--\r\n";
     }
-    return sendMail($to, $subject, $message, $headers, $max_retry);
+    return sendMail($to, $subject, $body, $headers, $max_retry);
 }
