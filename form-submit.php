@@ -394,7 +394,7 @@ function sendEmail($mail_to, $subject, $mail, $max_retry = 4) {
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'From: ' . $mailFrom . "\r\n";
     $headers .= 'Reply-To: ' . $mailFrom . "\r\n";
-    $headers .= 'X-Mailer: PHP/' . phpversion();
+    // $headers .= 'X-Mailer: PHP/' . phpversion();
     return sendMail($to, $subject, $message, $headers, $max_retry);
 }
 
