@@ -174,6 +174,15 @@
                 </div>
               </div>
 
+              
+              <div class="col-sm-12">
+                <div class="form-group custom">
+                  <label class="form-label" for="AnyMessage">Any Message?</label>
+                  <input type="text" class="form-control" placeholder="Enter your Bank Reference Number" name="AnyMessage" id="AnyMessage">
+                  <p class="form-validation-error" id="errorAnyMessage"></p>
+                </div>
+              </div>
+
             </div>
             <div class="modal-footer">
               <input type="hidden" name="formId" value="paymentSubmitForm">

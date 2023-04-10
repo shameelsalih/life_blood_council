@@ -62,7 +62,7 @@ function donationForm () {
         "Address"           =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^.{20,}$/",
+            "regex"         =>  "/^[^ ]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "DonationTowards"   =>  [
@@ -102,6 +102,12 @@ function paymentSubmitForm () {
             "required_message"  =>  "Bank Reference Number is Required",
             "regex"         =>  "/^[\w]{3,}$/",
             "regex_message" =>  "Please enter a valid Bank Reference Number"
+        ],
+        "AnyMessage"        =>  [
+            "required"          =>  FALSE,
+            "required_message"  =>  "",
+            "regex"         =>  "/^[^ ]{20,}$/",
+            "regex_message" =>  "Please enter at least 20 characters"
         ]
     ];
     $error_messages = validate($validationObject);
@@ -206,7 +212,7 @@ function bdForm() {
         "bd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^.{20,}$/",
+            "regex"         =>  "/^[^ ]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "bd-DesiredFrequencyOfBloodDonation"         =>  [
@@ -248,7 +254,7 @@ function pdForm() {
         "pd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^.{20,}$/",
+            "regex"         =>  "/^[^ ]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "pd-DonatedBloodInThePast"         =>  [
@@ -290,7 +296,7 @@ function gdForm() {
         "gd-ResidentialAddress"         =>  [
             "required"          =>  TRUE,
             "required_message"  =>  "Address is Required",
-            "regex"         =>  "/^.{20,}$/",
+            "regex"         =>  "/^[^ ]{20,}$/",
             "regex_message" =>  "Please enter a valid Address, at least 20 chars"
         ],
         "gd-DonatedPlateletsByApheresisInThePast"         =>  [
