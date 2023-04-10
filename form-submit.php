@@ -401,7 +401,7 @@ function sendEmailWithAttachment($mail_to, $subject, $mail, $attachment, $max_re
     $headers .= 'Content-type: multipart/mixed; boundary=boundary123' . "\r\n";
     $headers .= 'From: sender@example.com' . "\r\n";
     $headers .= 'Reply-To: sender@example.com' . "\r\n";
-    $headers .= 'X-Mailer: PHP/' . phpversion();
+    // $headers .= 'X-Mailer: PHP/' . phpversion();
 
     // Create the message body with the image attachment
     $body = "--boundary123\r\n";
