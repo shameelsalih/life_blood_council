@@ -20,7 +20,7 @@ const submitDonationForm = (e) => {
   }).then(res => res.json()).then(res => {
     submitBtn.removeAttribute("disabled");
     if(res.status) {
-      formElement.form.reset();
+      formElement.reset();
       document.getElementById("PaymentId").value = res.data.payment_id;
       document.getElementById("payment-id").innerHTML = res.data.payment_id;
       new bootstrap.Modal(document.getElementById('paymentDetailsModal')).show();
@@ -59,7 +59,7 @@ const submitPaymentSubmitForm = (e) => {
   }).then(res => res.json()).then(res => {
     submitBtn.removeAttribute("disabled");
     if(res.status) {
-      formElement.form.reset();
+      formElement.reset();
       __paymentModal.hide();
       __customAlertContent.innerHTML = res.message;
       setTimeout(() => {
