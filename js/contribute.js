@@ -13,13 +13,14 @@ const submitDonationForm = (e) => {
   document.querySelectorAll(`#${e.target.id} .form-validation-error`).forEach(elem => elem.innerHTML = "");
   __customAlertContent.innerHTML = "";
   const form = e.target;
+  const formElement = document.getElementById(e.target.id);
   fetch("form-submit", {
     method: 'POST',
     body: new FormData(form)
   }).then(res => res.json()).then(res => {
     submitBtn.removeAttribute("disabled");
     if(res.status) {
-      form.form.reset();
+      formElement.form.reset();
       document.getElementById("PaymentId").value = res.data.payment_id;
       document.getElementById("payment-id").innerHTML = res.data.payment_id;
       new bootstrap.Modal(document.getElementById('paymentDetailsModal')).show();
@@ -51,13 +52,14 @@ const submitPaymentSubmitForm = (e) => {
   document.querySelectorAll(`#${e.target.id} .form-validation-error`).forEach(elem => elem.innerHTML = "");
   __customAlertContent.innerHTML = "";
   const form = e.target;
+  const formElement = document.getElementById(e.target.id);
   fetch("form-submit", {
     method: 'POST',
     body: new FormData(form)
   }).then(res => res.json()).then(res => {
     submitBtn.removeAttribute("disabled");
     if(res.status) {
-      form.form.reset();
+      formElement.form.reset();
       __paymentModal.hide();
       __customAlertContent.innerHTML = res.message;
       setTimeout(() => {
