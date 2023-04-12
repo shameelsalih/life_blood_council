@@ -46,10 +46,10 @@
     <section id="home-about" class="animate">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-lg-6">
             <img class="w-100 custom-align-center" src="images/logo.png" alt="LifeBlood Logo">
           </div>
-          <div class="col-sm-6">
+          <div class="col-lg-6 pt-5 pt-lg-0">
             <div class="content">
               <h2 class="primary-color">Our Vision</h2>
               <p>We will endeavour to buildings a future where blood and its components will be always available to those in need of blood transfusions</p>
