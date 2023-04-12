@@ -566,9 +566,16 @@ footer ul {
     text-align: center;
 }
 
+.simple-image-card .description {
+    margin-top: -100px;
+    box-shadow: 0 1px 10px #ccc;
+    padding: 100px 20px 20px;
+    border-radius: 20px;
+}
+
 .simple-image-card .content {
     color: var(--custom-quaternary-color);
-    text-align: justify;
+    text-align: center;
 }
 
 #our-core-values .icon-floated-card .content{
