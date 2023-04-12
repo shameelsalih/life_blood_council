@@ -296,7 +296,7 @@
       <div class="container text-center">
         <p>
           <span class="footer-color fw-bolder">In our effort to prevent Beta Thalassemia Major</span><br>
-          we hope to conduct the following activities
+          we conduct the following activities
         </p>
         <div class="row justify-content-center">
           <div class="col-md-4">

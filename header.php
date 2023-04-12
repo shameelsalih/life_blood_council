@@ -57,17 +57,16 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="blood-donation">Blood Donation</a></li>
-              <li><a class="dropdown-item" href="thalassemia">What is Thalassemia</a></li>
-              <li><a class="dropdown-item" href="thalassemia?tab=prevention#knowledge-hub-tabs">Thalassemia Prevention</a></li>
-              <li><a class="dropdown-item" href="thalassemia?tab=care#knowledge-hub-tabs">Thalassemia Care</a></li>
-              <li><a class="dropdown-item" href="thalassemia?tab=cure#knowledge-hub-tabs">Thalassemia Cure</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=prevention">Thalassemia Prevention</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=care">Thalassemia Care</a></li>
+              <li><a class="dropdown-item" href="thalassemia?tab=cure">Thalassemia Cure</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link<?= preg_match("/^\/events.*/", $request_uri) ? " active" : "" ?>" href="events">Our Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?= preg_match("/^\/day-care-centres.*/", $request_uri) ? " active" : "" ?>" href="day-care-centres">Day Care Centres</a>
+            <a class="nav-link<?= preg_match("/^\/support-centres.*/", $request_uri) ? " active" : "" ?>" href="support-centres">Support Centres</a>
           </li>
           <li class="nav-item">
             <a class="nav-link<?= preg_match("/^\/alliances.*/", $request_uri) ? " active" : "" ?>" href="alliances">Our Alliances</a>

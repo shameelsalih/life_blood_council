@@ -8,12 +8,16 @@ main {
     overflow-x: hidden;
 }
 
+.animate-without-visible,
 .animate {
-    position: relative;
     animation-delay: var(--custom-animation-delay);
     animation-duration: var(--custom-animation-duration);
     animation-fill-mode: forwards;
     animation-timing-function: ease;
+}
+
+.animate {
+    position: relative;
     visibility: hidden;
 }
 

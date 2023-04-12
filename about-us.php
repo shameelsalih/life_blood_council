@@ -56,7 +56,7 @@
     <section id="our-core-values" class="py-5 animate">
       <div class="py-3"></div>
       <div class="container text-center">
-        <h2 class="primary-color"><span class="secondary-color">Our</span> Core Value</h2>
+        <h2 class="primary-color"><span class="secondary-color">Our</span> Core Values</h2>
         <p>We strongly believe in these values <br> for the welfare of the Life Blood Council</p>
         <div class="row justify-content-center">
 

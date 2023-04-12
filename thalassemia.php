@@ -27,6 +27,7 @@
       </div>
     </section>
 
+    <?php /*
     <section id="what-is-thalassemia" class="animate">
       <div class="container">
         <div class="row">
@@ -80,7 +81,7 @@
         </div>
       </div>
     </section>
-
+    */ ?>
     <section id="knowledge-hub-tabs">
       <?php $current_tab = $_GET["tab"] ?? "" ?>
       <div class="container py-5 my-md-5 animate">
@@ -103,7 +104,7 @@
           </div>
           <div class="tab-pane fade<?= $current_tab == "care" ? " show active" : ""; ?>" id="tab-care" role="tabpanel" aria-labelledby="tab-care-tab">
             <div class="content">
-              Thalassemia Care Content Will Come Here
+              <?php require_once "thalassemia-care.php" ?>
             </div>
           </div>
           <div class="tab-pane fade<?= $current_tab == "cure" ? " show active" : ""; ?>" id="tab-cure" role="tabpanel" aria-labelledby="tab-cure-tab">
