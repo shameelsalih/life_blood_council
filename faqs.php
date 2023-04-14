@@ -99,7 +99,7 @@
           "content" =>  "The test involves drawing 2 ml. of blood by using a sterilized, disposable syringe. This will take less than half a minute, after which you are free to leave. "
         ],
         [
-          "title"   =>  "What is Beta-Thalassemia Major?",
+          "title"   =>  "What is Thalassemia Major?",
           "content" =>  "Beta-thalassemia major is a genetic blood disorder that is also called \"Cooley’s anaemia\",  \"Mediterranean anaemia\" or simply \"Thalassemia\". Beta-thalassemia major is characterised by the inability of the body to produce appropriate haemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child."
         ],
         [

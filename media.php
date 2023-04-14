@@ -49,7 +49,7 @@
               ],
               [
                 "path"  =>  "images/what-we-do/beta-thalassemia.png",
-                "title" =>  "Beta Thalassemia"
+                "title" =>  "Thalassemia"
               ]
             ];
             foreach($data as $key => $row):

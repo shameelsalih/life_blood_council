@@ -35,7 +35,7 @@
           <div class="col-sm-6">
             <h3 class="primary-color">Blood <span class="secondary-color">Donation</span></h3>
             <p>
-              37000 persons are required to donate blood every day in our country to meet the requirement of blood and its components for patients with various medical conditions. Blood centres spread across the country have the responsibility of ensuring blood sufficiency. A large portion of blood comes into blood centres through blood donation camps. It is important to identify segments (colleges, offices, religious institutions, community centres, residential areas, public places) where camps can be organised. These camps should be scheduled in such a manner that there is a steady flow of blood into blood centres throughout the year.
+              37000 persons are required to donate blood every day in our country to meet the requirement of blood and its components for patients with various medical conditions. Blood centers spread across the country have the responsibility of ensuring blood sufficiency. A large portion of blood comes into blood centers through blood donation camps. It is important to identify segments (colleges, offices, religious institutions, community centers, residential areas, public places) where camps can be organised. These camps should be scheduled in such a manner that there is a steady flow of blood into blood centers throughout the year.
             </p>
           </div>
         </div>

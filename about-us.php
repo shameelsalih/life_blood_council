@@ -14,13 +14,13 @@
     <section id="about-us-banner" class="animate">
       <div class="container pt-3 pt-lg-5">
         <div class="pt-5"></div>
-        <h6>Our Mission is to raise awareness about</h6>
+        <h6>Our Mission is to raise awareness about the need for</h6>
         <h1>
           <span class="primary-color">
-            Thalassemia
+            Blood Adequacy
           </span>
-          & Support<br>
-          those who are affected
+          <br>
+          in India
         </h1>
         <button class="btn btn-custom-secondary mt-3">Know More</button>
         <button class="btn btn-custom-primary mt-3">Support Us</button>
@@ -33,20 +33,20 @@
           <div class="col-md-5">
             <img src="images/about/about_mission_vision.png" alt="About Us, Mission, and Vision" class="w-100">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 align-items-center">
             <div class="content">
               <h2 class="primary-color mt-4 mt-md-0">About Us</h2>
-              <p>Life Blood Council is a not-for-profit organization dedicated to the causes of voluntary Blood Donation and comprehensive care and cure for Thalassaemia</p>
+              <p>LifeBlood Council is a not-for-profit organisation dedicated to the causes of voluntary Blood Donation and comprehensive management of Thalassemia</p>
             </div>
             <div class="content">
               <h2 class="primary-color">Our Vision</h2>
-              <p>We will endeavour to buildings a future where blood and its components will be always available to those in need of blood transfusions</p>
-              <p>we will strive to bring fulfillment and happiness in the lives of persons with Beta Thalassaemia Major</p>
-              <p>we will work to build a future where there are no births of children with Beta Thalassaemia Major</p>
+              <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
+              <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
+              <p>We will work to build a future where there are no children with Thalassemia Major</p>
             </div>
             <div class="content">
               <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of government authorities,non-governmental organizations,different sections of society; and to build structures,establish systems and conceive and execute programs to achieve our vision</p>
+              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity, society at large and to build structures, establish systems and conceive and execute programs to achieve our vision</p>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
       <div class="py-3"></div>
       <div class="container text-center">
         <h2 class="primary-color"><span class="secondary-color">Our</span> Core Values</h2>
-        <p>We strongly believe in these values <br> for the welfare of the Life Blood Council</p>
+        <p>We strongly believe in these values <br> for the welfare of the LifeBlood Council</p>
         <div class="row justify-content-center">
 
           <div class="col-md-4">
@@ -97,7 +97,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Innovation</h4>
-                <p>We are committed to finding new and effective ways to improve the lives of our beneficiaries through a research and technology.</p>
+                <p>We are committed to finding new and effective ways to improve the lives of our beneficiaries through research and technology.</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Collaboration</h4>
-                <p>We recognize that our work is only possible through the support and participation of our communities, and and collaboration with medical fraternity, gov & other NGOs.</p>
+                <p>We recognize that our work is only possible with the support and participation of our communities, and collaboration with the medical fraternity, Govt. & other NGOs.</p>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Perseverance</h4>
-                <p>We acknowledge that we need to remain focused, and sustain our efforts over the long term to have the impact that we desire</p>
+                <p>We acknowledge that we need to remain focused and sustain our efforts over the long term to have the impact that we desire</p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Integrity</h4>
-                <p>We hold ourselves to the highest ethical standards and are transparent in our actions and decisions</p>
+                <p>We hold ourselves to the highest ethical standards and are authentic and transparent in our actions and decisions</p>
               </div>
             </div>
           </div>
@@ -162,12 +162,12 @@
           <div class="col-md-7">
             <h3 class="primary-color"><span class="secondary-color">Our</span> Core Objectives:</h3>
             <ul>
-              <li>To ensure availability of blood and its components in all blood centres at all times. We hope to achieve this primarily by organizing blood donation drives round the year.</li>
-              <li>To develop registries of donors of rare blood groups and blood components</li>
-              <li>To develop infrastructure and resources for care of persons living with Beta Thalassaemia. The main effort here would be to build new Day Care Centres and strengthen existing ones for providing comprehensive management of Thalassaemia.</li>
-              <li>To create programmes and implement them for prevention of Beta Thalassaemia.</li>
-              <li>To assist in building a robust registry of stem cell donors</li>
-              <li>To support patients who are eligible for stem cell transplants</li>
+              <li>To ensure availability of blood and its components in all Blood Centers at all times. We hope to achieve this primarily by organising Blood donation drives round the year.</li>
+              <li>To develop registries of donors of rare Blood groups and Blood components</li>
+              <li>To develop infrastructure and resources for care of persons living with Thalassemia Major. The main effort here would be to build new Day Care Centers and strengthen existing ones for providing comprehensive management of Thalassemia Major.</li>
+              <li>To create programmes and implement them for prevention of Thalassemia Major.</li>
+              <li>To assist in building a robust registry of Stem Cell donors</li>
+              <li>To support patients who are eligible for Stem Cell transplants</li>
             </ul>
           </div>
           <div class="col-md-5">
@@ -191,7 +191,7 @@
                 <h4>Vinay Shetty</h4>
                 <h6 class="primary-color text-center">Founder</h6>
                 <p class="content">
-                  <b>Vinay Shetty</b> has been involved with the causes of voluntary blood donation and Thalassemia for the past three decades. He has been a pioneer in planning and executing initiatives to meet the blood requirements of Mumbai city as a whole and has been instrumental in setting up structures for prevention, care and cure of Beta-Thalassemia. Vinay Shetty has mentored various organisations working in this area and has been a member of expert working groups at the state and national levels appointed for the purpose of safety and adequacy of blood and its components. He has been liaising with multiple stakeholders in various government agencies for establishing Programmes to provide relief in relation to Thalassemia and continues to champion the Cause of Blood Adequacy tirelessly.
+                  <b>Vinay Shetty</b> has been involved with the causes of voluntary blood donation and Thalassemia for the past three decades. He has been a pioneer in planning and executing initiatives to meet the blood requirements of Mumbai city as a whole and has been instrumental in setting up structures for prevention, care and cure of Thalassemia. Vinay Shetty has mentored various organisations working in this area and has been a member of expert working groups at the state and national levels appointed for the purpose of safety and adequacy of blood and its components. He has been liaising with multiple stakeholders in various government agencies for establishing Programmes to provide relief in relation to Thalassemia and continues to champion the Cause of Blood Adequacy tirelessly.
                 </p>
               </div>
             </div>
@@ -214,21 +214,24 @@
             <div class="simple-image-card">
               <img src="images/about/Sashi-Shankar.png" alt="Director: Shashi Shankar" class="w-100" />
               <div class="description">
-                <h4>Shashi Shankar</h4>
+                <h4>Sashi Shankar</h4>
                 <h6 class="primary-color text-center">Director</h6>
                 <p class="content">
-                  <b>Sashi Shankar</b> has extensive experience of over four decades in Senior Leadership positions in several reputed consumer facing organisations. He will be instrumental to the efforts of  LifeBlood Council to scale up and expand its scope in terms of reach and impact. He brings with him a comprehensive understanding of Operations,  Sales & Marketing Principles and building partnerships with key stakeholders to drive LifeBlood Council’s Vision.
+                  <b>Sashi Shankar</b> has extensive experience of over three decades in Senior Leadership positions in several reputed consumer facing organisations. He will be instrumental in the efforts of LifeBlood Council to scale up and expand its scope in terms of reach and impact. He brings with him a comprehensive understanding of Operations, Sales &amp; Marketing Principles and building partnerships with key stakeholders to drive LifeBlood Council’s Vision and Mission.
                 </p>
               </div>
             </div>
           </div>
+          
+        </div>
+        <h2 class="primary-color text-center animate pt-5" data-animation-name="fadeIn">Our Advisors</h2>
+        <div class="row">
 
           <div class="col-md-4 animate" data-animation-name="slideFromLeft">
             <div class="simple-image-card">
               <img src="images/about/Dr-Mamta-Manglani.png" alt="Advisor: Dr Mamta Manglani" class="w-100" />
               <div class="description">
                 <h4>Dr Mamta Manglani</h4>
-                <h6 class="primary-color text-center">Advisor</h6>
                 <p class="content">
                   <b>Dr Mamta Manglani</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit temporibus est enim sed vel saepe dolor sequi accusamus nam repudiandae asperiores minus tenetur, suscipit laudantium id quae maiores distinctio illo excepturi itaque eligendi. Soluta veritatis explicabo corporis deserunt nemo accusantium consequuntur esse dicta? Eaque eos, nisi exercitationem iure enim quo non voluptates quasi ullam eius numquam praesentium ipsam incidunt consequuntur dolore nihil odit maiores tenetur aperiam architecto! Perspiciatis quam ipsa fugit nulla atque, veritatis, corporis optio placeat assumenda nostrum ipsam. Corporis sint cumque blanditiis odio, ducimus aliquam est, consectetur earum minima exercitationem consequatur esse nobis ut vel tempore suscipit.
                 </p>
@@ -241,7 +244,6 @@
               <img src="images/about/Josy-Paul.png" alt="Advisor: Josy Paul" class="w-100" />
               <div class="description">
                 <h4>Josy Paul</h4>
-                <h6 class="primary-color text-center">Advisor</h6>
                 <p class="content">
                   <b>Josy Paul (Chairman and Chief Creative Officer – BBDO India)</b> started BBDO India from the backseat of his car in 2008. In 2016, he was named Creative Agency Head of The Year by the IAA (Indian Advertising Association).  Campaign Magazine awarded him 'Creative Person of the Year for India and South Asia' in 2013, 2015 and 2016.  He is ranked among the most influential people in Indian advertising - according to The Economic Times.  Josy and his team won the inaugural Glass Lion Grand Prix at Cannes in 2015 –  for their internationally acclaimed campaign Whisper ‘Touch The Pickle’.  Josy also won the Cannes Lion Gold in 2015 and 2016 and 2017 for Ariel ‘Share The Load’. Ariel #ShareTheLoad has been ranked the world’s most effective campaign two years in a row - 2017 and 2018. Josy and his partner Ajai Jhala pioneered the idea of brand movements with the belief that India needs more ‘acts not ads’.
                 </p>
@@ -254,7 +256,6 @@
               <img src="images/about/Lovaii-Navlakhi.jpg" alt="Advisor: Lovaii Navlakhi" class="w-100" />
               <div class="description">
                 <h4>Lovaii Navlakhi</h4>
-                <h6 class="primary-color text-center">Advisor</h6>
                 <p class="content">
                   <b>Lovaii Navlakhi</b> is Managing Director & Founder CEO of International Money Matters, an award winning SEBI registered investment advisory firm, which was established in 2001, with offices in 5 cities in India, and clients from across the globe. The firm specialises in solving complex money problems for clients, using the solid base of financial planning. Lovaii is an MBA from SP Jain Institute of Management & Research and the first CeFT (Certified Financial Transitionist) from India. After being born and brought up in Mumbai, he is now based in Bangalore.
                 </p>

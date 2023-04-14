@@ -22,7 +22,7 @@
       </li>
       <li>
         <a href="contact-us">
-          To Organize Blood Drive
+          To Organise Blood Drive
         </a>
       </li>
       <li>
@@ -32,7 +32,7 @@
       </li>
       <li>
         <a href="contact-us">
-          Organize Thal Minor Screening Drive
+          Organise Thal Minor Screening Drive
         </a>
       </li>
       <li>
@@ -46,7 +46,7 @@
         </a>
       </li>
     </ul>
-    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Beta Thalassemia"</b></p>
+    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Thalassemia"</b></p>
   </div>
 
   <footer class="animate" data-animation-name="fadeIn">

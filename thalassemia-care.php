@@ -1,14 +1,22 @@
 
+        <section id="care-definition">
+          <p>The child needs regular life-long transfusion of Red Blood Cells as the first line of management of disorder.
+          <p>The frequency and quantity of transfusion is regulated to ensure that the hemoglobin before transfusions is maintained above 10 gms/dl.</p>
+          <p>Repeated transfusions result in a build-up of iron in the body of the child. If not taken care of, this overload of iron can have fatal consequences.</p>
+          <p>The second line of management of the disorder, therefore, is daily medications (oral or injectable) to keep the iron levels under control.</p>
+          <p>Almost every organ of the body is compromised due to the risk of iron overload and transfusion-transmitted-infections. The third line in the management of the disorder is periodic laboratory and radiological investigations to detect complications at an early stage so that remedial action can be taken before they assume life-threatening proportions. — This section can be reformatted to appear in the Knowledge section</p></p>
+        </section>
+
         <section id="thalassemia-day-care-centre" class="py-sm-5 pt-5 animate">
           <div class="container-fluid">
             <div class="row">
               <div class="col-sm-4 d-flex align-items-center">
-                <img class="w-100" src="images/knowledge-hub/centres/thalassemia-day-care.png" alt="Thalassemia Day Care Centre" />
+                <img class="w-100" src="images/knowledge-hub/centers/thalassemia-day-care.png" alt="Thalassemia Day Care Centre" />
               </div>
               <div class="col-sm-8 pt-sm-0 pt-3">
-                <h3 class="secondary-color"><span class="primary-color">THLASSEMIA</span> DAY CARE CENTRE</h3>
+                <h3 class="secondary-color"><span class="primary-color">THALASSEMIA</span> DAY CARE CENTRE</h3>
                 <p class="pt-sm-5">
-                  The concept of Day Care Centres is relevant for all medical conditions, and should be increasingly used wherever possible, as it reduces the strain on scarce medical beds and manpower, apart from saving time (and therefore money) for the patient and accompanying persons. Day Care Centres are particularly relevant in the case of Thalassemia, where the management of the disorder is life-long, with routine transfusion of red blood cells, regular daily medicines, and periodic laboratory investigations. Most families of persons with TDT are not able to cope with the disorder, and find it difficult to comply with the advice of the doctors due to financial, social and psychological reasons. It is necessary that patients are hand-held continuously for each aspect of the treatment. Day Care Centres are the best way to facilitate this hand-holding, leading to comprehensive management of the disorder, particularly for financially-disadvantaged families.
+                  The concept of Day Care Centers is relevant for all medical conditions, and should be increasingly used wherever possible, as it reduces the strain on scarce medical beds and manpower, apart from saving time (and therefore money) for the patient and accompanying persons. Day Care Centers are particularly relevant in the case of Thalassemia, where the management of the disorder is life-long, with routine transfusion of red blood cells, regular daily medicines, and periodic laboratory investigations. Most families of persons with TDT are not able to cope with the disorder, and find it difficult to comply with the advice of the doctors due to financial, social and psychological reasons. It is necessary that patients are hand-held continuously for each aspect of the treatment. Day Care Centers are the best way to facilitate this hand-holding, leading to comprehensive management of the disorder, particularly for financially-disadvantaged families.
                 </p>
               </div>
             </div>
@@ -128,14 +136,14 @@
               <div class="col-sm-8">
                 <h3 class="secondary-color"><span class="primary-color">GROUND</span> REALITIES</h3>
                 <p>
-                  Except in the case of major cities, most persons with TDT have no access to proper Thalassemia Day Care Centres. Then, there are some facilities which are termed as Day Care Centres, which do not have blood centres/storage centres of their own. After reaching the so-called Day Care Centre and collecting the prescription letter for blood units along with blood samples, parents and patients hope that the required units are available in some blood centre. If they come empty-handed, they have to make another trip some other day. Secondly, visits to the such Transfusion facilities are made on the judgement of the parents, who go on the basis of pallor or drop in activity of their child. Many patients are found to have very low levels of pre-transfusion hemoglobin. Quite a few of them have enlarged spleens.
+                  Except in the case of major cities, most persons with TDT have no access to proper Thalassemia Day Care Centers. Then, there are some facilities which are termed as Day Care Centers, which do not have blood centers/storage centers of their own. After reaching the so-called Day Care Centre and collecting the prescription letter for blood units along with blood samples, parents and patients hope that the required units are available in some blood centre. If they come empty-handed, they have to make another trip some other day. Secondly, visits to the such Transfusion facilities are made on the judgement of the parents, who go on the basis of pallor or drop in activity of their child. Many patients are found to have very low levels of pre-transfusion hemoglobin. Quite a few of them have enlarged spleens.
                 </p>
                 <p>
-                  There is a need to establish Thalassemia Day Care Centres which will primarily ensure "transfusion therapy" in line with the guidelines. Personnel attached to newly established Day Care Centres may get intimidated by the need for comprehensive management of TDT. They should be reassured that they would have largely discharged their duty by performing the first line of management of TDT-i.e. transfusion of Packed Cells. Having established a certain level of comfort, the new Centre can be trained and asked to shoulder the responsibility of other aspects of care of TDT. In the meantime, the Day Care Centre may direct the patients to a Referral Centre for comprehensive care. Organizations working for the cause of Thalassemia in the region/state may be contacted for assisting in the process of comprehensive care.
+                  There is a need to establish Thalassemia Day Care Centers which will primarily ensure "transfusion therapy" in line with the guidelines. Personnel attached to newly established Day Care Centers may get intimidated by the need for comprehensive management of TDT. They should be reassured that they would have largely discharged their duty by performing the first line of management of TDT-i.e. transfusion of Packed Cells. Having established a certain level of comfort, the new Centre can be trained and asked to shoulder the responsibility of other aspects of care of TDT. In the meantime, the Day Care Centre may direct the patients to a Referral Centre for comprehensive care. Organisations working for the cause of Thalassemia in the region/state may be contacted for assisting in the process of comprehensive care.
                 </p>
               </div>
               <div class="col-sm-4 d-flex align-items-center">
-                <img class="w-100" src="images/knowledge-hub/centres/gorund-realities.png" alt="Thalassemia Ground Realities" />
+                <img class="w-100" src="images/knowledge-hub/centers/gorund-realities.png" alt="Thalassemia Ground Realities" />
               </div>
             </div>
           </div>
@@ -205,7 +213,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-sm-5 d-flex align-items-center">
-                <img class="w-100" src="images/knowledge-hub/centres/thalassemia-supporting-facilities.png" alt="Thalassemia Supporting Facilities">
+                <img class="w-100" src="images/knowledge-hub/centers/thalassemia-supporting-facilities.png" alt="Thalassemia Supporting Facilities">
               </div>
               <div class="col-sm-7">
                 <h3 class="secondary-color pt-sm-0 pt-5"><span class="primary-color">Supporting</span> Facilities</h3>
@@ -233,7 +241,7 @@
                     3
                   </div>
                   <div class="content">
-                    Referral Day Care Centre - An established, well-managed Thalassemia Day Care Centre may be identified as a "Referral Facility". Training of personnel of the new Centre can be organized at the Referral Facility. Patients may be referred to this facility, initially, for consultation and prescription of iron chelators and investigations.
+                    Referral Day Care Centre - An established, well-managed Thalassemia Day Care Centre may be identified as a "Referral Facility". Training of personnel of the new Centre can be organised at the Referral Facility. Patients may be referred to this facility, initially, for consultation and prescription of iron chelators and investigations.
                   </div>
                 </div>
               </div>
@@ -271,7 +279,7 @@
                     3
                   </div>
                   <div class="content">
-                    Medical Social Worker/Counsellor - for coordinating appointments, first-level monitoring, interacting with and counselling patients/parents, identifying sources/sponsors, organizing get-togethers.
+                    Medical Social Worker/Counsellor - for coordinating appointments, first-level monitoring, interacting with and counselling patients/parents, identifying sources/sponsors, organising get-togethers.
                   </div>
                 </div>
     
@@ -285,7 +293,7 @@
                 </div>
               </div>
               <div class="col-sm-5 d-flex align-items-center">
-                <img class="w-100" src="images/knowledge-hub/centres/personnel.png" alt="Thalassemia Supporting Facilities">
+                <img class="w-100" src="images/knowledge-hub/centers/personnel.png" alt="Thalassemia Supporting Facilities">
               </div>
             </div>
           </div>
@@ -365,7 +373,7 @@
                           Visit to identified Referral Day Care Centre
                         </li>
                         <li>
-                          Workshop to be organized for the staff
+                          Workshop to be organised for the staff
                         </li>
                         <li>
                           manning the new Day Care Centre.
@@ -571,7 +579,7 @@
                 <button class="btn btn-custom-secondary">Connect With Us</button>
               </div>
               <div class="col-sm-5 d-flex align-items-center pt-5 pt-sm-0">
-                <img class="w-100" src="images/knowledge-hub/centres/steps-for-initiating-thalassemia-day-care-center.png" alt="Thalassemia Supporting Facilities">
+                <img class="w-100" src="images/knowledge-hub/centers/steps-for-initiating-thalassemia-day-care-center.png" alt="Thalassemia Supporting Facilities">
               </div>
             </div>
           </div>

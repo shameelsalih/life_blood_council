@@ -37,7 +37,7 @@
           <img src="images/banner/new-banner-image-2.png" class="d-block w-100" alt="Banner Image">
           <div class="carousel-caption">
             <h1 class="secondary-color">Join Our Fight Against Thalassemia</h1>
-            <h1 class="primary-color">Breaking The Chains of Thalassaemia</h1>
+            <h1 class="primary-color">Breaking The Chains of Thalassemia</h1>
           </div>
         </div>
       </div>
@@ -52,13 +52,13 @@
           <div class="col-lg-6 pt-5 pt-lg-0">
             <div class="content">
               <h2 class="primary-color">Our Vision</h2>
-              <p>We will endeavour to buildings a future where blood and its components will be always available to those in need of blood transfusions</p>
-              <p>we will strive to bring fulfillment and happiness in the lives of persons with Beta Thalassaemia Major</p>
-              <p>we will work to build a future where there are no births of children with Beta Thalassaemia Major</p>
+              <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
+              <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
+              <p>We will work to build a future where there are no children with Thalassemia Major</p>
             </div>
             <div class="content">
               <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of government authorities,non-governmental organizations,different sections of society; and to build structures,establish systems and conceive and execute programs to achieve our vision</p>
+              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity, society at large and to build structures, establish systems and conceive and execute programs to achieve our vision</p>
             </div>
           </div>  
         </div>

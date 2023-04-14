@@ -66,7 +66,7 @@
             <a class="nav-link<?= preg_match("/^\/events.*/", $request_uri) ? " active" : "" ?>" href="events">Our Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?= preg_match("/^\/support-centres.*/", $request_uri) ? " active" : "" ?>" href="support-centres">Support Centres</a>
+            <a class="nav-link<?= preg_match("/^\/support-centers.*/", $request_uri) ? " active" : "" ?>" href="support-centers">Support Centers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link<?= preg_match("/^\/alliances.*/", $request_uri) ? " active" : "" ?>" href="alliances">Our Alliances</a>

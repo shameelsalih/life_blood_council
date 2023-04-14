@@ -36,7 +36,7 @@
               Providing adequate and safe blood is an integral part of every country’s National Healthcare Policy. A hospital cannot function without the assurance of availability of blood and its components. Almost 40000 persons need to donate blood every single day to meet the requirement of patients with various medical conditions in India. At LifeBlood Council we believe that the search for blood donors should not begin after the need has arisen.
             </p>
             <p class="footer-color pt-3">
-              LifeBlood Council works to ensure that there is a positive balance of blood units in blood centres across the country at all times. Towards this objective, we strive to :
+              LifeBlood Council works to ensure that there is a positive balance of blood units in blood centers across the country at all times. Towards this objective, we strive to :
             </p>
           </div>
           <div class="col-md-4 me-0">
@@ -56,8 +56,8 @@
                 </div>
               </div>
               <div class="col-sm-10 pt-3 pt-sm-0">
-                <h5 class="primary-color">1. Blood Donation Camps</h5>
-                <p>We Organize blood donation camps in various commercial establishments, educational institutions, religious institutions, community centres, residential areas and public places. By proper scheduling of such blood donation camps we aim to ensure a continuous flow of blood into blood centres.</p>
+                <h5 class="primary-color">1. Organise Blood Donation Camps</h5>
+                <p>We Organise blood donation camps in various commercial establishments, educational institutions, religious institutions, community centers, residential areas and public places. By proper scheduling of such blood donation camps we aim to ensure a continuous flow of blood into blood centers.</p>
               </div>
             </div>
             <div class="row">
@@ -73,7 +73,7 @@
                 </div>
               </div>
               <div class="col-sm-10 pt-3 pt-sm-0">
-                <h5 class="primary-color">2. Awareness</h5>
+                <h5 class="primary-color">2. Create Awareness</h5>
                 <p>Create awareness for Blood Donation and motivate citizens to donate blood by going to the nearest blood centre on a regular basis.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@
               <div class="row">
 
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <div class="icon-floated-card">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.65 79.42">
@@ -113,12 +113,13 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Organizing blood donation camps</p>
+                      <p>Organising Blood Donation camps and conducting awareness sessions to motivate potential blood donors.</p>
                     </div>
                   </div>
                 </div>
 
-
+                <?php 
+                /*
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -141,7 +142,6 @@
                   </div>
                 </div>
 
-
                 <div class="col-md-4">
                   <div class="icon-floated-card">
                     <div class="icon">
@@ -161,9 +161,10 @@
                     </div>
                   </div>
                 </div>
+                 */ ?>
 
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <div class="icon-floated-card">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.48 37.1">
@@ -183,39 +184,12 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Building a Registry of Blood Donors and it's components**</p>
+                      <p>Building a Registry of Blood Donors and it's components and the rare “Bombay” blood group</p>
                     </div>
                   </div>
                 </div>
 
-
-                <div class="col-md-4">
-                  <div class="icon-floated-card">
-                    <div class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.48 37.1">
-                        <path class="cls-1" d="M3.07,23.7V22.1H4.43A3,3,0,0,0,7.57,19a5.56,5.56,0,0,0-.13-1.53,2.94,2.94,0,0,0-2.8-2.16H3.1V13.44c.34,0,.69,0,1,0A3.15,3.15,0,0,0,7.6,10,3,3,0,0,0,6.25,7.19a6.61,6.61,0,0,0-2-.56,6.46,6.46,0,0,0-1.17,0,33.22,33.22,0,0,1,0-4.24A2.54,2.54,0,0,1,6,.11H29.9a8.26,8.26,0,0,0,1-.08,3.86,3.86,0,0,1,3.29,1.27,3.12,3.12,0,0,1,.21,3.5c-2,3.06-3.94,6.09-5.91,9.13-1,1.51-1.92,3-3,4.51a16,16,0,0,0-2.8,7.28c-.32,2.25-.8,4.48-1.19,6.72,0,.19.06.53.18.58a1.16,1.16,0,0,0,.85.07c.78-.34,1.51-.78,2.27-1.16,1.76-.87,3.55-1.69,5.28-2.61a5.7,5.7,0,0,0,1.69-1.4c.79-1,1.45-2.07,2.17-3.11a2.47,2.47,0,0,1,.61-.65v.64c0,2.55,0,5.1,0,7.65a14.31,14.31,0,0,1-.18,2.7,2.45,2.45,0,0,1-2.53,2H5.8c-1.67,0-2.47-.59-2.66-2.28a37,37,0,0,1,0-4.09c1.38,0,2.8.14,3.81-1.12A3.86,3.86,0,0,0,7.59,27a2.67,2.67,0,0,0-1.47-2.61A15.31,15.31,0,0,0,3.07,23.7Zm15.8-14h6c1,0,1.47-.37,1.65-1.11.29-1.15-.39-1.94-1.73-1.94H13.2a2.56,2.56,0,0,0-.55,0A1.46,1.46,0,0,0,11.4,8.14,1.44,1.44,0,0,0,13,9.67Zm-2.2,8h3.6A1.52,1.52,0,0,0,22,16.15c0-.89-.65-1.48-1.7-1.48H13.08c-1.08,0-1.67.53-1.68,1.48s.55,1.53,1.67,1.55Z">
-                        </path>
-                        <path class="cls-1" d="M25.49,22.4,34.58,8l5.91,3.94c-3.18,4.66-6.35,9.28-9.55,14Z"></path>
-                        <path class="cls-1" d="M35.38,6.85A15.18,15.18,0,0,1,36.93,5a1.93,1.93,0,0,1,2.33-.19A18.29,18.29,0,0,1,42.1,6.94a1.75,1.75,0,0,1,.17,1.94,11.29,11.29,0,0,1-1,1.63Z">
-                        </path>
-                        <path class="cls-1" d="M24.59,23.77l5.53,3.29a3.82,3.82,0,0,1-.32.29c-1.63,1-3.26,2.06-4.92,3a1.27,1.27,0,0,1-1,.11c-.18-.07-.29-.58-.25-.86C23.9,27.72,24.24,25.81,24.59,23.77Z">
-                        </path>
-                        <path class="cls-1" d="M3,20.74c-.46,0-.91,0-1.37,0A1.67,1.67,0,0,1,0,18.91c0-1.18.56-1.93,1.59-2s2,0,2.92,0,1.57.68,1.56,2a1.65,1.65,0,0,1-1.59,1.84C4,20.76,3.49,20.74,3,20.74Z">
-                        </path>
-                        <path class="cls-1" d="M3.05,25.6c.52,0,1,0,1.56,0A1.46,1.46,0,0,1,6.06,27a6.31,6.31,0,0,1,0,.87,1.55,1.55,0,0,1-1.49,1.47c-1,0-2,0-3,0A1.47,1.47,0,0,1,.08,28.14a4.42,4.42,0,0,1,0-1.54,1.23,1.23,0,0,1,1.26-1c.56,0,1.12,0,1.68,0Z">
-                        </path>
-                        <path class="cls-1" d="M3,11.93H1.57A1.65,1.65,0,0,1,0,10.13c0-1.17.54-1.92,1.51-2s2,0,2.92,0S6.1,9,6.07,10.28a1.6,1.6,0,0,1-1.7,1.65Z">
-                        </path>
-                      </svg>
-                    </div>
-                    <div class="content">
-                      <p>Building a Registry of donors having the rare “Bombay” blood group</p>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <div class="icon-floated-card">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.38 45.07">
@@ -245,7 +219,7 @@
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <div class="icon-floated-card">
                     <div class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.4 27.98">
@@ -260,7 +234,7 @@
                       </svg>
                     </div>
                     <div class="content">
-                      <p>Conducting training sessions for personnel of blood centres</p>
+                      <p>Conducting training sessions for personnel of blood centers</p>
                     </div>
                   </div>
                 </div>
@@ -276,16 +250,16 @@
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
-            <h4 class="primary-color">BETA THALASSEMIA MAJOR - PREVENTION</h4>
+            <h4 class="primary-color">THALASSEMIA MAJOR - PREVENTION</h4>
             <p>
-              A child is born with Beta Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Beta-Thalassemia Major.
+              A child is born with Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Thalassemia Major.
             </p>
             <p>
               An estimated 50 million Indians are Thalassemia  Minor, and most of them do not know of it. It is important for every youngster to undergo a test for Thalassemia Minor. This test needs to be done just once in one’s lifetime.
             </p>
           </div>
           <div class="col-md-4">
-            <img class="w-100" src="images/what-we-do/beta-thalassemia-prevention.png" alt="Beta Thalassemia Prevention">
+            <img class="w-100" src="images/what-we-do/beta-thalassemia-prevention.png" alt="Thalassemia Prevention">
           </div>
         </div>
       </div>
@@ -295,7 +269,7 @@
       <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
-          <span class="footer-color fw-bolder">In our effort to prevent Beta Thalassemia Major</span><br>
+          <span class="footer-color fw-bolder">In our effort to prevent Thalassemia Major</span><br>
           we conduct the following activities
         </p>
         <div class="row justify-content-center">
@@ -309,7 +283,7 @@
                 </svg>
               </div>
               <div class="content">
-                <p>Create awareness about Thalassaemia Minor through the media</p>
+                <p>Create awareness about Thalassemia Minor through the media</p>
               </div>
             </div>
           </div>
@@ -324,7 +298,7 @@
                 </svg>
               </div>
               <div class="content">
-                <p>Conduct Thalassaemia Minor Screening camps</p>
+                <p>Conduct Thalassemia Minor Screening camps</p>
               </div>
             </div>
           </div>
@@ -341,7 +315,7 @@
                 </svg>
               </div>
               <div class="content">
-                <p>Work with the government and the obstetrician community to include a test for Thalassaemia Minor in the protocol for Ante-Natal care</p>
+                <p>Work with the government and the obstetrician community to include a test for Thalassemia Minor in the protocol for Ante-Natal care</p>
               </div>
             </div>
           </div>
@@ -382,7 +356,7 @@
                 </svg>
               </div>
               <div class="content">
-                <p>Liaise with the government to provide more and affordable foetal medicine centres</p>
+                <p>Liaise with the Government to provide more and affordable foetal medicine centers</p>
               </div>
             </div>
           </div>
@@ -395,25 +369,18 @@
       <div class="container">
         <div class="row">
           <div class="content col-md-8">
-            <h4 class="primary-color">BETA THALASSEMIA MAJOR - CARE</h4>
+            <h4 class="primary-color">THALASSEMIA MAJOR - CARE</h4>
             <p>
-              Beta-Thalassemia Major is a genetic blood disorder. It is also called “Cooley’s Anemia” or “Mediterranean Anemia” or simply “Thalassemia”.<br>
-              Beta-Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
+              Thalassemia Major is a genetic blood disorder. It is also called “Cooley’s Anemia” or “Mediterranean Anemia” or simply “Thalassemia”.<br>
+              Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
             </p>
 
             <p>
-              The child needs regular life-long transfusion of Red Blood Cells as the first line of management of the disorder.<br>
-              The frequency and quantity of transfusion is regulated to ensure that the hemoglobin before transfusions is maintained above 10 gms/dl.<br />
-              Repeated transfusions result in a build-up of iron in the body of the child. If not taken care of, this overload of iron can have fatal consequences.<br />
-              The second line of management of the disorder, therefore, is daily medications (oral or injectable) to keep the iron levels under control.
-            </p>
-
-            <p>
-              Almost every organ of the body is compromised due to the risk of iron overload and transfusion-transmitted-infections. The third line in the management of the disorder is periodic laboratory and radiological investigations   to detect complications at an early stage so that  remedial action can be taken before they assume life-threatening proportions. — This section can be reformatted to appear in the Knowledge section
+              The child is then provided with comprehensive Thalassemia care through regular blood transfusions and managing the related protocols for the disorder.
             </p>
           </div>
           <div class="col-md-4">
-            <img class="w-100" src="images/what-we-do/beta-thalassemia.png" alt="Beta Thalassemia">
+            <img class="w-100" src="images/what-we-do/beta-thalassemia.png" alt="Thalassemia">
           </div>
         </div>
       </div>
@@ -424,7 +391,7 @@
       <div class="container text-center">
         <p>
           <span class="primary-color fw-bolder">We will strive to bring fulfilment and happiness</span><br>
-          in the lives of persons living with Beta Thalassemia Major.<br>
+          in the lives of persons living with Thalassemia Major.<br>
           Towards this objective we will conduct the following activities:
         </p>
         <div class="row justify-content-center">
@@ -436,8 +403,8 @@
                 </svg>
               </div>
               <div class="content">
-                <h4 class="primary-color">Day Care Centres</h4>
-                <p>Open Thalassaemia Day Care Centres in places where there are no existing structure for Thalassemia care.</p>
+                <h4 class="primary-color">Day Care Centers</h4>
+                <p>Open Thalassemia Day Care Centers in places where there are no existing structure for Thalassemia care.</p>
               </div>
             </div>
           </div>
@@ -458,7 +425,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Assist</h4>
-                <p>Assist existing Thalassaemia Day Care Centres for scaling up and enhancing the standard of care.</p>
+                <p>Assist existing Thalassemia Day Care Centers for scaling up and enhancing the standard of care.</p>
               </div>
             </div>
           </div>
@@ -506,7 +473,7 @@
               </div>
               <div class="content">
                 <h4 class="primary-color">Network</h4>
-                <p>Network with and assist other non-profit organizations.</p>
+                <p>Network with and assist other non-profit organisations.</p>
               </div>
             </div>
           </div>
@@ -517,8 +484,8 @@
 
     <section id="bt-cure" class="py-5 animate">
       <div class="container">
-        <h3 class="primary-color text-center">BETA THALASSEMIA MAJOR - CURE</h3>
-        <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Beta-Thalassemia Major.</h5>
+        <h3 class="primary-color text-center">THALASSEMIA MAJOR - CURE</h3>
+        <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Thalassemia Major.</h5>
         <p class="text-center fs-5">This is a process involving the replacement of damaged stem cells with healthy ones</p>
         <div class="my-ol mt-5">
           <span class="line"></span>
@@ -558,9 +525,9 @@
           <div class="col-md-6">
             <h4 class="primary-color mb-4 mt-5 mt-md-0">Lifeblood Council will undertake the following activities</h4>
             <p class="fs-5">1. Conducting HLA Typing Camps for patients, siblings and parents.</p>
-            <p class="fs-5">2. Organizing Stem Cell Donor Registry Camps.</p>
+            <p class="fs-5">2. Organising Stem Cell Donor Registry Camps.</p>
             <p class="fs-5">3. Assisting eligible transplant patients in raising funds</p>
-            <p class="fs-5">4. Supporting Transplant Centres in raising resources for machinery and infrastructure</p>
+            <p class="fs-5">4. Supporting Transplant Centers in raising resources for machinery and infrastructure</p>
           </div>
         </div>
       </div>

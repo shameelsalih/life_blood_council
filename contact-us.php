@@ -1,18 +1,18 @@
 <?php
 $contact_us_form_data = [
-  "organizing-blood-donation-camp"      =>  [
-    "label"   =>  "For organizing a blood donation camp",
+  "organising-blood-donation-camp"      =>  [
+    "label"   =>  "For organising a blood donation camp",
     "formId"  =>  "obdcForm",
     "content" =>  [
-      "Families and friends get into a state of panic when they are told that their patient in in need of blood transfusion. They are in need of reassurance, and this can be provided by ensuring that the required units are available in a blood centre. Almost 40,000 persons need to donate blood every day to meet the requirement of blood products for various patients in India. It is the responsibility of every individual and organization to ensure blood sufficiency. Blood Donation camps contribute significantly towards this objective.",
-      "Whether you are the head of a commercial establishment or educational institution or religious organization or residential complex or social organization, you can easily undertake a blood donation in your premises, and make a significant contribution.  A blood donation camp is much easier than is initially imagined, and very satisfying as you will find out. This activity can become a part of your annual event calendar",
-      "LifeBlood Council is equipped to assist you in organizing a blood donation camp in your premises. We are in touch with Blood Centres across the country, and can identify and coordinate with the most appropriate Blood Centre for you. We will advise you about the various arrangements to be made, and coordinate every aspect of the blood donation camp. Please provide us with the following information if you wish to join hands with us in making the country blood-sufficient:",
+      "Families and friends get into a state of panic when they are told that their patient in in need of blood transfusion. They are in need of reassurance, and this can be provided by ensuring that the required units are available in a blood centre. Almost 40,000 persons need to donate blood every day to meet the requirement of blood products for various patients in India. It is the responsibility of every individual and organisation to ensure blood sufficiency. Blood Donation camps contribute significantly towards this objective.",
+      "Whether you are the head of a commercial establishment or educational institution or religious organisation or residential complex or social organisation, you can easily undertake a blood donation in your premises, and make a significant contribution.  A blood donation camp is much easier than is initially imagined, and very satisfying as you will find out. This activity can become a part of your annual event calendar",
+      "LifeBlood Council is equipped to assist you in organising a blood donation camp in your premises. We are in touch with Blood Centers across the country, and can identify and coordinate with the most appropriate Blood Centre for you. We will advise you about the various arrangements to be made, and coordinate every aspect of the blood donation camp. Please provide us with the following information if you wish to join hands with us in making the country blood-sufficient:",
     ],
     "data"    =>  [
       [
         "type"    =>  "text",
         "col"     =>  "6",
-        "label"   =>  "Name of organization",
+        "label"   =>  "Name of organisation",
         "id"      =>  "obdc-NameOfOrganization",
         "domain"  =>  []
       ],
@@ -65,7 +65,7 @@ $contact_us_form_data = [
     "label"   =>  "Register with us as a blood donor",
     "formId"  =>  "bdForm",
     "content" =>  [
-      "Blood donation is a very significant act of giving a fighting chance at survival to one of your fellow citizens. A dedicated blood donor, when eligible to donate,  has the option of going to the nearest blood centre to donate blood. Please pick the blood centre which is most convenient to you from the list of blood centres. We would request you to use this option of not waiting for our call, but going to the nearest blood centres. However, you may register with us by providing the following information :"
+      "Blood donation is a very significant act of giving a fighting chance at survival to one of your fellow citizens. A dedicated blood donor, when eligible to donate,  has the option of going to the nearest blood centre to donate blood. Please pick the blood centre which is most convenient to you from the list of blood centers. We would request you to use this option of not waiting for our call, but going to the nearest blood centers. However, you may register with us by providing the following information :"
     ],
     "data"    =>  [
       [
@@ -217,19 +217,19 @@ $contact_us_form_data = [
 
     ]                       
   ],
-  "organizing-stem-cell-donor-registry" =>  [
-    "label"   =>  "For organizing a stem cell donor registry camp",
+  "organising-stem-cell-donor-registry" =>  [
+    "label"   =>  "For organising a stem cell donor registry camp",
     "formId"  =>  "oscdrForm",
     "content" =>  [
       "Stem Cell Transplantation offer a permanent cure for a large number of patients with blood disorders. But this option is available for patient only if a  matching stem cell donor is found. Buccal samples or blood samples are taken from the patient and the potential donor, and the Human Leukocytes Antigens (HLA) are analyzed (typed). The stem cells can be transplanted only if the HLA of the donor match with that of the patient. ",
       "The best chance (25%)of finding an HLA match for a patient is with a sibling. Otherwise the chance of finding a match with anyone else can be as low as 1 in 5000. Such a donor is called a Matched Unrelated Donor (MUD). Since the chances of a MUD are very low, it is important to build a large Registry of intending Stem Cell Donors whose HLA has been typed. Needless to say, the chances of finding a match are higher if the said Registry has people of the same ethnic origin.",
-      "Let us build a large Registry of people of India origin. An awareness camp can be organized by LifeBlood Council followed by collection of buccal/blood samples of consenting people who are interested in becoming lifesavers. Such lifesavers could be unique for a patient and the only hope. Please provide the following information if you wish to conduct a Stem Cell Donor Registry Drive in the premises of your establishment :",
+      "Let us build a large Registry of people of India origin. An awareness camp can be organised by LifeBlood Council followed by collection of buccal/blood samples of consenting people who are interested in becoming lifesavers. Such lifesavers could be unique for a patient and the only hope. Please provide the following information if you wish to conduct a Stem Cell Donor Registry Drive in the premises of your establishment :",
     ],
     "data"    =>  [
       [
         "type"    =>  "text",
         "col"     =>  "6",
-        "label"   =>  "Name of organization ",
+        "label"   =>  "Name of organisation ",
         "id"      =>  "oscdr-NameOfOrganization",
         "domain"  =>  []
       ],
