@@ -276,7 +276,7 @@ $contact_us_form_data = [
     "content" =>  [
       "<b>If you need blood, you have the following options:</b>",
       "Checking out with all blood banks in the city on the availability of the blood group required by you. Take a look at the <a href='support-centers'>List of Blood Banks.</a>",
-      "Checking the website of the Maharashtra State Blood Transfusion Council – http://www.mahasbtc.com for availability of blood. This will provide you with a list of blood banks having the blood group that is required by you.",
+      "Checking the website of the Maharashtra State Blood Transfusion Council – <a href='http://www.mahasbtc.com'>http://www.mahasbtc.com</a> for availability of blood. This will provide you with a list of blood banks having the blood group that is required by you.",
       "Calling LifeBlood Council, who will direct you to the Blood Bank having the blood units.",
       "As a last resort, locating donors or asking LifeBlood Council for a list of donors and sending them to the Hospital/Blood Bank.",
       "<b>If the required blood units are available with a Blood Bank, you will need to:</b>",
