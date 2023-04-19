@@ -269,18 +269,130 @@ $contact_us_form_data = [
         "domain"  =>  []
       ],
     ]                       
-  ]
+  ],
+  "need-blood" =>  [
+    "label"   =>  "Need Blood",
+    "formId"  =>  "needBloodForm",
+    "content" =>  [
+      "<b>If you need blood, you have the following options:</b>",
+      "Checking out with all blood banks in the city on the availability of the blood group required by you. Take a look at the <a href='support-centers'>List of Blood Banks.</a>",
+      "Checking the website of the Maharashtra State Blood Transfusion Council – http://www.mahasbtc.com for availability of blood. This will provide you with a list of blood banks having the blood group that is required by you.",
+      "Calling LifeBlood Council, who will direct you to the Blood Bank having the blood units.",
+      "As a last resort, locating donors or asking LifeBlood Council for a list of donors and sending them to the Hospital/Blood Bank.",
+      "<b>If the required blood units are available with a Blood Bank, you will need to:</b>",
+      "get a letter requesting for the blood units from the Hospital where your patient is admitted.",
+      "ask the Hospital where your patient is admitted to provide you with a blood sample of the patient for the purpose of cross-matching by the Blood Bank issuing the blood units."
+    ],
+    "data"    =>  [
+      [
+        "type"    =>  "text",
+        "col"     =>  "6",
+        "label"   =>  "Your Name",
+        "id"      =>  "need_blood-Name",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "email",
+        "col"     =>  "6",
+        "label"   =>  "Your Email id",
+        "id"      =>  "need_blood-EmailId",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "tel",
+        "col"     =>  "6",
+        "label"   =>  "Your Phone Number",
+        "id"      =>  "need_blood-PhoneNumber",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "text",
+        "col"     =>  "6",
+        "label"   =>  "Needed blood group",
+        "id"      =>  "need_blood-NeededBloodGroup",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "number",
+        "col"     =>  "6",
+        "label"   =>  "No. of Units Needed",
+        "id"      =>  "need_blood-NeededUnits",
+        "domain"  =>  []
+      ],
+    ]                       
+  ],
+  "get-tested-for-thal-minor" =>  [
+    "label"   =>  "Get Tested for Thalassemia Minor",
+    "formId"  =>  "gtmForm",
+    "content" =>  [
+      "A test for Thalassaemia Minor is required to be done to protect one&#39;s future child. Therefore it is of relevance to anybody who is going to have a child in the future.",
+      "If you want to get tested you have the following options:",
+      "a. Visit any Laboratory and specifying that you want to get tested for Thalassemia Minor",
+      "b. Checking out the list of laboratories which have a Biorad variant machine and visiting one of them.",
+      "c. Checking with LifeBlood Council for the schedule of Thalassemia Minor Screening Camps and visiting one of them",
+    ],
+    "data"    =>  [
+      [
+        "type"    =>  "text",
+        "col"     =>  "6",
+        "label"   =>  "Your Name",
+        "id"      =>  "gtm-Name",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "email",
+        "col"     =>  "6",
+        "label"   =>  "Your Email id",
+        "id"      =>  "gtm-EmailId",
+        "domain"  =>  []
+      ],
+    ]                       
+  ],
+  "need-for-thal-minor-screening-drive" =>  [
+    "label"   =>  "Need for Thalassemia Minor Screening Drive",
+    "formId"  =>  "tmsdForm",
+    "content" =>  [
+      "This can be done by:",
+      "a. Displaying posters for a week before the Drive",
+      "b. Sending a mail (with the relevant matter) to all persons, a week before the Drive",
+      "c. Organising a lecture on Thalassemia 2 days before the Drive",
+      "
+      <ul>
+        <li>Organizing the Screening Test- A single room with three tables and a few chairs will suffice. Collection of blood samples by technicians from persons offering to be tested will be done on this day</li>
+        <li>Organising a Counselling Session for those who are Thalassaemia Minor, after the Reports are received</li>
+      </ul>
+      ",
+      "Call LifeBlood Council for working out the logistics. You can even expect our representative to come and visit you, if you so desire.",
+      "If you want to organize a Thalassaemia Minor Screening Camp you can call Think Foundation or send a mail to us or register online here.",
+    ],
+    "data"    =>  [
+      [
+        "type"    =>  "text",
+        "col"     =>  "6",
+        "label"   =>  "Your Name",
+        "id"      =>  "tmsd-Name",
+        "domain"  =>  []
+      ],
+      [
+        "type"    =>  "email",
+        "col"     =>  "6",
+        "label"   =>  "Your Email id",
+        "id"      =>  "tmsd-EmailId",
+        "domain"  =>  []
+      ],
+    ]                       
+  ],
 ];
 $requirement_options = "";
 $contact_us_description = "";
 $contact_us_form_content = "";
 foreach($contact_us_form_data as $key => $value) {
   $requirement_options .=  "
-  <option value=\"$key\">$value[label]</option>
+  <option " . (($_GET["goto"] ?? "") == $key ? "selected" : "") . " value=\"$key\">$value[label]</option>
   ";
   foreach($value["content"] as $content) {
     $contact_us_description .= "
-    <p class=\"fw-bold contact-show-hide $key\">$content</p>
+    <div class=\"fw-bold contact-show-hide $key mb-3\">$content</div>
     ";
   }
   $contact_us_form_content .= "

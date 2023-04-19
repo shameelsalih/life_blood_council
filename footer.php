@@ -16,37 +16,37 @@
   <div class="footer-top text-center mt-5 animate-without-visible fadeIn">
     <ul class="cta">
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=need-blood#contact-us-form">
           Need Blood
         </a>
       </li>
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=organising-blood-donation-camp#contact-us-form">
           To Organise Blood Drive
         </a>
       </li>
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=get-tested-for-thal-minor#contact-us-form">
           Get tested for Thal Minor
         </a>
       </li>
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=need-for-thal-minor-screening-drive#contact-us-form">
           Organise Thal Minor Screening Drive
         </a>
       </li>
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=platelet-donor#contact-us-form">
           Be a Platelet Donor
         </a>
       </li>
       <li>
-        <a href="contact-us">
+        <a href="contact-us?goto=blood-donor#contact-us-form">
           Want to Donate Blood
         </a>
       </li>
     </ul>
-    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Thalassemia"</b></p>
+    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Beta Thalassemia"</b></p>
   </div>
 
   <footer class="animate" data-animation-name="fadeIn">

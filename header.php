@@ -57,6 +57,8 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="blood-donation">Blood Donation</a></li>
+              <li><a class="dropdown-item" href="blood-donation#bombay-blood-group">Bombay Blood Group</a></li>
+              <li><a class="dropdown-item" href="blood-donation#stem-cell-donation">Stem Cell Donation</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=prevention">Thalassemia Prevention</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=care">Thalassemia Care</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=cure">Thalassemia Cure</a></li>

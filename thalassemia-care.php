@@ -1,4 +1,33 @@
 
+        <section id="thal-management" class="py-5 animate">
+          <h3 class="text-center secondary-color"><span class="primary-color">Management (Care)</span> for Thalassemia</h3>
+          <div class="row pt-sm-5 pt-3 justify-content-center">
+            <div class="col-sm-7">
+              <h3 class="primary-color"><span class="secondary-color">Regular</span> Blood Transfusions</h3>
+              <p>
+                Blood transfusions are medical procedures in which blood or blood components are transferred from one person (donor) into the bloodstream of another person (recipient).<br /><br />
+                The goal of blood transfusions is to replace lost blood, correct anemia, or treat certain medical conditions by providing essential components such as red blood cells, platelets, or plasma. The blood must be compatible with the recipient's blood type to avoid adverse reactions.
+              </p>
+            </div>
+            <div class="col-sm-2 d-flex align-items-center">
+              <img class="w-100" src="images/thalassemia/regular-blood-transfusions.png" alt="Regular Blood Transfusions">
+            </div>
+          </div>
+
+          <div class="row pt-5 justify-content-center">
+            <div class="col-sm-3 d-flex align-items-center order-2 order-sm-2">
+              <img class="w-100" src="images/thalassemia/chelation-therapy.png" alt="Regular Blood Transfusions">
+            </div>
+            <div class="col-sm-7 order-1">
+              <h3 class="primary-color"><span class="secondary-color">Chelation</span> Therapy</h3>
+              <p>
+                Chelation therapy is a medical treatment in which a synthetic solution (chelating agent) is administered to a patient intravenously to remove heavy metals, minerals, and other toxic substances from the body.<br /><br />
+                It is commonly used for individuals with high levels of lead or other heavy metals in the bloodstream and for individuals with metal toxicity due to occupational or environmental exposure.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section id="care-definition">
           <p>The child needs regular life-long transfusion of Red Blood Cells as the first line of management of disorder.
           <p>The frequency and quantity of transfusion is regulated to ensure that the hemoglobin before transfusions is maintained above 10 gms/dl.</p>
@@ -584,3 +613,46 @@
             </div>
           </div>
         </section>
+<?php
+$accordionData = [
+  [
+    "title"   =>  "What is Thalassemia Major?",
+    "content" =>  "Thalassemia major is a genetic blood disorder that is also called \"Cooley’s anaemia\",  \"Mediterranean anaemia\" or simply \"Thalassemia\". Thalassemia major is characterised by the inability of the body to produce appropriate haemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child."
+  ],
+  [
+    "title"   =>  "Who is responsible for a thalassemic child?",
+    "content" =>  "A thalassemic child is born only if both parents have thalassemia minor (also called thalassemia trait or carrier of thalassemia). Most thalassemia minors are unaware of this status and go through life normally. But if both partners in a marriage are thalassemia minor, they run the risk (25%) of having a thalassemia major child in each pregnancy. Therefore, two healthy youngsters (the parents), who did not know that they had thalassemia minor, were responsible for a child with thalassemia major.
+    "
+  ],
+];
+?>
+<section id="faqs-care" class="py-5">
+<h4 class="primary-color text-center pb-5">You ask, We answer</h4>
+<div class="content d-flex justify-content-center">
+  <div class="col-lg-10 col-xl-9 col-sm-11 accordion custom-accordion" id="knowledge-hub-faq">
+  <?php
+    $innerHTML = '';
+    foreach($accordionData as $key => $data) {
+      $innerHTML .= '
+        
+        <div class="accordion-item animate" data-animation-name="' . ($key % 2 == 0 ? "slideFromRight" : "slideFromLeft") . '">
+          <h2 class="accordion-header" id="custom_accordion_heading_' . $key . '">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#custom_accordion_collapse_' . $key . '" aria-expanded="true" aria-controls="custom_accordion_collapse_' . $key . '">
+              ' . $data["title"] . '
+            </button>
+          </h2>
+          <div id="custom_accordion_collapse_' . $key . '" class="accordion-collapse collapse show secondary-color" aria-labelledby="custom_accordion_heading_' . $key . '" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ' . $data["content"] . '
+            </div>
+          </div>
+        </div>
+
+      ';
+    }
+    echo $innerHTML;
+  ?>
+  </div>
+</div>
+
+</section>
