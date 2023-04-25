@@ -22,8 +22,8 @@
           <br>
           in India
         </h1>
-        <button class="btn btn-custom-secondary mt-3">Know More</button>
-        <button class="btn btn-custom-primary mt-3">Support Us</button>
+        <a class="btn btn-custom-secondary mt-3" href="blood-donation#blood-donation">Know More</a>
+        <a class="btn btn-custom-primary mt-3" href="contribute">Support Us</a>
       </div>
     </section>
 
@@ -46,7 +46,7 @@
             </div>
             <div class="content">
               <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity, society at large and to build structures, establish systems and conceive and execute programs to achieve our vision</p>
+              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity and society at large to build structures, establish systems and conceive and execute programs to achieve our vision</p>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
       <div class="py-3"></div>
       <div class="container text-center">
         <h2 class="primary-color"><span class="secondary-color">Our</span> Core Values</h2>
-        <p>We strongly believe in these values <br> for the welfare of the LifeBlood Council</p>
+        <p>We strongly believe that these values <br> will benefit society at large</p>
         <div class="row justify-content-center">
 
           <div class="col-md-4">
@@ -164,7 +164,7 @@
             <ul>
               <li>To ensure availability of blood and its components in all Blood Centers at all times. We hope to achieve this primarily by organising Blood donation drives round the year.</li>
               <li>To develop registries of donors of rare Blood groups and Blood components</li>
-              <li>To develop infrastructure and resources for care of persons living with Thalassemia Major. The main effort here would be to build new Day Care Centers and strengthen existing ones for providing comprehensive management of Thalassemia Major.</li>
+              <li>To develop the infrastructure and resources for care of persons living with Thalassemia Major. The main effort here would be to build new Day Care Centers and strengthen existing ones for providing comprehensive management of Thalassemia Major.</li>
               <li>To create programmes and implement them for prevention of Thalassemia Major.</li>
               <li>To assist in building a robust registry of Stem Cell donors</li>
               <li>To support patients who are eligible for Stem Cell transplants</li>
@@ -186,7 +186,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromLeft">
             <div class="simple-image-card">
-              <img src="images/about/Vinay-Shetty.png" alt="Founder: Vinay Shetty" class="w-100" />
+              <img src="images/about/Vinay-Shetty.png?v=1.000" alt="Founder: Vinay Shetty" class="w-100" />
               <div class="description">
                 <h4>Vinay Shetty</h4>
                 <h6 class="primary-color text-center">Founder</h6>
@@ -199,7 +199,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromTop">
             <div class="simple-image-card">
-              <img src="images/about/Dinkar-Suri.png" alt="Director: Dinkar Suri" class="w-100" />
+              <img src="images/about/Dinkar-Suri.png?v=1.000" alt="Director: Dinkar Suri" class="w-100" />
               <div class="description">
                 <h4>Dinkar Suri</h4>
                 <h6 class="primary-color text-center">Director</h6>
@@ -212,7 +212,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromRight">
             <div class="simple-image-card">
-              <img src="images/about/Sashi-Shankar.png" alt="Director: Shashi Shankar" class="w-100" />
+              <img src="images/about/Sashi-Shankar.png?v=1.000" alt="Director: Shashi Shankar" class="w-100" />
               <div class="description">
                 <h4>Sashi Shankar</h4>
                 <h6 class="primary-color text-center">Director</h6>
@@ -229,7 +229,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromLeft">
             <div class="simple-image-card">
-              <img src="images/about/Dr-Mamta-Manglani.png" alt="Advisor: Dr Mamta Manglani" class="w-100" />
+              <img src="images/about/Dr-Mamta-Manglani.png?v=1.000" alt="Advisor: Dr Mamta Manglani" class="w-100" />
               <div class="description">
                 <h4>Dr. Mamta Vijay Manglani</h4>
                 <p class="content">
@@ -243,7 +243,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromBottom">
             <div class="simple-image-card">
-              <img src="images/about/Josy-Paul.png" alt="Advisor: Josy Paul" class="w-100" />
+              <img src="images/about/Josy-Paul.png?v=1.000" alt="Advisor: Josy Paul" class="w-100" />
               <div class="description">
                 <h4>Josy Paul</h4>
                 <p class="content">
@@ -255,7 +255,7 @@
 
           <div class="col-md-4 animate" data-animation-name="slideFromRight">
             <div class="simple-image-card">
-              <img src="images/about/Lovaii-Navlakhi.jpg" alt="Advisor: Lovaii Navlakhi" class="w-100" />
+              <img src="images/about/Lovaii-Navlakhi.png?v=1.000" alt="Advisor: Lovaii Navlakhi" class="w-100" />
               <div class="description">
                 <h4>Lovaii Navlakhi</h4>
                 <p class="content">

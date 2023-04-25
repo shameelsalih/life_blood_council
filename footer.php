@@ -46,7 +46,7 @@
         </a>
       </li>
     </ul>
-    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Beta Thalassemia"</b></p>
+    <p class="mb-0 mt-1">All "Thalassemia" mentioned here is <b>"Thalassemia Major"</b></p>
   </div>
 
   <footer class="animate" data-animation-name="fadeIn">

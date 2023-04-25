@@ -13,31 +13,35 @@
     <section id="main-banner" class="carousel slide carousel-fade no-bg animate" data-animation-name="fadeIn" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="8000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/banner/new-banner-image.png" class="d-block w-100" alt="Banner Image">
+          <img src="images/banner/banner-2.png" class="d-block w-100" alt="Banner Image">
           <div class="carousel-caption">
             <h1 class="secondary-color">Championing</h1>
             <h1 class="primary-color">Blood Adequacy</h1>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/banner/new-banner-image-2.png" class="d-block w-100" alt="Banner Image">
+          <img src="images/banner/banner-1.png" class="d-block w-100" alt="Banner Image">
           <div class="carousel-caption">
-            <h1 class="secondary-color">Join Our Fight Against Thalassemia</h1>
-            <h1 class="primary-color">Preventing Inherited Blood Disorders Through Awareness and Screening</h1>
+            <h1 class="secondary-color">Join Our Fight</h1>
+            <h1 class="secondary-color">Against Thalassemia</h1>
+            <h2 class="primary-color">Preventing Inherited Blood Disorders</h2>
+            <h2 class="primary-color">Through Awareness and Screening</h2>
           </div>
         </div>
         <div class="carousel-item">
           <img src="images/banner/new-banner-image.png" class="d-block w-100" alt="Banner Image">
           <div class="carousel-caption">
-            <h1 class="secondary-color">Join Our Fight Against Thalassemia</h1>
-            <h1 class="primary-color">Helping People Lead Fulfilling Life</h1>
+            <h1 class="secondary-color">Join Our Fight</h1>
+            <h1 class="secondary-color">Against Thalassemia</h1>
+            <h2 class="primary-color">Helping People Lead Fulfilling Life</h2>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/banner/new-banner-image-2.png" class="d-block w-100" alt="Banner Image">
+          <img src="images/banner/banner-3.png" class="d-block w-100" alt="Banner Image">
           <div class="carousel-caption">
-            <h1 class="secondary-color">Join Our Fight Against Thalassemia</h1>
-            <h1 class="primary-color">Breaking The Chains of Thalassemia</h1>
+            <h1 class="secondary-color">Join Our Fight</h1>
+            <h1 class="secondary-color">Against Thalassemia</h1>
+            <h2 class="primary-color">Breaking The Chains of Thalassemia</h2>
           </div>
         </div>
       </div>
@@ -58,7 +62,7 @@
             </div>
             <div class="content">
               <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity, society at large and to build structures, establish systems and conceive and execute programs to achieve our vision</p>
+              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity and society at large to build structures, establish systems and conceive and execute programs to achieve our vision</p>
             </div>
           </div>  
         </div>

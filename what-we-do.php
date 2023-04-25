@@ -21,8 +21,8 @@
             Blood Donated.
           </span>
         </h1>
-        <button class="btn btn-custom-secondary mt-3 mt-lg-5">Know More</button>
-        <button class="btn btn-custom-primary mt-3 mt-lg-5">Support Us</button>
+        <a class="btn btn-custom-secondary mt-3 mt-lg-5" href="blood-donation#blood-donation">Know More</a>
+        <a class="btn btn-custom-primary mt-3 mt-lg-5" href="contribute">Support Us</a>
       </div>
     </section>
 

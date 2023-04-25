@@ -49,7 +49,7 @@
               </p>
             </div>
             <div class="col-sm-4 d-flex align-items-center">
-              <img class="w-100" src="images/what-we-do/activities.png" alt="Platelet Donation">
+              <img class="w-100" src="images/new-images/Blood-Transfusion.jpg" alt="Platelet Donation">
             </div>
           </div>
   
@@ -129,7 +129,7 @@
 
           <div class="row justify-content-center align-items-center py-5">
             <div class="col-sm-4 d-flex align-items-center">
-              <img class="w-100" src="images/what-we-do/activities.png" alt="Granulocyte Donation">
+              <img class="w-100" src="images/new-images/Blood-Transfusion.jpg" alt="Granulocyte Donation">
             </div>
             <div class="col-sm-6">
               <h3 class="primary-color">Granulocyte <span class="secondary-color">Donation</span></h3>
