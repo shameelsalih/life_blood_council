@@ -33,20 +33,22 @@
           <div class="col-md-5">
             <img src="images/about/about_mission_vision.png" alt="About Us, Mission, and Vision" class="w-100">
           </div>
-          <div class="col-md-7 align-items-center">
-            <div class="content">
-              <h2 class="primary-color mt-4 mt-md-0">About Us</h2>
-              <p>LifeBlood Council is a not-for-profit organisation dedicated to the causes of voluntary Blood Donation and comprehensive management of Thalassemia</p>
-            </div>
-            <div class="content">
-              <h2 class="primary-color">Our Vision</h2>
-              <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
-              <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
-              <p>We will work to build a future where there are no children with Thalassemia Major</p>
-            </div>
-            <div class="content">
-              <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity and society at large to build structures, establish systems and conceive and execute programs to achieve our vision</p>
+          <div class="col-md-7 d-flex align-items-center">
+            <div>
+              <div class="content">
+                <h2 class="primary-color mt-4 mt-md-0">About Us</h2>
+                <p>LifeBlood Council is a not-for-profit organisation dedicated to the causes of voluntary Blood Donation and comprehensive management of Thalassemia</p>
+              </div>
+              <div class="content">
+                <h2 class="primary-color">Our Vision</h2>
+                <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
+                <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
+                <p>We will work to build a future where there are no children with Thalassemia Major</p>
+              </div>
+              <div class="content">
+                <h2 class="primary-color">Our Mission</h2>
+                <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity and society at large to build structures, establish systems and conceive and execute programs to achieve our vision</p>
+              </div>
             </div>
           </div>
         </div>
