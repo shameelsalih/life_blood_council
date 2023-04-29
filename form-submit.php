@@ -1,6 +1,6 @@
 <?php
 $mailTo = "support@lifebloodcouncil.org";
-$mailTo = "lifebloodcouncil.events@gmail.com";
+// $mailTo = "lifebloodcouncil.events@gmail.com";
 $mailFrom = "lifebloodcouncil.events@gmail.com";
 $formId = $_POST["formId"] ?? FALSE;
 if(!$formId || !function_exists($formId)) exit(json_encode(["status" => FALSE, "message" => "Unknown Call"]));

@@ -428,7 +428,7 @@
                   "title" => "Registration",
                   "contents"  => [
                     "Filling of Form and Undertaking for Registration of individual patients with Day Care Centre.",
-                    "Confirmation of Thalassemia Major status.",
+                    "Confirmation of Beta Thalassemia Major status.",
                     "Preparation of Patient Management Booklet and Patient Files.",
                     "Initiate process of obtaining Thalassemia Card from State Blood Transfusion Council.",
                     "Initiate process of registration for state schemes if applicable.",
@@ -616,7 +616,7 @@
 <?php
 $accordionData = [
   [
-    "title"   =>  "What is Thalassemia Major?",
+    "title"   =>  "What is Beta Thalassemia Major?",
     "content" =>  "Thalassemia major is a genetic blood disorder that is also called \"Cooley’s anaemia\",  \"Mediterranean anaemia\" or simply \"Thalassemia\". Thalassemia major is characterised by the inability of the body to produce appropriate haemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child."
   ],
   [

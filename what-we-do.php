@@ -252,7 +252,7 @@
           <div class="content col-md-8">
             <h4 class="primary-color">THALASSEMIA MAJOR - PREVENTION</h4>
             <p>
-              A child is born with Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Thalassemia Major.
+              A child is born with Beta Thalassemia Major ONLY IF both parents are Thalassemia Minor (also called Thalassemia Trait or carrier of Thalassemia). Being healthy, most Thalassemia Minors are unaware of their status and live a normal life. But, if both partners in a marriage are Thalassemia Minor, they run the risk (25%) of having a Beta Thalassemia Major child in each pregnancy. Therefore, 2 healthy youngsters (the parents) who did not know that they were Thalassemia Minor, were responsible for a child with Beta Thalassemia Major.
             </p>
             <p>
               An estimated 50 million Indians are Thalassemia  Minor, and most of them do not know of it. It is important for every youngster to undergo a test for Thalassemia Minor. This test needs to be done just once in one’s lifetime.
@@ -269,7 +269,7 @@
       <div class="py-md-3"></div>
       <div class="container text-center">
         <p>
-          <span class="footer-color fw-bolder">In our effort to prevent Thalassemia Major</span><br>
+          <span class="footer-color fw-bolder">In our effort to prevent Beta Thalassemia Major</span><br>
           we conduct the following activities
         </p>
         <div class="row justify-content-center">
@@ -371,8 +371,8 @@
           <div class="content col-md-8">
             <h4 class="primary-color">THALASSEMIA MAJOR - CARE</h4>
             <p>
-              Thalassemia Major is a genetic blood disorder. It is also called “Cooley’s Anemia” or “Mediterranean Anemia” or simply “Thalassemia”.<br>
-              Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
+              Beta Thalassemia Major is a genetic blood disorder. It is also called “Cooley’s Anemia” or “Mediterranean Anemia” or simply “Thalassemia”.<br>
+              Beta Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
             </p>
 
             <p>
@@ -391,7 +391,7 @@
       <div class="container text-center">
         <p>
           <span class="primary-color fw-bolder">We will strive to bring fulfilment and happiness</span><br>
-          in the lives of persons living with Thalassemia Major.<br>
+          in the lives of persons living with Beta Thalassemia Major.<br>
           Towards this objective we will conduct the following activities:
         </p>
         <div class="row justify-content-center">
@@ -485,7 +485,7 @@
     <section id="bt-cure" class="py-5 animate">
       <div class="container">
         <h3 class="primary-color text-center">THALASSEMIA MAJOR - CURE</h3>
-        <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Thalassemia Major.</h5>
+        <h5 class="footer-color text-center">Stem Cell Transplant is the only cure available for Beta Thalassemia Major.</h5>
         <p class="text-center fs-5">This is a process involving the replacement of damaged stem cells with healthy ones</p>
         <div class="my-ol mt-5">
           <span class="line"></span>

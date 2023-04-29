@@ -42,8 +42,8 @@
               <div class="content">
                 <h2 class="primary-color">Our Vision</h2>
                 <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
-                <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
-                <p>We will work to build a future where there are no children with Thalassemia Major</p>
+                <p>We will strive to bring fulfillment and happiness in the lives of persons with Beta Thalassemia Major</p>
+                <p>We will work to build a future where there are no children with Beta Thalassemia Major</p>
               </div>
               <div class="content">
                 <h2 class="primary-color">Our Mission</h2>
@@ -166,8 +166,8 @@
             <ul>
               <li>To ensure availability of blood and its components in all Blood Centers at all times. We hope to achieve this primarily by organising Blood donation drives round the year.</li>
               <li>To develop registries of donors of rare Blood groups and Blood components</li>
-              <li>To develop the infrastructure and resources for care of persons living with Thalassemia Major. The main effort here would be to build new Day Care Centers and strengthen existing ones for providing comprehensive management of Thalassemia Major.</li>
-              <li>To create programmes and implement them for prevention of Thalassemia Major.</li>
+              <li>To develop the infrastructure and resources for care of persons living with Beta Thalassemia Major. The main effort here would be to build new Day Care Centers and strengthen existing ones for providing comprehensive management of Beta Thalassemia Major.</li>
+              <li>To create programmes and implement them for prevention of Beta Thalassemia Major.</li>
               <li>To assist in building a robust registry of Stem Cell donors</li>
               <li>To support patients who are eligible for Stem Cell transplants</li>
             </ul>

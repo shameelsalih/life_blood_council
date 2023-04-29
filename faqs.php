@@ -40,7 +40,7 @@
         ],
         [
           "title"   =>  "What risk?",
-          "content" =>  "Your future child can be a Thalassemia Major."
+          "content" =>  "Your future child can be a Beta Thalassemia Major."
         ],
         [
           "title"   =>  "So what?",
@@ -72,7 +72,7 @@
         ],
         [
           "title"   =>  "What if me and my partner are both Thalassemia Minor?",
-          "content" =>  "It is not necessary that every child born to you will be a Thalassemia Major. There is a 25% chance in each pregnancy that your child will be a Thalassemia Major."
+          "content" =>  "It is not necessary that every child born to you will be a Beta Thalassemia Major. There is a 25% chance in each pregnancy that your child will be a Beta Thalassemia Major."
         ],
         [
           "title"   =>  "Does that mean that we can’t have children?",
@@ -80,7 +80,7 @@
         ],
         [
           "title"   =>  "But what if we want to have our own child?",
-          "content" =>  "You surely can have your own biological child. There is a 75% chance that the child born to you will not be a Thalassemia Major. You can go for a Pre Natal Test very early in the pregnancy (after the 9th week), which will tell you whether the foetus is Thalassemia Major or not. You can then choose to continue with the pregnancy or not."
+          "content" =>  "You surely can have your own biological child. There is a 75% chance that the child born to you will not be a Beta Thalassemia Major. You can go for a Pre Natal Test very early in the pregnancy (after the 9th week), which will tell you whether the foetus is Beta Thalassemia Major or not. You can then choose to continue with the pregnancy or not."
         ],
         [
           "title"   =>  "This means that this a very important test for anybody who is going to have a child in the future?",
@@ -99,7 +99,7 @@
           "content" =>  "The test involves drawing 2 ml. of blood by using a sterilized, disposable syringe. This will take less than half a minute, after which you are free to leave. "
         ],
         [
-          "title"   =>  "What is Thalassemia Major?",
+          "title"   =>  "What is Beta Thalassemia Major?",
           "content" =>  "Beta-thalassemia major is a genetic blood disorder that is also called \"Cooley’s anaemia\",  \"Mediterranean anaemia\" or simply \"Thalassemia\". Beta-thalassemia major is characterised by the inability of the body to produce appropriate haemoglobin, resulting in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child."
         ],
         [
@@ -113,7 +113,7 @@
           "content" =>  "One must ask the laboratory for a specific blood test for thalassemia minor. You may also refer to it as a test for abnormal haemoglobinss. The test for Thalassemia Minor is required to be done only once in a person’s lifetime. This one test can save your future child from a lifetime of misery."
         ],
         [
-          "title"   =>  "What is a cure for Thalassemia Major?",
+          "title"   =>  "What is a cure for Beta Thalassemia Major?",
           "content" =>  "A stem cell transplant is the only cure available for beta-thalassemia major.<br>
           The first step in this exercise is to locate a matching stem cell donor. The best chance of finding a match is with a sibling. The donor is then referred to as a \"sibling donor\". If a sibling is not found to be a match, the patient can check with a Stem Cell Registry. There may be an outside-chance of finding a match from a registry.  If a match is found from a registry, the donor is called a \"Matched Unrelated Donor\" also referred to as \"MUD\". The third option is to find a parent who is a close match. The donor in such an event is called a \"haplo donor\".<br>
           The second step in the transplant process is to manage the patient well before transplant so that the process is as low-risk as possible.<br>

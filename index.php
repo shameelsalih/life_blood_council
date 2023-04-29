@@ -17,6 +17,7 @@
           <div class="carousel-caption">
             <h1 class="secondary-color">Championing</h1>
             <h1 class="primary-color">Blood Adequacy</h1>
+            <h2 class="secondary-color">Delivering blood when needed</h2>
           </div>
         </div>
         <div class="carousel-item">
@@ -24,8 +25,7 @@
           <div class="carousel-caption">
             <h1 class="secondary-color">Join Our Fight</h1>
             <h1 class="secondary-color">Against Thalassemia</h1>
-            <h2 class="primary-color">Preventing Inherited Blood Disorders</h2>
-            <h2 class="primary-color">Through Awareness and Screening</h2>
+            <h2 class="primary-color">Prevention through screening!</h2>
           </div>
         </div>
         <div class="carousel-item">
@@ -33,7 +33,7 @@
           <div class="carousel-caption">
             <h1 class="secondary-color">Join Our Fight</h1>
             <h1 class="secondary-color">Against Thalassemia</h1>
-            <h2 class="primary-color">Helping People Lead Fulfilling Life</h2>
+            <h2 class="primary-color">Helping people lead fulfilling lives!</h2>
           </div>
         </div>
         <div class="carousel-item">
@@ -41,30 +41,8 @@
           <div class="carousel-caption">
             <h1 class="secondary-color">Join Our Fight</h1>
             <h1 class="secondary-color">Against Thalassemia</h1>
-            <h2 class="primary-color">Breaking The Chains of Thalassemia</h2>
+            <h2 class="primary-color">Breaking the Chains of Thalassemia!</h2>
           </div>
-        </div>
-      </div>
-    </section>
-  
-    <section id="home-about" class="animate">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img class="w-100 custom-align-center" src="images/logo.png" alt="LifeBlood Logo">
-          </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <div class="content">
-              <h2 class="primary-color">Our Vision</h2>
-              <p>We will endeavour to building a future where blood and its components will be always available to those in need of blood transfusions</p>
-              <p>We will strive to bring fulfillment and happiness in the lives of persons with Thalassemia Major</p>
-              <p>We will work to build a future where there are no children with Thalassemia Major</p>
-            </div>
-            <div class="content">
-              <h2 class="primary-color">Our Mission</h2>
-              <p>To create a comprehensive ecosystem with the involvement of Government authorities, NGOs, medical fraternity and society at large to build structures, establish systems and conceive and execute programs to achieve our vision</p>
-            </div>
-          </div>  
         </div>
       </div>
     </section>

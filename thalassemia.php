@@ -65,7 +65,7 @@
             <h3 class="secondary-color text-center mt-sm-2 mt-5"><span class="primary-color">Beta</span>-Thalassemia</h3>
             <div class="icon-card bg-custom-tertiary">
               <p class="content text-start quaternary-color p-3 fw-normal">
-                Thalassemia Major is a genetic blood disorder. It is also called "Cooley's Anemia" or or simply "Thalassemia". Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, results in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
+                Beta Thalassemia Major is a genetic blood disorder. It is also called "Cooley's Anemia" or or simply "Thalassemia". Beta Thalassemia Major is characterized by the inability of the body to produce appropriate hemoglobin, results in inadequate delivery of oxygen to the different cells of the body. The disorder, in most cases, is diagnosed in the first year of the life of the child.
               </p>
             </div>
           </div>

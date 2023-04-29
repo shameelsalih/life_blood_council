@@ -57,15 +57,16 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="blood-donation">Blood Donation</a></li>
+              <li><a class="dropdown-item" href="blood-donation#granulocyte-donation">Granulocyte Donation</a></li>
               <li><a class="dropdown-item" href="blood-donation#bombay-blood-group">Bombay Blood Group</a></li>
-              <li><a class="dropdown-item" href="blood-donation#stem-cell-donation">Stem Cell Donation</a></li>
+              <li><a class="dropdown-item" href="blood-donation#stem-cell-donation">Stem Cell Registry</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=prevention">Thalassemia Prevention</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=care">Thalassemia Care</a></li>
               <li><a class="dropdown-item" href="thalassemia?tab=cure">Thalassemia Cure</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?= preg_match("/^\/events.*/", $request_uri) ? " active" : "" ?>" href="events">Our Events</a>
+            <a class="nav-link<?= preg_match("/^\/events.*/", $request_uri) ? " active" : "" ?>" href="events">Event Calendar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link<?= preg_match("/^\/support-centers.*/", $request_uri) ? " active" : "" ?>" href="support-centers">Support Centers</a>

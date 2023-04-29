@@ -510,7 +510,7 @@ foreach($contact_us_form_data as $key => $value) {
             <div class="row">
               <div class="col-12 d-flex justify-content-center">
                 <button class="btn btn-custom-primary px-10vw py-2 fs-4 mt-3" type="submit">
-                  Let's Connect
+                  Submit
                 </button>
               </div>
             </div>

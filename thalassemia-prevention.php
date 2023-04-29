@@ -11,7 +11,7 @@ $accordionData = [
   ],
   [
     "title"   =>  "What is the risk?",
-    "content" =>  "Your future child can be a Thalassemia Major."
+    "content" =>  "Your future child can be a Beta Thalassemia Major."
   ],
   [
     "title"   =>  "What are the consequences?",
@@ -39,7 +39,7 @@ $accordionData = [
   ],
   [
     "title"   =>  "What if me and my partner are both Thalassemia Minor?",
-    "content" =>  "It is not necessary that every child born to you will be a Thalassemia Major. There is a 25% chance in each pregnancy that your child will be a Thalassemia Major."
+    "content" =>  "It is not necessary that every child born to you will be a Beta Thalassemia Major. There is a 25% chance in each pregnancy that your child will be a Beta Thalassemia Major."
   ],
   [
     "title"   =>  "Does that mean that we can’t have children?",
@@ -47,7 +47,7 @@ $accordionData = [
   ],
   [
     "title"   =>  "But what if we want to have our own child?",
-    "content" =>  "You surely can have your own biological child. There is a 75% chance that the child born to you will not be a Thalassemia Major. You can go for a <b>Pre Natal Test</b> very early in the pregnancy (after the 9th week), which will tell you whether the foetus is Thalassemia Major or not. You can then choose to continue with the pregnancy or not."
+    "content" =>  "You surely can have your own biological child. There is a 75% chance that the child born to you will not be a Beta Thalassemia Major. You can go for a <b>Pre Natal Test</b> very early in the pregnancy (after the 9th week), which will tell you whether the foetus is Beta Thalassemia Major or not. You can then choose to continue with the pregnancy or not."
   ],
   [
     "title"   =>  "This means that this a very important test for anybody who is going to have a child in the future?",

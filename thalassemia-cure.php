@@ -20,7 +20,7 @@
 <?php
 $accordionData = [
   [
-    "title"   =>  "What is a cure for Thalassemia Major?",
+    "title"   =>  "What is a cure for Beta Thalassemia Major?",
     "content" =>  "A stem cell transplant is the only cure available for beta-thalassemia major.<br>
     The first step in this exercise is to locate a matching stem cell donor. The best chance of finding a match is with a sibling. The donor is then referred to as a \"sibling donor\". If a sibling is not found to be a match, the patient can check with a Stem Cell Registry. There may be an outside-chance of finding a match from a registry.  If a match is found from a registry, the donor is called a \"Matched Unrelated Donor\" also referred to as \"MUD\". The third option is to find a parent who is a close match. The donor in such an event is called a \"haplo donor\".<br>
     The second step in the transplant process is to manage the patient well before transplant so that the process is as low-risk as possible.<br>
